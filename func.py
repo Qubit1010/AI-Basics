@@ -2,15 +2,12 @@
 # place () after the function name to invoke it
 
 # def happy_birthday(num):
-#
 #     for x in range(0, num):
 #         print("Happy birthday to you!")
 #         print("You are old!")
 #         print("Happy birthday to you!")
 #         print()
-#
-# happy_birthday(2)
-#
+# happy_birthday(3)
 
 # return statement used to end a function and send a result back to the caller
 
@@ -18,7 +15,6 @@
 #     first = first.capitalize()
 #     last = last.capitalize()
 #     return first + " " + last
-#
 # full_name = create_name("bro", "code")
 # print(full_name)
 
@@ -57,9 +53,9 @@
 #     for arg in args:
 #         total += arg
 #     return total
-
+#
 # print(add(1, 2, 3))
-
+#
 # def display_name(*args):
 #     for arg in args:
 #         print(arg, end=" ")
@@ -96,7 +92,7 @@
 # for number in numbers:
 #     print(number)
 
-# fruits={"apple", "orange", "banana", "coconut"}
+# fruits = {"apple", "orange", "banana", "coconut"}
 # for fruit in reversed(fruits):
 #     print(fruit)
 
@@ -134,7 +130,111 @@
 # else:
 #     print(f"{student} was not found")
 
-email = "BroCode@gmail.com"
-if "@" in email and "." in email:
-    print("Valid email")
-else:print("Invalid email")
+# email = "BroCode@gmail.com"
+# if "@" in email and "." in email:
+#     print("Valid email")
+# else:print("Invalid email")
+
+
+
+# List comprehension = A concise way to create lists in Python
+# Compact and easier to read than traditional loops
+# [expression for value in iterable if condition]
+
+# doubles = []
+# for x in range(1, 11):
+#     doubles.append(x * 2)
+
+# doubles = [x*2 for x in range(1,11)]
+# triples = [y*3 for y in range(1,11)]
+# squires = [z*z for z in range(1,11)]
+#
+# print(doubles)
+# print(triples)
+# print(squires)
+
+# fruits = [fruit.upper() for fruit in ["apple", "orange", "banana","coconut"]]
+# print(fruits)
+
+# numbers = [1, -2, 3, -4, 5, -6]
+# positive_nums = [num for num in numbers if num >= 0]
+# negative_nums = [num for num in numbers if num < 0]
+# even_nums = [num for num in numbers if num % 2 == 0]
+
+# print(positive_nums)
+# print(negative_nums)
+# print(even_nums)
+
+# grades = [85, 42, 79, 90, 56, 61, 30]
+# passing_grades =  [grade for grade in grades if grade >= 60]
+# print (passing_grades)
+
+
+# module
+#a file containing code you want to include in your program use 'import' to include a module
+# (built-in or your own) useful to break up a large program reusable separate files
+# print(help("modules"))
+# print(help("math"))
+
+# import math as m
+# from math import pi
+import math
+import example
+
+# print(math.pi)
+# print(math.e)
+# sqrt = math.sqrt(3)
+# print(sqrt)
+# radius = float(input("Enter the radius of a circle: "))
+# circumference = 2 * math.pi * radius
+# print(round(circumference,2))
+
+# result = example.pi
+# result2 = example.square(4)
+#
+# print(result)
+# print(result2)
+
+
+
+# variable scope = where a variable is visible and accessible
+# scope resolution = (LEGB) Local -> Enclosed -> Global -> Built-in
+
+# y=5
+#
+# def func1():
+#     x = 1
+#     print(x)
+#     print(y)
+# def func2():
+#     x = 2
+#     print(x)
+#     print(y)
+#
+# def func3():
+#     x = 3
+#     print(x)
+#     print(y)
+#     def func4():
+#         x = 4
+#         print(x)
+#         print(y)
+#     func4()
+#
+# func1()
+# func2()
+# func3()
+
+
+
+#ifname
+# #_main_ : (this script can be imported OR run standalone)
+# Functions and classes in this module can be reused without the main block of code executing
+# ex. library = Import library for functionality
+# When running library directly, display a help page
+
+# def main():
+    # Your program goes here
+
+# if __name__ == '__main__':
+#     main()

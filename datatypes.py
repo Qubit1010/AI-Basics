@@ -12,7 +12,7 @@
 # print (fruits)
 # print (dir(fruits))
 # print (help(fruits))
-# print("pineapple" in fruits)
+# print("apple" in fruits)
 
 # print (len(fruits))
 # print (fruits [0:3])
@@ -25,6 +25,7 @@
 # fruits.insert(2,"apricot")
 # fruits.sort()
 # fruits.reverse()
+# print(fruits)
 # fruits.clear()
 # print(fruits.index("coconut"))
 # print(fruits)
@@ -37,7 +38,6 @@
 #
 # for fruit in fruits:
 #     print(fruit)
-
 
 
 # Shopping cart program
@@ -65,38 +65,34 @@
 # print(f"\nYour total is: ${total}")
 
 
-
 # fruits = ["apple", "orange", "banana", "coconut"]
 # vegetables = ["celery", "carrots", "potatoes"]
 # meats = ["chicken", "fish", "turkey"]
-# groceries = [fruits, vegetables, meats]
+# groceries = ["fruits", "vegetables", "meats"]
 # groceries2 = [["apple", "orange", "banana", "coconut"],
 #               ["celery", "carrots", "potatoes"],
 #               ["chicken", "fish", "turkey"]]
-
 
 # print(groceries[0])
 # print(groceries[1])
 # print(groceries[2])
 # print(groceries[2][1])
 # print(groceries2)
-#
+
 # for collection in groceries2:
+#     print(collection, end=" ")
 #     for food in collection:
 #         print(food, end=" ")
-#
-
 
 # num_pad =((1, 2, 3),
 #           (4, 5, 6),
 #           (7, 8, 9),
 #           ("*", 0, "#"))
-#
+
 # for row in num_pad:
 #     for num in row:
 #         print(num, end=" ")
 #     print()
-
 
 # Python quiz game
 # questions = ("How many elements are in the periodic table?:", "Which animal lays the largest eggs?: ",
@@ -107,7 +103,6 @@
 # ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
 # ("A. 206", "B. 207", "C. 208", "D. 209"),
 # ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
-#
 #
 # answers = ("C", "D", "A", "A", "B")
 # guesses = []
@@ -146,20 +141,18 @@
 
 
 # dictionary  = a collection of {key:value} pairs ordered and changeable. No duplicates
-capitals = {"USA": "Washington D.C.",
-"India": "New Delhi",
-"China": "Beijing",
-"Russia": "Moscow"}
+# capitals = {"USA": "Washington D.C.",
+# "India": "New Delhi",
+# "China": "Beijing",
+# "Russia": "Moscow"}
 # print(dir(capitals))
 # print(help (capitals))
 # print(capitals.get("USA"))
 # print(capitals.get("Japan"))
-
-
-
+#
 # if capitals.get("Russia"):
 #   print("That capital exists")
-#else:
+# else:
 #   print("That capital doesn't exist")
 
 # capitals.update({"Germany": "Berlin"})
@@ -176,43 +169,41 @@ capitals = {"USA": "Washington D.C.",
 # for value in capitals.values():
 #     print(value)
 
-
-#items = capitals.items()
+# items = capitals.items()
 # for key, value in capitals.items():
 #     print(f" {key}: {value}")
 
 # Concession stand program
-menu = {"pizza": 3.00,
-    "nachos": 4.50,
-    "popcorn": 6.00,
-    "fries": 2.50,
-    "chips": 1.00,
-    "pretzel": 3.50,
-    "soda": 3.00,
-    "lemonade": 4.25}
-
-cart =[]
-total = 0
-
-print("------- MENU -------")
-for key, value in menu.items():
-    print(f"{key:10}: ${value:.2f}")
-print("------------------")
-
-while True:
-    food =input("Select an item (q to quit): ").lower()
-    if food == "q":
-        break
-    elif menu.get(food) is not None:
-        cart.append(food)
-
-
-print("----YOUR ORDER----")
-for food in cart:
-    total += menu.get(food)
-    print (food, end=" ")
-
-print()
-print (f"Total is: ${total:.2f}")
-
-print(cart)
+# menu = {"pizza": 3.00,
+#     "nachos": 4.50,
+#     "popcorn": 6.00,
+#     "fries": 2.50,
+#     "chips": 1.00,
+#     "pretzel": 3.50,
+#     "soda": 3.00,
+#     "lemonade": 4.25}
+#
+# cart =[]
+# total = 0
+#
+# print("------- MENU -------")
+# for key, value in menu.items():
+#     print(f"{key:10}: ${value:.2f}")
+# print("------------------")
+#
+# while True:
+#     food =input("Select an item (q to quit): ").lower()
+#     if food == "q":
+#         break
+#     elif menu.get(food) is not None:
+#         cart.append(food)
+#
+#
+# print("----YOUR ORDER----")
+# for food in cart:
+#     total += menu.get(food)
+#     print (food, end=" ")
+#
+# print()
+# print (f"Total is: ${total:.2f}")
+# print(cart)

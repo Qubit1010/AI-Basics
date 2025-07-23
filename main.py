@@ -65,7 +65,7 @@ print("Hello World")
 # print(name.upper())
 # print(name.lower())
 # print(name.isdigit())
-# print(name.count("l"))
+# print(name.count("e"))
 # print(name.replace("l", "f"))
 # print(help(str))
 
@@ -85,7 +85,6 @@ print("Hello World")
 
 
 # format specifiers= {:flags} format a value based on what flags are inserted
-
 # .(number)f = round to that many decimal places (fixed point)
 # :(number) = allocate that many spaces
 # :03 = allocate and zero pad that many spaces
@@ -108,14 +107,14 @@ print("Hello World")
 # print(f"Price 1 is ${price1:10}")
 # print(f"Price 2 is ${price2:10}")
 # print(f"Price 3 is ${price3:010}")
-
+#
 # print(f"Price 1 is ${price1:>10}")
 # print(f"Price 2 is ${price2:<10}")
 # print(f"Price 3 is ${price3:^10}")
-
+#
 # print(f"Price 1 is ${price1:+}")
 # print(f"Price 2 is ${price2:+}")
 # print(f"Price 3 is ${price3:+}")
-
+#
 # print(f"Price 1 is ${price1:,}")
 # print(f"Price 4 is ${price4:,}")
