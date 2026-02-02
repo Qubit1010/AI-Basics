@@ -1,0 +1,37 @@
+
+SALES PERFORMANCE EXECUTIVE SUMMARY
+================================================================================
+
+PERIOD: 2024-01-01 to 2024-12-31
+
+FINANCIAL METRICS:
+  • Total Revenue:                $639,740.60
+  • Average Transaction Value:    $639.74
+  • Total Discounts Given:        $31,263.40
+
+SALES METRICS:
+  • Total Transactions:           1,000
+  • Total Items Sold:             3,062
+  • Average Items per Transaction: 3.06
+
+CUSTOMER METRICS:
+  • Total Customers:              199
+  • Average Revenue per Customer: $3214.78
+  • Cross-selling Rate:           93.5%
+
+TOP PERFORMERS:
+  • Best Product:                 Laptop ($272,037.40)
+  • Best Region:                  West ($175,950.75)
+  • Best Channel:                 Phone ($229,759.60)
+  • Best Month:                   August ($74,834.15)
+
+AREAS FOR IMPROVEMENT:
+  • Lowest Product:               USB Cable ($3,648.00)
+  • Lowest Region:                East ($138,384.95)
+  • Worst Month:                  March ($36,000.25)
+
+TRENDS:
+  • 30-Day Trend:                 -16.52%
+  • Customer Segments:            Gold: 121, Silver: 62, Bronze: 16
+
+================================================================================
