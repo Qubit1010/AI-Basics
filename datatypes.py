@@ -103,16 +103,16 @@
 # ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
 # ("A. 206", "B. 207", "C. 208", "D. 209"),
 # ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
-#
+
 # answers = ("C", "D", "A", "A", "B")
 # guesses = []
 # score = 0
-#
+
 # question_num = 0
 # for question in questions:
 #     print("---------------------")
 #     print(question)
-#
+
 #     for option in options[question_num]:
 #         print(option)
 #
@@ -125,20 +125,17 @@
 #         print("INCORRECT!")
 #         print (f" {answers [question_num]} is the correct answer")
 #     question_num += 1
-#
-#
+
 # for answer in answers:
 #     print(answer, end=" ")
 # print()
-#
+
 # print("guesses: ", end="")
 # for guess in guesses:
 #     print(guess, end=" ")
 # print()
 # score = int(score / len(questions) * 100)
 # print (f"Your score is: {score}%")
-
-
 
 # dictionary  = a collection of {key:value} pairs ordered and changeable. No duplicates
 # capitals = {"USA": "Washington D.C.",
@@ -149,7 +146,7 @@
 # print(help (capitals))
 # print(capitals.get("USA"))
 # print(capitals.get("Japan"))
-#
+
 # if capitals.get("Russia"):
 #   print("That capital exists")
 # else:
@@ -164,7 +161,7 @@
 # keys = capitals.keys()
 # for key in capitals.keys():
 #     print(key)
-#
+
 # values = capitals.values()
 # for value in capitals.values():
 #     print(value)
@@ -185,7 +182,7 @@
 #
 # cart =[]
 # total = 0
-#
+
 # print("------- MENU -------")
 # for key, value in menu.items():
 #     print(f"{key:10}: ${value:.2f}")
@@ -197,13 +194,12 @@
 #         break
 #     elif menu.get(food) is not None:
 #         cart.append(food)
-#
-#
+
 # print("----YOUR ORDER----")
 # for food in cart:
 #     total += menu.get(food)
 #     print (food, end=" ")
-#
+
 # print()
 # print (f"Total is: ${total:.2f}")
 # print(cart)

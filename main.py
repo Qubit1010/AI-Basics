@@ -1,14 +1,14 @@
 import math
 
 # First Code
-print("Hello World")
+# print("Hello World")
 
 # Variables
-# name = "Aleem"
-# age = 22
-# height = 5.9
-# is_student = True
-# print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
+name = "Aleem"
+age = 22
+height = 5.9
+is_student = True
+print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
 
 # Typecasting - str(), int(), float(), bool()
 # print(type(name))
@@ -69,7 +69,6 @@ print("Hello World")
 # print(name.replace("l", "f"))
 # print(help(str))
 
-
 # String Indexing
 # credit_number = "1234-5678-9012-3456"
 
@@ -82,7 +81,6 @@ print("Hello World")
 # print(credit_number[-1])
 # print(credit_number[::3])
 # print(credit_number[::-1])
-
 
 # format specifiers= {:flags} format a value based on what flags are inserted
 # .(number)f = round to that many decimal places (fixed point)
