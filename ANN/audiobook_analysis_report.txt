@@ -1,0 +1,177 @@
+
+================================================================================
+AUDIOBOOK CUSTOMER REPURCHASE PREDICTION - FINAL REPORT
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Predict which customers will buy again from the audiobook company to:
+  • Optimize advertising budget by targeting likely buyers
+  • Avoid wasting resources on customers unlikely to return
+  • Identify key factors that drive customer retention
+
+DATASET SUMMARY
+================================================================================
+Total customers: 14,084
+Features: 10
+Target distribution:
+  Won't buy again (0): 11,847 (84.12%)
+  Will buy again (1): 2,237 (15.88%)
+
+Class imbalance ratio: 5.30:1
+
+FEATURES ANALYZED
+================================================================================
+ 1. BookLength_Avg_Minutes
+ 2. BookLength_Sum_Minutes
+ 3. Price_Avg
+ 4. Price_Sum
+ 5. Review
+ 6. Review_Score
+ 7. Minutes_Listened
+ 8. Total_Minutes_Listened
+ 9. SupportRequests
+10. LastVisit_Days
+
+DATA SPLIT
+================================================================================
+Training set: 11,268 samples (80%)
+Validation set: 1,407 samples (10%)
+Test set: 1,409 samples (10%)
+
+NEURAL NETWORK ARCHITECTURE
+================================================================================
+Input layer: 10 features
+Hidden layer 1: 32 neurons (ReLU activation) + Dropout (0.3)
+Hidden layer 2: 16 neurons (ReLU activation) + Dropout (0.2)
+Output layer: 1 neuron (Sigmoid activation)
+
+Total trainable parameters: 897
+
+Training configuration:
+  Optimizer: Gradient Descent (learning_rate=0.001)
+  Loss function: Binary Cross-Entropy
+  Epochs: 100
+  Batch size: 32
+
+MODEL PERFORMANCE
+================================================================================
+Test Set Results:
+  Accuracy: 0.9042 (90.42%)
+  Precision: 0.9588
+  Recall (Sensitivity): 0.4152
+  F1-Score: 0.5794
+  Specificity: 0.9966
+  ROC-AUC: 0.8708
+  PR-AUC: 0.7023
+
+Confusion Matrix:
+                Predicted Won't Buy  Predicted Will Buy
+  Actual Won't Buy        1181                 4   
+  Actual Will Buy         131                  93  
+
+BUSINESS IMPACT ANALYSIS
+================================================================================
+Correctly identified non-buyers: 1181 customers
+  → Advertising budget saved by not targeting these customers
+
+Correctly identified buyers: 93 customers
+  → Successfully targeted for retention campaigns
+
+False positives: 4 customers
+  → Wasted advertising on customers who won't buy
+  → 0.34% of non-buyers incorrectly targeted
+
+False negatives: 131 customers
+  → Missed opportunity - these buyers weren't targeted
+  → 58.48% of actual buyers missed
+
+Advertising efficiency: 99.66%
+  → Percentage of non-buyers correctly identified (saves ad spend)
+
+Customer retention capture rate: 41.52%
+  → Percentage of actual buyers successfully identified
+
+TOP 5 MOST IMPORTANT FEATURES
+================================================================================
+Features that matter most for predicting customer repurchase:
+
+1. Minutes_Listened: 0.4178
+2. SupportRequests: 0.3849
+3. BookLength_Sum_Minutes: 0.3685
+4. Review_Score: 0.3546
+5. Review: 0.3340
+
+KEY INSIGHTS
+================================================================================
+✓ The model achieves 90.42% accuracy in predicting customer behavior
+✓ 99.66% of non-buyers are correctly identified, saving ad budget
+✓ 41.52% of actual buyers are captured for retention campaigns
+✓ ROC-AUC of 0.871 indicates very good discrimination ability
+✓ The most important predictive feature is: Minutes_Listened
+
+RECOMMENDATIONS
+================================================================================
+1. TARGET CUSTOMERS WITH HIGH PROBABILITY
+   Focus advertising budget on customers with >50% predicted probability
+   of repurchase to maximize ROI
+
+2. IMPROVE KEY METRICS
+   Based on feature importance, prioritize improving:
+   • Minutes_Listened
+   • SupportRequests
+   • BookLength_Sum_Minutes
+
+3. MONITOR MODEL PERFORMANCE
+   Regularly retrain with new data to maintain accuracy
+   Current model should be updated quarterly
+
+4. A/B TESTING
+   Test the model's predictions against random targeting to measure
+   actual advertising budget savings
+
+5. PERSONALIZATION
+   Use prediction probabilities to customize retention offers:
+   • High probability (>0.7): Standard retention offer
+   • Medium probability (0.5-0.7): Enhanced retention offer
+   • Low probability (<0.5): Minimal/no advertising spend
+
+COST-BENEFIT ANALYSIS
+================================================================================
+Assuming:
+  • Average advertising cost per customer: $10
+  • Average revenue from repurchasing customer: $50
+  • Total test set: 1409 customers
+
+Without model (random targeting all customers):
+  Cost: 1409 × $10 = $14,090
+  Revenue: 224 × $50 = $11,200
+  Net: $-2,890
+
+With model (target only predicted buyers):
+  Cost: 97 × $10 = $970
+  Revenue: 93 × $50 = $4,650
+  Net: $3,680
+
+Savings: $13,120
+Improvement: 227.3%
+
+FILES GENERATED
+================================================================================
+Model:
+  • audiobook_model.h5 - Trained neural network
+  • scaler.pkl - Feature scaler for preprocessing
+
+Visualizations:
+  • audio_viz_1_target_distribution.png
+  • audio_viz_2_training_history.png
+  • audio_viz_3_confusion_matrix.png
+  • audio_viz_4_roc_curve.png
+  • audio_viz_5_precision_recall.png
+  • audio_viz_6_feature_importance.png
+  • audio_viz_7_metrics_comparison.png
+  • audio_viz_8_probability_distribution.png
+
+================================================================================
+END OF REPORT
+================================================================================
