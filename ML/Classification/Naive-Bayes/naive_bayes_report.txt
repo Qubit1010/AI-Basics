@@ -1,0 +1,108 @@
+
+======================================================================
+NAIVE BAYES CLASSIFIER - PROJECT REPORT
+======================================================================
+
+PROJECT OVERVIEW
+======================================================================
+Objective: Classify emails as SPAM or NOT SPAM
+Algorithm: Gaussian Naive Bayes (implemented from scratch)
+Dataset: 15 training emails, 4 test emails
+
+NAIVE BAYES THEORY
+======================================================================
+Bayes' Theorem:
+  P(Class|Features) = P(Features|Class) * P(Class) / P(Features)
+
+Key Assumption:
+  Features are conditionally independent given the class
+
+Implementation:
+  • Gaussian likelihood function for continuous features
+  • Log probabilities to avoid numerical underflow
+  • Maximum a posteriori (MAP) classification
+
+FEATURES USED
+======================================================================
+1. Count of word 'free' (spam indicator)
+2. Count of word 'money' (spam indicator)
+3. Count of word 'meeting' (not spam indicator)
+4. Count of word 'project' (not spam indicator)
+
+TRAINING DATA
+======================================================================
+Total emails: 15
+  SPAM: 8 emails (53.3%)
+  NOT SPAM: 7 emails (46.7%)
+
+LEARNED PARAMETERS
+======================================================================
+Prior Probabilities:
+  P(SPAM): 0.5333
+  P(NOT SPAM): 0.4667
+
+Feature Means (SPAM):
+  {'free': np.float64(3.5), 'money': np.float64(2.25), 'meeting': np.float64(0.0), 'project': np.float64(0.0)}
+
+Feature Means (NOT SPAM):
+  {'free': np.float64(0.0), 'money': np.float64(0.2857142857142857), 'meeting': np.float64(2.5714285714285716), 'project': np.float64(2.4285714285714284)}
+
+MODEL PERFORMANCE
+======================================================================
+Test Set Results:
+  Accuracy: 0.7500 (75.00%)
+  Precision: 1.0000
+  Recall: 0.5000
+  F1-Score: 0.6667
+
+Confusion Matrix:
+                Predicted NOT SPAM  Predicted SPAM
+  Actual NOT SPAM       2                  0
+  Actual SPAM           1                  1
+
+HOW NAIVE BAYES WORKS
+======================================================================
+Step 1: Calculate Prior Probabilities
+  - Count frequency of each class in training data
+
+Step 2: Calculate Likelihood for Each Feature
+  - Assume Gaussian distribution
+  - Calculate mean and variance for each feature per class
+  - Use probability density function
+
+Step 3: Apply Bayes Theorem
+  - Multiply prior by likelihoods
+  - Use log probabilities to prevent underflow
+  - Choose class with highest probability
+
+Step 4: Make Prediction
+  - New email -> Calculate P(SPAM|features)
+  - Calculate P(NOT SPAM|features)
+  - Predict class with higher probability
+
+KEY INSIGHTS
+======================================================================
+• SPAM emails have high counts of 'free' and 'money'
+• NOT SPAM emails have high counts of 'meeting' and 'project'
+• Model achieved 75.0% accuracy on test set
+• Naive independence assumption works well for this task
+• Simple yet effective algorithm for text classification
+
+ADVANTAGES OF NAIVE BAYES
+======================================================================
+✓ Fast training and prediction
+✓ Works well with small datasets
+✓ Handles high-dimensional data
+✓ Probabilistic predictions
+✓ Simple to implement and understand
+
+LIMITATIONS
+======================================================================
+✗ Assumes feature independence (often violated)
+✗ Sensitive to irrelevant features
+✗ Zero-frequency problem (solved with smoothing)
+✗ Not always best for complex relationships
+
+======================================================================
+END OF REPORT
+======================================================================
