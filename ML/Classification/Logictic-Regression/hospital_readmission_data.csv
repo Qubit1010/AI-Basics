@@ -1,0 +1,2001 @@
+Age,LengthOfStay,NumDiagnoses,NumProcedures,NumMedications,NumLabTests,NumPrevAdmissions,ComorbidityScore,DaysSinceLastAdm,HbA1c,DischargeType,DiagnosisCategory,InsuranceType,ERAdmission,Readmitted_30days
+69,4,6,7,8,15,0,6,99,Normal,Skilled Nursing Facility,Other,Private,1,1
+32,3,2,5,9,1,0,0,40,Normal,Home,Circulatory,Self-Pay,0,0
+89,1,1,2,9,9,2,0,247,Abnormal,Home,Musculoskeletal,Medicare,0,0
+78,1,14,7,2,11,0,6,75,Abnormal,Home,Musculoskeletal,Medicare,1,0
+38,1,7,6,13,19,1,8,12,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+92,1,13,2,13,13,2,4,62,Not Tested,Home,Other,Medicaid,1,1
+92,2,2,8,23,26,4,10,95,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+41,2,13,1,23,16,1,0,163,Abnormal,Home,Diabetes,Medicaid,1,1
+20,2,14,2,4,4,0,4,248,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,1,0
+39,1,14,1,24,1,0,10,34,Not Tested,Home,Diabetes,Private,0,1
+70,3,2,0,12,20,2,0,15,Abnormal,Home,Circulatory,Medicare,1,1
+19,8,13,3,17,13,3,9,6,Normal,Home,Musculoskeletal,Medicaid,1,1
+47,1,11,4,2,1,1,8,120,Normal,Home,Diabetes,Private,0,1
+55,14,5,5,13,5,0,3,142,Not Tested,Home,Circulatory,Medicaid,0,0
+19,10,14,4,18,5,1,8,47,Normal,Home,Musculoskeletal,Self-Pay,0,0
+81,1,5,0,15,14,0,1,45,Abnormal,Against Medical Advice,Musculoskeletal,Medicaid,0,1
+77,7,7,2,8,27,2,6,277,Not Tested,Home,Diabetes,Self-Pay,1,0
+38,4,1,0,15,23,1,1,223,Abnormal,Home,Circulatory,Medicare,1,0
+50,4,8,4,1,14,1,3,23,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+93,2,3,4,20,8,2,5,136,Normal,Home,Circulatory,Medicaid,0,0
+75,3,4,5,10,4,1,1,87,Abnormal,Home,Respiratory,Self-Pay,0,1
+39,2,9,7,12,7,3,1,15,Normal,Home,Other,Medicare,1,0
+66,3,4,9,5,20,2,1,39,Not Tested,Home,Circulatory,Medicare,1,0
+76,4,10,0,9,19,1,2,17,Not Tested,Home,Circulatory,Medicaid,0,0
+59,5,12,3,23,15,3,4,31,Not Tested,Home,Musculoskeletal,Medicare,1,1
+77,3,5,9,8,22,0,8,85,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+32,6,7,0,16,4,2,5,42,Normal,Home,Circulatory,Self-Pay,0,0
+79,1,4,8,14,19,2,8,45,Normal,Home,Diabetes,Self-Pay,0,0
+79,1,14,6,13,9,0,9,69,Normal,Home,Musculoskeletal,Medicare,1,0
+64,8,1,6,23,21,0,4,8,Abnormal,Home,Musculoskeletal,Medicare,1,0
+79,1,9,4,21,13,2,10,120,Abnormal,Home,Musculoskeletal,Medicaid,1,1
+68,1,4,6,13,14,3,5,46,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,0,1
+72,1,9,1,5,23,2,9,58,Abnormal,Against Medical Advice,Other,Medicaid,1,1
+81,1,6,3,16,28,2,7,329,Not Tested,Skilled Nursing Facility,Circulatory,Private,1,1
+20,15,1,6,11,14,0,2,37,Normal,Home,Respiratory,Medicaid,1,1
+68,4,12,2,22,22,1,1,94,Abnormal,Against Medical Advice,Respiratory,Medicare,1,1
+24,13,3,1,5,10,1,2,44,Normal,Home,Circulatory,Private,0,1
+38,4,11,9,13,16,0,8,202,Abnormal,Home,Respiratory,Medicare,0,1
+90,3,2,1,11,5,1,5,168,Normal,Home,Diabetes,Medicare,1,0
+56,1,9,0,19,23,0,9,24,Abnormal,Skilled Nursing Facility,Diabetes,Private,0,1
+35,4,12,4,3,27,2,3,105,Normal,Home,Respiratory,Medicaid,0,1
+21,1,1,5,15,6,2,9,6,Normal,Home,Musculoskeletal,Medicaid,0,0
+77,11,13,5,7,26,2,2,297,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+31,8,14,8,7,2,0,1,38,Normal,Home,Circulatory,Medicare,0,0
+26,1,9,3,6,13,2,3,160,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+70,15,9,0,3,29,1,8,34,Abnormal,Home,Circulatory,Medicaid,0,1
+19,8,8,5,13,13,0,3,90,Abnormal,Home,Circulatory,Medicare,0,0
+77,5,8,4,7,19,1,4,365,Not Tested,Home,Musculoskeletal,Medicaid,1,1
+88,1,11,9,5,18,0,7,188,Abnormal,Home,Circulatory,Private,1,1
+61,3,14,5,23,28,4,1,15,Normal,Home,Circulatory,Medicaid,1,0
+25,3,12,2,18,19,3,10,71,Normal,Skilled Nursing Facility,Circulatory,Private,1,0
+64,1,1,1,22,1,5,2,38,Not Tested,Against Medical Advice,Musculoskeletal,Private,1,1
+52,1,11,5,8,8,0,5,51,Abnormal,Against Medical Advice,Circulatory,Private,0,1
+53,7,8,0,17,22,2,6,36,Not Tested,Home,Diabetes,Medicaid,1,1
+67,1,10,6,20,16,2,3,36,Abnormal,Home,Circulatory,Medicare,1,1
+21,4,14,6,1,29,0,0,70,Not Tested,Home,Musculoskeletal,Medicaid,0,0
+19,13,3,9,14,2,2,6,19,Not Tested,Skilled Nursing Facility,Other,Private,0,0
+23,10,11,6,17,8,2,8,69,Abnormal,Against Medical Advice,Respiratory,Medicare,1,1
+71,1,7,9,10,6,0,0,29,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,0
+21,9,11,0,12,16,2,0,30,Abnormal,Home,Musculoskeletal,Medicaid,0,0
+71,1,1,3,16,23,0,0,120,Abnormal,Home,Musculoskeletal,Medicare,0,1
+80,1,1,6,14,11,3,9,2,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+35,4,10,8,16,17,2,6,43,Normal,Home,Circulatory,Medicare,0,1
+61,2,13,4,8,23,1,10,47,Abnormal,Home,Respiratory,Medicare,0,1
+51,2,5,1,23,19,3,8,59,Normal,Skilled Nursing Facility,Other,Private,0,1
+91,4,5,6,10,11,2,2,99,Normal,Home,Respiratory,Medicaid,1,1
+79,1,8,9,17,28,1,7,41,Abnormal,Home,Other,Medicaid,1,0
+31,1,7,0,18,8,1,8,21,Normal,Home,Diabetes,Medicare,1,1
+65,3,8,6,20,22,1,2,194,Not Tested,Home,Respiratory,Medicaid,1,1
+32,7,6,5,16,4,1,2,356,Not Tested,Home,Diabetes,Medicare,1,0
+89,4,6,6,17,11,3,0,1,Not Tested,Home,Musculoskeletal,Private,1,0
+79,1,2,9,16,8,2,1,71,Abnormal,Skilled Nursing Facility,Respiratory,Private,0,1
+57,2,6,2,19,9,2,6,37,Abnormal,Home,Circulatory,Private,1,1
+70,1,5,2,24,26,2,2,29,Abnormal,Home,Musculoskeletal,Medicare,1,1
+41,1,13,6,24,2,0,6,36,Abnormal,Home,Other,Medicaid,0,1
+43,7,3,1,8,16,1,4,91,Normal,Home,Diabetes,Private,1,0
+77,1,6,0,6,6,0,9,19,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+58,1,8,8,6,21,2,7,219,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,0
+46,5,9,8,21,21,2,4,56,Normal,Home,Other,Private,0,1
+32,4,1,6,9,26,3,2,35,Normal,Home,Circulatory,Private,0,0
+62,5,3,6,4,27,0,8,130,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,1,1
+82,1,3,2,12,19,3,6,1,Normal,Home,Circulatory,Medicare,0,1
+88,1,11,9,12,28,1,4,50,Normal,Home,Circulatory,Medicaid,1,1
+26,1,8,1,23,8,0,6,39,Normal,Home,Respiratory,Medicare,0,1
+18,1,1,6,17,14,1,10,37,Not Tested,Home,Circulatory,Medicaid,1,1
+25,5,5,8,15,24,1,9,36,Abnormal,Home,Musculoskeletal,Medicare,0,1
+80,9,3,0,9,16,0,8,2,Abnormal,Home,Respiratory,Medicaid,1,1
+28,6,2,3,7,12,1,4,14,Normal,Home,Respiratory,Private,0,1
+25,7,8,5,10,5,4,6,13,Abnormal,Against Medical Advice,Respiratory,Private,0,0
+52,2,3,6,16,24,1,10,365,Abnormal,Home,Other,Medicaid,1,1
+52,5,7,9,12,26,1,8,2,Abnormal,Home,Diabetes,Medicare,1,0
+50,2,12,6,7,24,2,0,16,Abnormal,Home,Circulatory,Medicare,0,0
+22,3,11,9,18,19,1,3,329,Abnormal,Home,Circulatory,Medicare,1,1
+58,3,1,1,15,18,0,0,89,Abnormal,Home,Diabetes,Medicaid,1,1
+45,1,6,3,6,9,1,7,53,Abnormal,Home,Other,Self-Pay,0,0
+24,2,3,4,12,2,0,2,7,Normal,Against Medical Advice,Respiratory,Medicaid,0,1
+90,16,8,0,11,25,1,1,99,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+89,1,6,0,20,20,1,3,13,Abnormal,Home,Musculoskeletal,Medicare,1,1
+29,1,12,9,3,12,2,10,100,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,1
+51,2,2,2,2,29,1,2,348,Abnormal,Home,Diabetes,Medicare,1,1
+50,7,6,9,6,2,1,10,68,Not Tested,Home,Circulatory,Medicaid,1,0
+65,4,7,2,24,10,2,4,21,Not Tested,Against Medical Advice,Circulatory,Medicare,0,0
+40,5,5,7,22,1,2,7,88,Abnormal,Against Medical Advice,Circulatory,Medicare,0,0
+79,1,3,8,5,4,2,9,64,Not Tested,Home,Circulatory,Medicare,1,1
+54,4,4,0,18,25,2,7,68,Normal,Home,Other,Medicaid,0,0
+61,1,4,1,16,12,0,10,58,Not Tested,Home,Circulatory,Medicaid,1,1
+52,8,6,9,8,9,2,6,100,Abnormal,Home,Diabetes,Private,1,0
+82,4,10,1,20,4,1,7,76,Normal,Skilled Nursing Facility,Diabetes,Medicare,1,1
+64,1,1,3,22,9,2,4,365,Normal,Home,Respiratory,Private,1,1
+20,1,11,1,11,28,3,9,157,Normal,Home,Other,Medicaid,1,0
+18,1,4,6,10,6,1,9,27,Normal,Home,Diabetes,Medicare,0,1
+22,2,10,8,24,1,2,10,116,Normal,Home,Other,Medicare,0,0
+31,1,13,6,12,10,0,10,21,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+44,5,4,5,21,29,0,5,137,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+26,3,10,9,6,14,4,7,14,Normal,Home,Circulatory,Medicare,1,1
+32,1,1,0,20,22,1,0,57,Abnormal,Home,Circulatory,Private,0,1
+59,1,9,9,5,25,1,5,140,Not Tested,Home,Respiratory,Medicare,1,0
+94,1,4,8,23,29,0,5,29,Normal,Home,Other,Medicaid,0,1
+68,9,7,4,9,18,3,10,163,Not Tested,Home,Circulatory,Medicare,0,0
+80,1,12,4,16,6,2,4,92,Abnormal,Home,Other,Medicaid,0,1
+69,5,14,5,22,18,2,3,45,Normal,Home,Respiratory,Private,1,1
+21,8,3,8,14,20,1,0,49,Normal,Home,Diabetes,Self-Pay,0,0
+40,4,10,7,22,16,2,10,234,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+32,9,12,7,8,15,0,9,22,Normal,Home,Circulatory,Medicare,0,0
+60,2,3,7,20,16,2,10,106,Normal,Skilled Nursing Facility,Other,Private,0,1
+46,15,14,0,19,8,2,7,110,Normal,Home,Circulatory,Medicare,1,1
+53,1,8,0,14,13,2,5,230,Normal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,0
+30,1,8,7,7,23,2,2,112,Abnormal,Home,Diabetes,Self-Pay,0,1
+49,5,11,4,5,11,2,2,79,Normal,Skilled Nursing Facility,Other,Medicaid,1,0
+88,14,12,8,18,28,2,5,209,Not Tested,Home,Musculoskeletal,Medicare,1,1
+76,8,1,1,2,29,0,6,159,Normal,Against Medical Advice,Circulatory,Private,1,1
+45,1,10,8,11,25,1,7,113,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,1,0
+83,1,2,7,22,7,1,4,2,Normal,Home,Circulatory,Private,0,1
+59,13,8,8,8,17,3,9,42,Not Tested,Home,Respiratory,Medicare,0,1
+62,1,1,3,1,18,1,5,89,Normal,Skilled Nursing Facility,Circulatory,Self-Pay,1,0
+79,7,12,0,22,22,5,0,66,Abnormal,Against Medical Advice,Respiratory,Self-Pay,0,1
+74,8,8,0,12,23,3,5,34,Normal,Skilled Nursing Facility,Circulatory,Self-Pay,0,0
+23,3,8,4,2,19,3,8,14,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+45,2,2,1,18,25,2,9,72,Normal,Skilled Nursing Facility,Diabetes,Private,1,0
+45,2,4,7,7,13,1,3,30,Abnormal,Home,Other,Medicaid,0,1
+61,1,6,9,17,15,3,9,23,Normal,Home,Circulatory,Medicare,0,0
+47,11,12,4,22,23,2,0,45,Abnormal,Home,Diabetes,Medicaid,1,1
+79,2,11,4,23,22,0,10,138,Normal,Home,Respiratory,Private,0,1
+92,10,9,1,14,29,3,8,60,Normal,Home,Respiratory,Private,0,1
+79,1,8,6,24,22,1,3,21,Abnormal,Home,Other,Private,0,1
+18,22,12,7,7,1,1,1,11,Not Tested,Home,Other,Medicare,0,1
+44,2,8,9,22,29,2,0,62,Abnormal,Home,Circulatory,Medicaid,0,1
+79,1,7,0,3,16,1,2,142,Abnormal,Home,Other,Medicaid,1,0
+94,1,14,1,6,5,0,6,95,Abnormal,Home,Diabetes,Private,0,1
+20,6,13,9,20,26,3,10,23,Abnormal,Home,Other,Medicare,1,0
+87,5,9,3,2,3,3,9,51,Normal,Home,Diabetes,Private,1,0
+89,8,2,4,17,23,3,1,173,Normal,Skilled Nursing Facility,Other,Medicaid,1,1
+44,1,3,1,12,10,1,8,17,Not Tested,Home,Other,Self-Pay,1,1
+26,1,10,0,12,19,2,10,68,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+79,3,8,8,17,5,0,1,39,Abnormal,Home,Respiratory,Medicaid,1,1
+54,2,14,0,10,7,1,4,11,Abnormal,Home,Circulatory,Self-Pay,1,0
+68,3,6,3,3,14,1,7,4,Abnormal,Home,Diabetes,Private,1,1
+61,23,10,1,20,3,1,9,73,Abnormal,Home,Musculoskeletal,Medicare,0,1
+41,17,9,3,18,13,1,7,1,Abnormal,Home,Musculoskeletal,Medicare,1,1
+76,14,10,7,13,13,0,2,9,Normal,Home,Musculoskeletal,Private,1,0
+49,7,4,7,12,10,4,1,38,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+69,2,8,8,17,2,3,8,4,Abnormal,Against Medical Advice,Circulatory,Private,1,1
+79,2,10,4,4,6,3,2,46,Not Tested,Against Medical Advice,Circulatory,Medicaid,0,1
+75,3,3,6,23,8,5,7,12,Abnormal,Against Medical Advice,Musculoskeletal,Self-Pay,0,1
+69,8,3,2,10,4,3,1,38,Abnormal,Home,Circulatory,Medicaid,1,1
+29,1,8,9,11,25,3,2,140,Normal,Home,Circulatory,Private,0,1
+56,2,5,3,6,12,2,0,88,Normal,Home,Respiratory,Medicare,0,0
+19,1,3,9,6,28,1,10,53,Not Tested,Home,Circulatory,Medicaid,1,1
+20,3,10,8,9,15,1,5,8,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,1
+73,11,11,9,15,8,2,6,86,Normal,Skilled Nursing Facility,Circulatory,Private,0,1
+76,7,1,9,2,7,0,3,16,Abnormal,Skilled Nursing Facility,Other,Private,0,0
+19,1,3,0,4,14,2,0,7,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+19,18,12,1,5,23,4,2,98,Not Tested,Home,Other,Medicare,1,0
+71,5,9,4,17,19,2,8,218,Normal,Home,Circulatory,Private,0,1
+18,1,5,2,8,14,3,4,55,Not Tested,Home,Other,Private,0,0
+36,1,12,1,8,22,0,5,3,Abnormal,Against Medical Advice,Diabetes,Medicaid,0,1
+19,1,10,0,22,13,0,3,191,Normal,Against Medical Advice,Musculoskeletal,Self-Pay,1,1
+70,1,2,9,12,29,2,0,6,Not Tested,Home,Other,Private,0,1
+61,16,7,2,21,21,3,4,181,Not Tested,Home,Diabetes,Medicare,0,1
+49,3,2,0,8,1,2,4,44,Normal,Home,Other,Medicare,0,1
+87,11,4,0,19,27,0,4,40,Not Tested,Home,Diabetes,Medicaid,0,0
+49,1,12,0,3,19,1,5,70,Not Tested,Skilled Nursing Facility,Musculoskeletal,Private,0,1
+85,1,7,7,18,29,1,10,283,Not Tested,Home,Respiratory,Medicaid,1,1
+72,3,4,2,21,28,2,1,206,Not Tested,Home,Other,Private,0,1
+92,1,7,0,19,1,1,0,57,Abnormal,Home,Musculoskeletal,Medicare,1,0
+73,3,7,6,19,4,1,1,107,Abnormal,Against Medical Advice,Circulatory,Self-Pay,1,0
+34,12,1,9,15,10,2,9,78,Not Tested,Home,Diabetes,Private,1,0
+55,3,6,2,6,3,2,5,106,Abnormal,Home,Other,Medicare,0,1
+41,4,9,7,16,27,1,4,159,Abnormal,Home,Musculoskeletal,Medicare,0,0
+86,1,2,3,8,20,0,4,3,Normal,Home,Other,Medicare,1,1
+87,1,14,3,16,9,1,5,35,Not Tested,Home,Circulatory,Private,1,0
+28,1,3,4,18,3,2,9,288,Abnormal,Skilled Nursing Facility,Respiratory,Private,0,0
+33,4,10,5,20,28,2,6,268,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,0,0
+90,1,5,6,16,6,1,8,1,Abnormal,Home,Circulatory,Medicare,1,1
+76,2,9,3,11,6,0,6,20,Normal,Home,Respiratory,Medicare,1,1
+87,3,4,7,7,23,3,1,365,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,1
+20,2,1,5,17,25,4,5,61,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+37,1,4,0,17,12,0,8,76,Abnormal,Home,Circulatory,Medicare,1,1
+76,1,6,0,12,23,2,6,16,Not Tested,Home,Circulatory,Medicare,1,0
+53,13,5,8,13,1,6,1,202,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+36,5,14,9,10,16,1,2,23,Not Tested,Home,Respiratory,Medicaid,1,0
+84,3,13,5,7,24,3,7,18,Normal,Against Medical Advice,Circulatory,Private,0,1
+36,1,1,9,14,5,1,10,23,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,0,0
+37,24,4,7,23,9,0,8,226,Normal,Home,Circulatory,Medicaid,0,1
+88,5,6,6,1,10,1,3,109,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+69,1,13,5,17,13,2,8,131,Abnormal,Home,Circulatory,Medicaid,0,0
+50,10,10,3,4,15,1,1,42,Abnormal,Skilled Nursing Facility,Other,Self-Pay,1,0
+57,1,10,6,21,12,2,10,215,Normal,Home,Respiratory,Medicare,1,1
+56,3,14,8,5,5,1,4,140,Normal,Home,Other,Medicare,0,0
+18,5,4,9,20,5,3,10,124,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+28,1,14,9,24,28,2,1,318,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,0
+74,19,9,6,23,28,2,10,41,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+67,6,5,0,7,18,3,0,84,Normal,Home,Circulatory,Medicare,0,0
+40,4,8,9,10,12,0,4,216,Not Tested,Home,Musculoskeletal,Medicare,0,0
+48,1,9,8,17,27,2,1,140,Normal,Home,Respiratory,Private,1,0
+59,1,10,3,7,3,2,6,74,Normal,Against Medical Advice,Musculoskeletal,Medicaid,0,0
+24,1,5,2,1,26,2,7,7,Normal,Home,Other,Medicaid,1,1
+33,6,6,3,7,25,5,1,95,Not Tested,Home,Other,Self-Pay,1,1
+77,1,1,3,24,7,2,6,67,Abnormal,Home,Respiratory,Medicare,0,1
+19,3,11,9,11,17,0,3,18,Normal,Home,Respiratory,Private,1,0
+18,6,12,1,9,19,2,0,192,Normal,Skilled Nursing Facility,Other,Self-Pay,0,0
+65,1,7,0,12,28,4,10,37,Normal,Skilled Nursing Facility,Other,Medicare,1,0
+29,5,4,9,3,18,0,2,44,Abnormal,Against Medical Advice,Circulatory,Medicaid,0,0
+86,1,11,0,4,1,1,10,100,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,1
+54,16,2,7,4,25,3,0,60,Not Tested,Home,Circulatory,Private,1,0
+49,3,5,1,13,24,1,4,8,Abnormal,Home,Other,Medicare,1,0
+26,1,12,9,23,5,0,7,44,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,1
+36,2,3,4,19,27,1,0,8,Abnormal,Against Medical Advice,Diabetes,Self-Pay,1,1
+65,2,6,3,10,28,1,8,19,Normal,Home,Diabetes,Private,1,1
+20,7,8,7,5,2,2,2,0,Not Tested,Home,Other,Self-Pay,0,1
+37,6,7,1,7,1,0,4,18,Abnormal,Home,Musculoskeletal,Private,1,1
+41,4,3,9,24,7,1,8,36,Abnormal,Home,Circulatory,Self-Pay,0,1
+71,1,8,8,16,29,1,4,69,Not Tested,Home,Diabetes,Medicare,0,0
+50,1,2,6,1,11,2,8,226,Normal,Skilled Nursing Facility,Other,Private,1,0
+41,1,10,6,12,11,4,9,69,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,0
+92,4,9,0,2,18,2,7,110,Normal,Home,Diabetes,Medicare,1,1
+89,10,4,1,7,17,0,6,39,Normal,Home,Musculoskeletal,Medicare,0,1
+53,2,1,3,11,2,2,10,125,Normal,Against Medical Advice,Respiratory,Medicaid,1,1
+55,1,8,3,13,7,1,0,87,Normal,Home,Musculoskeletal,Medicare,1,1
+42,4,7,2,2,7,1,3,55,Abnormal,Home,Circulatory,Medicare,1,0
+35,8,11,6,7,10,0,8,19,Not Tested,Home,Respiratory,Medicare,1,0
+83,6,13,7,15,22,1,9,32,Abnormal,Home,Other,Self-Pay,0,1
+71,10,5,1,11,21,1,7,87,Abnormal,Home,Circulatory,Medicare,1,1
+52,1,10,3,2,3,1,3,49,Abnormal,Home,Respiratory,Private,1,0
+78,1,13,2,7,12,2,0,198,Not Tested,Against Medical Advice,Circulatory,Medicare,1,1
+58,10,5,1,4,3,1,9,24,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+50,5,7,5,11,11,1,3,6,Not Tested,Home,Musculoskeletal,Medicaid,1,1
+85,1,5,3,2,29,3,2,80,Not Tested,Home,Diabetes,Medicaid,1,1
+50,6,8,5,16,12,2,5,195,Normal,Against Medical Advice,Circulatory,Private,1,1
+31,8,11,1,7,25,1,10,40,Abnormal,Skilled Nursing Facility,Respiratory,Private,0,0
+38,4,13,3,13,4,4,4,93,Abnormal,Home,Respiratory,Private,1,1
+65,5,6,5,5,25,1,4,23,Abnormal,Home,Circulatory,Medicare,0,1
+37,2,13,4,17,16,1,1,73,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,0
+25,3,5,2,21,20,1,2,139,Normal,Home,Respiratory,Medicaid,0,0
+24,3,9,7,12,18,0,10,181,Normal,Home,Musculoskeletal,Medicare,1,0
+84,9,11,6,19,4,1,5,9,Not Tested,Home,Circulatory,Private,0,1
+34,9,2,2,7,22,0,1,39,Abnormal,Home,Respiratory,Private,0,1
+50,8,1,5,6,6,1,3,91,Normal,Home,Circulatory,Medicare,1,0
+65,1,8,3,8,21,1,1,3,Normal,Home,Circulatory,Self-Pay,1,1
+93,6,12,4,13,15,3,8,105,Abnormal,Home,Other,Private,0,1
+76,7,3,4,5,1,2,2,67,Abnormal,Home,Circulatory,Medicare,0,1
+39,5,14,6,2,3,0,9,30,Abnormal,Home,Circulatory,Medicare,1,0
+47,7,11,4,9,5,1,9,151,Normal,Home,Other,Self-Pay,1,0
+55,9,12,2,11,22,2,5,30,Normal,Against Medical Advice,Diabetes,Private,1,0
+68,3,12,9,24,17,2,0,365,Abnormal,Home,Circulatory,Medicare,1,0
+71,3,12,4,6,14,6,10,152,Abnormal,Home,Other,Medicaid,1,1
+25,1,7,6,7,9,1,9,110,Normal,Home,Circulatory,Medicaid,1,1
+44,2,10,4,7,3,2,2,5,Normal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,0
+44,5,13,4,19,26,4,7,211,Abnormal,Home,Circulatory,Medicaid,1,1
+38,7,11,8,6,13,0,4,140,Not Tested,Home,Diabetes,Medicaid,0,0
+47,1,8,2,11,3,0,7,23,Normal,Home,Diabetes,Medicaid,0,0
+45,1,13,5,11,11,1,1,44,Not Tested,Home,Circulatory,Self-Pay,1,0
+81,5,13,0,7,2,3,6,28,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,0,1
+86,1,6,9,2,24,0,8,365,Not Tested,Skilled Nursing Facility,Diabetes,Private,1,1
+78,1,12,4,19,15,0,6,173,Not Tested,Against Medical Advice,Musculoskeletal,Self-Pay,1,1
+65,1,10,7,4,13,1,2,239,Not Tested,Home,Other,Private,0,0
+36,1,14,4,6,19,0,6,139,Normal,Home,Diabetes,Medicare,0,0
+21,1,9,8,17,22,1,7,54,Abnormal,Against Medical Advice,Respiratory,Self-Pay,0,0
+52,2,7,5,5,16,2,0,20,Abnormal,Home,Diabetes,Medicare,1,1
+81,2,10,7,7,18,2,2,20,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+66,10,5,9,9,7,2,4,14,Abnormal,Home,Respiratory,Medicaid,0,0
+34,3,8,7,1,13,2,5,71,Abnormal,Home,Diabetes,Medicaid,1,0
+61,6,2,2,1,4,0,2,227,Not Tested,Home,Diabetes,Medicaid,1,0
+47,1,7,6,19,9,1,3,365,Normal,Home,Other,Private,0,1
+63,1,4,6,6,10,0,4,30,Normal,Home,Diabetes,Medicare,1,1
+23,6,9,9,18,9,2,2,107,Abnormal,Home,Circulatory,Self-Pay,1,1
+54,1,12,5,10,7,2,3,81,Normal,Home,Diabetes,Medicare,1,1
+41,3,1,6,11,15,2,4,60,Abnormal,Home,Musculoskeletal,Self-Pay,1,0
+63,4,7,1,1,28,1,1,98,Normal,Home,Other,Medicare,1,0
+70,4,6,8,1,8,3,9,41,Abnormal,Home,Musculoskeletal,Medicaid,1,1
+77,1,8,9,13,19,2,8,260,Abnormal,Home,Other,Medicaid,1,0
+80,1,5,9,5,11,2,9,110,Normal,Home,Respiratory,Medicaid,0,1
+49,5,1,0,20,5,3,7,126,Normal,Home,Diabetes,Medicare,1,1
+50,1,1,0,1,2,2,5,24,Normal,Home,Musculoskeletal,Medicare,0,0
+84,5,9,2,20,10,0,9,16,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+35,6,10,2,3,16,1,10,45,Abnormal,Home,Respiratory,Medicaid,1,0
+42,20,6,0,18,23,1,2,130,Abnormal,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,0
+71,1,10,6,9,13,1,10,251,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+75,8,5,3,14,8,0,1,50,Abnormal,Skilled Nursing Facility,Other,Medicaid,1,1
+84,3,1,9,17,9,0,6,133,Normal,Home,Other,Private,1,1
+63,2,6,1,23,11,0,7,57,Not Tested,Home,Circulatory,Medicare,0,0
+41,1,6,9,14,11,2,9,31,Normal,Skilled Nursing Facility,Other,Medicare,1,1
+49,6,3,4,4,23,5,0,120,Not Tested,Against Medical Advice,Circulatory,Medicare,0,1
+64,1,13,5,5,26,2,5,144,Abnormal,Against Medical Advice,Musculoskeletal,Medicare,0,1
+40,2,8,8,21,16,1,6,20,Abnormal,Home,Circulatory,Medicare,1,0
+83,1,14,3,17,10,2,8,32,Not Tested,Home,Respiratory,Medicare,0,0
+44,8,1,1,22,29,1,2,61,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+19,7,1,4,2,24,3,1,18,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,0
+34,6,6,2,23,12,0,4,237,Abnormal,Home,Diabetes,Private,1,1
+50,1,10,1,22,25,0,9,80,Normal,Home,Circulatory,Private,0,1
+26,1,13,0,5,6,0,0,11,Not Tested,Home,Circulatory,Medicaid,0,0
+60,5,1,9,4,28,1,5,18,Normal,Home,Respiratory,Medicare,0,0
+65,3,6,1,4,12,2,8,277,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,1,0
+56,1,1,5,6,10,0,9,120,Abnormal,Against Medical Advice,Circulatory,Medicare,0,0
+59,5,14,7,20,18,1,8,119,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+43,23,13,2,21,18,0,6,6,Not Tested,Home,Musculoskeletal,Self-Pay,0,0
+67,6,6,8,13,4,0,10,203,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+42,6,3,8,22,9,2,6,52,Abnormal,Home,Respiratory,Medicaid,0,0
+41,15,14,1,5,7,1,7,97,Normal,Skilled Nursing Facility,Other,Medicaid,1,0
+30,1,14,7,23,18,2,9,289,Normal,Skilled Nursing Facility,Respiratory,Private,1,0
+77,4,8,9,23,8,2,1,9,Abnormal,Home,Respiratory,Medicare,0,0
+24,19,13,4,7,11,1,5,59,Normal,Home,Musculoskeletal,Medicare,0,0
+74,1,6,3,20,7,1,4,4,Not Tested,Home,Musculoskeletal,Private,0,1
+53,6,13,9,1,9,1,4,62,Not Tested,Home,Musculoskeletal,Medicare,0,1
+62,4,11,4,14,8,1,2,26,Abnormal,Skilled Nursing Facility,Other,Medicaid,1,1
+37,4,13,3,24,3,0,2,217,Normal,Home,Circulatory,Private,0,0
+82,5,1,7,4,17,3,5,45,Not Tested,Home,Other,Self-Pay,1,1
+25,13,5,3,17,2,0,9,90,Not Tested,Home,Other,Medicare,0,0
+33,7,8,9,21,15,2,9,177,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+31,1,3,5,14,14,1,6,365,Abnormal,Home,Respiratory,Medicare,1,0
+93,9,12,1,16,29,5,0,63,Not Tested,Home,Other,Medicaid,1,1
+32,1,6,4,14,18,1,2,54,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+83,2,5,5,16,16,2,0,7,Not Tested,Home,Musculoskeletal,Self-Pay,1,1
+49,3,6,4,24,20,1,9,1,Not Tested,Home,Circulatory,Medicaid,1,1
+80,3,10,1,20,22,1,2,84,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+68,2,1,6,8,4,1,4,6,Normal,Home,Diabetes,Medicare,0,0
+42,13,7,3,24,25,1,8,43,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,0
+75,6,9,7,3,20,1,2,0,Abnormal,Home,Other,Medicare,1,1
+80,4,2,6,19,6,0,9,85,Abnormal,Home,Diabetes,Medicare,0,1
+79,1,10,6,1,6,1,9,49,Not Tested,Home,Diabetes,Private,1,1
+39,11,5,8,2,26,1,8,12,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+75,12,10,0,15,11,2,0,31,Abnormal,Home,Other,Medicare,1,1
+75,7,4,9,22,26,0,5,75,Not Tested,Home,Diabetes,Medicaid,0,1
+66,1,6,5,10,17,2,8,96,Not Tested,Home,Respiratory,Medicare,1,0
+69,1,6,5,18,24,2,4,55,Not Tested,Home,Diabetes,Medicare,1,0
+59,1,11,5,22,28,1,10,146,Normal,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+87,1,2,5,14,3,1,9,10,Not Tested,Against Medical Advice,Diabetes,Self-Pay,0,1
+32,2,2,9,17,13,3,1,7,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+71,12,4,6,13,22,3,4,4,Not Tested,Home,Respiratory,Private,1,1
+77,3,1,9,1,3,1,0,69,Normal,Home,Diabetes,Medicaid,1,1
+25,1,9,5,5,16,2,8,110,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+70,1,14,0,13,15,0,9,12,Abnormal,Against Medical Advice,Musculoskeletal,Medicaid,1,1
+77,1,14,2,14,11,3,9,91,Not Tested,Home,Respiratory,Medicare,1,0
+22,1,13,1,24,18,1,8,58,Abnormal,Home,Respiratory,Medicare,1,0
+85,1,7,5,3,15,2,5,365,Abnormal,Home,Diabetes,Medicare,0,0
+23,1,12,7,15,5,0,10,113,Abnormal,Home,Other,Medicare,0,0
+64,7,7,2,19,16,1,8,96,Not Tested,Home,Circulatory,Medicare,1,0
+72,18,3,9,17,16,1,2,76,Abnormal,Against Medical Advice,Musculoskeletal,Medicare,1,1
+57,2,11,7,3,17,2,3,365,Normal,Home,Circulatory,Medicaid,0,0
+69,2,12,7,16,9,1,5,354,Abnormal,Home,Circulatory,Private,1,1
+33,9,3,4,14,27,1,3,69,Not Tested,Home,Circulatory,Medicare,0,0
+30,1,1,7,12,23,3,0,54,Normal,Against Medical Advice,Other,Medicare,1,1
+47,1,3,5,12,3,2,6,55,Normal,Home,Other,Medicare,0,1
+36,9,3,4,11,20,1,4,50,Abnormal,Home,Circulatory,Private,1,1
+34,1,4,8,17,13,3,7,68,Not Tested,Home,Diabetes,Medicare,0,1
+80,4,4,6,8,22,2,8,28,Normal,Home,Circulatory,Private,1,1
+36,4,3,7,17,3,0,4,235,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+75,2,10,0,21,28,0,7,60,Not Tested,Home,Diabetes,Self-Pay,1,1
+72,1,12,1,23,7,1,0,166,Normal,Home,Circulatory,Medicare,0,0
+79,7,8,7,20,29,1,0,58,Normal,Home,Circulatory,Medicare,1,1
+40,1,8,8,11,6,1,6,114,Not Tested,Home,Musculoskeletal,Medicaid,1,0
+26,1,13,3,2,9,1,5,36,Not Tested,Home,Diabetes,Medicaid,0,0
+29,6,13,9,10,12,1,4,88,Not Tested,Against Medical Advice,Circulatory,Medicaid,0,0
+18,3,1,9,10,15,1,4,62,Abnormal,Home,Diabetes,Medicare,0,0
+75,1,7,8,11,21,3,8,41,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+18,10,11,3,6,20,1,0,191,Abnormal,Home,Diabetes,Medicaid,1,0
+51,2,2,9,4,3,2,7,10,Abnormal,Against Medical Advice,Respiratory,Self-Pay,0,1
+65,8,1,9,24,10,0,1,60,Normal,Home,Diabetes,Self-Pay,1,1
+18,7,3,9,12,1,0,6,19,Abnormal,Home,Diabetes,Medicaid,0,0
+33,4,4,8,11,19,0,5,177,Normal,Home,Diabetes,Medicare,1,1
+78,3,13,6,23,19,3,9,26,Abnormal,Home,Other,Medicare,1,1
+81,19,6,1,23,23,2,1,90,Normal,Home,Circulatory,Private,1,1
+80,1,10,8,13,23,1,2,16,Normal,Against Medical Advice,Diabetes,Private,1,0
+86,6,14,3,5,13,0,3,46,Not Tested,Skilled Nursing Facility,Circulatory,Self-Pay,1,0
+39,1,5,7,6,12,0,6,206,Normal,Home,Circulatory,Medicaid,1,1
+84,2,14,6,1,1,2,7,16,Abnormal,Home,Diabetes,Private,0,1
+93,1,4,6,6,19,2,10,97,Normal,Home,Other,Private,1,1
+43,14,8,7,18,29,0,1,20,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+33,17,11,0,22,24,2,7,48,Abnormal,Home,Other,Private,1,1
+68,1,12,4,9,16,2,10,70,Normal,Home,Respiratory,Medicare,0,1
+74,1,14,1,24,25,1,8,77,Normal,Against Medical Advice,Respiratory,Medicaid,1,1
+46,6,4,1,15,23,1,6,83,Not Tested,Home,Circulatory,Self-Pay,1,1
+86,2,13,0,8,23,2,0,91,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,1
+64,1,10,4,19,28,3,5,28,Normal,Home,Diabetes,Private,1,1
+79,5,12,1,24,15,3,7,46,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,0,1
+86,3,13,3,16,16,2,4,3,Normal,Home,Respiratory,Private,0,1
+93,19,2,2,6,11,2,1,131,Not Tested,Home,Diabetes,Medicaid,0,1
+33,1,3,2,6,24,2,4,163,Normal,Against Medical Advice,Diabetes,Self-Pay,1,1
+65,2,6,1,22,6,2,7,19,Normal,Home,Respiratory,Private,1,1
+56,3,8,5,3,11,4,1,20,Abnormal,Home,Other,Medicare,1,0
+50,7,8,1,10,3,0,0,3,Not Tested,Home,Diabetes,Medicare,1,0
+40,3,11,7,1,15,1,3,316,Normal,Home,Circulatory,Private,1,0
+27,4,9,7,14,1,1,3,148,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+86,1,7,4,4,7,0,8,40,Normal,Home,Musculoskeletal,Medicaid,1,1
+51,9,13,9,12,1,1,2,59,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+69,2,2,6,6,17,3,3,31,Not Tested,Home,Musculoskeletal,Private,1,1
+27,1,8,3,11,9,2,2,81,Normal,Home,Respiratory,Medicare,0,1
+36,5,7,0,12,29,0,1,113,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+75,1,8,1,10,26,3,3,53,Normal,Home,Circulatory,Private,1,1
+18,1,12,9,18,23,3,7,186,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+86,9,3,9,7,13,1,0,65,Abnormal,Home,Other,Medicaid,0,0
+21,3,7,3,7,11,4,7,14,Not Tested,Home,Other,Self-Pay,1,0
+33,6,10,0,11,29,1,7,87,Normal,Home,Circulatory,Private,1,1
+41,1,13,7,4,20,3,2,55,Not Tested,Home,Musculoskeletal,Medicare,1,0
+19,7,9,8,20,6,2,9,246,Abnormal,Home,Diabetes,Self-Pay,0,1
+49,1,3,3,1,1,3,9,44,Abnormal,Home,Musculoskeletal,Medicare,0,0
+41,2,14,9,13,7,1,5,46,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+29,19,10,2,18,12,1,3,94,Abnormal,Home,Musculoskeletal,Private,0,0
+67,7,6,1,9,22,0,0,67,Not Tested,Home,Other,Medicare,1,1
+52,3,2,4,24,20,1,0,42,Abnormal,Home,Circulatory,Medicaid,0,1
+50,2,2,2,24,23,4,4,365,Abnormal,Home,Circulatory,Private,1,0
+50,10,5,9,9,19,1,7,32,Not Tested,Home,Circulatory,Medicaid,1,1
+78,3,5,6,23,17,2,0,29,Normal,Home,Circulatory,Medicare,0,0
+68,7,13,5,9,4,2,1,179,Abnormal,Home,Diabetes,Medicaid,1,1
+60,7,7,0,10,3,1,6,0,Not Tested,Home,Musculoskeletal,Medicaid,0,0
+29,1,12,7,2,1,3,7,20,Abnormal,Home,Circulatory,Medicaid,1,1
+84,1,2,1,6,18,1,2,80,Normal,Skilled Nursing Facility,Diabetes,Private,1,1
+82,5,11,4,15,27,0,10,15,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+50,1,14,8,3,21,5,7,365,Not Tested,Home,Circulatory,Private,1,0
+57,1,13,7,11,15,1,0,56,Not Tested,Against Medical Advice,Diabetes,Private,1,1
+91,14,7,1,6,8,1,8,81,Not Tested,Home,Circulatory,Private,1,1
+60,4,5,8,3,1,1,1,15,Abnormal,Home,Diabetes,Medicaid,0,1
+61,6,14,4,24,20,1,1,30,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+46,4,6,9,11,14,1,3,85,Normal,Home,Musculoskeletal,Medicare,1,0
+30,4,8,5,15,4,0,9,71,Normal,Against Medical Advice,Circulatory,Private,1,1
+29,1,10,2,13,5,2,2,138,Normal,Against Medical Advice,Other,Medicaid,1,1
+63,2,13,2,20,23,2,3,28,Normal,Home,Musculoskeletal,Medicare,1,1
+19,1,14,9,10,13,1,5,95,Not Tested,Against Medical Advice,Respiratory,Medicaid,0,0
+52,2,12,7,6,28,3,6,30,Not Tested,Against Medical Advice,Respiratory,Private,0,1
+25,8,4,9,15,24,1,4,79,Abnormal,Home,Circulatory,Medicare,1,0
+43,2,13,9,18,15,0,1,83,Not Tested,Against Medical Advice,Musculoskeletal,Self-Pay,1,1
+91,3,7,1,18,6,3,2,11,Not Tested,Home,Respiratory,Medicare,0,1
+51,2,6,1,7,1,3,9,71,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,0
+24,1,10,4,15,23,0,10,1,Abnormal,Home,Circulatory,Medicaid,0,1
+85,2,2,5,18,19,1,2,62,Normal,Home,Circulatory,Medicare,1,1
+75,1,8,1,18,13,2,4,107,Abnormal,Home,Respiratory,Self-Pay,0,1
+92,1,10,4,20,29,1,10,6,Normal,Home,Circulatory,Medicaid,0,1
+46,1,9,6,9,29,0,4,251,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+53,2,5,9,24,6,0,3,55,Not Tested,Home,Circulatory,Private,0,1
+38,7,10,9,2,15,2,7,250,Normal,Home,Other,Medicaid,1,1
+53,1,4,7,8,16,3,5,10,Normal,Home,Musculoskeletal,Self-Pay,1,1
+27,1,6,6,20,24,0,5,269,Abnormal,Home,Circulatory,Medicare,0,0
+90,5,8,7,2,23,0,0,10,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+41,1,11,8,11,16,1,5,55,Normal,Home,Respiratory,Medicare,0,1
+81,11,3,4,7,10,3,2,250,Normal,Home,Musculoskeletal,Private,0,1
+66,3,10,4,6,22,0,5,23,Not Tested,Home,Respiratory,Medicaid,1,1
+53,2,11,9,10,9,5,9,3,Normal,Home,Circulatory,Self-Pay,0,1
+41,4,11,3,5,9,1,10,141,Not Tested,Home,Circulatory,Private,0,1
+40,1,1,8,11,17,1,5,81,Abnormal,Against Medical Advice,Respiratory,Self-Pay,1,1
+79,4,4,4,1,17,3,1,64,Abnormal,Skilled Nursing Facility,Other,Self-Pay,1,1
+54,2,4,1,2,17,1,0,3,Normal,Home,Other,Medicare,0,0
+29,11,1,9,24,24,0,10,95,Not Tested,Home,Circulatory,Medicare,0,1
+72,1,9,7,1,12,1,2,16,Not Tested,Home,Musculoskeletal,Medicare,0,1
+30,3,3,6,19,13,1,4,240,Normal,Skilled Nursing Facility,Other,Medicare,0,0
+40,4,5,7,2,12,1,3,104,Normal,Home,Circulatory,Medicaid,1,0
+47,1,6,2,21,14,2,6,110,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+34,2,8,3,20,10,1,3,23,Not Tested,Home,Respiratory,Medicare,1,0
+79,6,6,4,23,23,0,7,191,Abnormal,Home,Diabetes,Medicare,1,0
+30,8,3,5,21,19,2,6,69,Normal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+76,1,6,0,24,29,1,9,175,Normal,Home,Other,Medicare,1,0
+36,8,1,3,4,2,2,8,28,Abnormal,Against Medical Advice,Circulatory,Medicare,1,1
+66,17,4,9,12,4,2,0,126,Not Tested,Home,Musculoskeletal,Medicare,1,0
+29,9,6,4,22,19,1,4,76,Abnormal,Home,Circulatory,Medicare,1,0
+78,1,7,6,20,7,1,3,4,Normal,Home,Respiratory,Private,1,1
+36,6,11,4,18,26,0,5,46,Normal,Skilled Nursing Facility,Other,Medicare,0,1
+93,1,13,0,1,15,2,0,18,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+26,22,11,6,1,15,1,5,40,Normal,Home,Respiratory,Medicaid,1,1
+88,3,10,7,24,24,4,0,43,Not Tested,Home,Diabetes,Medicaid,0,1
+45,1,3,6,14,6,1,0,57,Abnormal,Home,Circulatory,Medicaid,1,0
+69,6,9,3,4,3,3,7,82,Normal,Home,Circulatory,Medicare,1,1
+33,1,12,7,5,6,1,1,76,Abnormal,Home,Musculoskeletal,Medicare,0,0
+86,29,12,4,11,16,2,9,3,Not Tested,Home,Diabetes,Private,1,1
+29,19,7,9,24,2,2,5,125,Abnormal,Home,Respiratory,Self-Pay,1,0
+42,5,14,8,23,28,4,5,268,Not Tested,Home,Diabetes,Self-Pay,0,0
+69,1,1,9,13,7,1,5,38,Abnormal,Home,Respiratory,Medicaid,0,1
+70,5,2,4,16,11,0,7,17,Not Tested,Home,Circulatory,Medicare,0,1
+40,1,1,0,24,26,3,3,69,Abnormal,Home,Respiratory,Medicaid,1,1
+33,1,11,8,13,7,6,2,109,Normal,Home,Other,Medicaid,0,0
+74,8,9,4,24,4,1,5,102,Normal,Skilled Nursing Facility,Other,Private,0,1
+56,1,9,5,22,29,0,3,85,Not Tested,Home,Respiratory,Medicare,1,0
+70,2,7,3,2,24,1,1,14,Not Tested,Home,Circulatory,Self-Pay,1,1
+59,18,10,5,16,20,1,5,163,Not Tested,Home,Diabetes,Medicare,0,0
+75,2,3,7,6,7,0,9,49,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+56,1,13,2,14,4,1,4,22,Normal,Home,Circulatory,Self-Pay,1,1
+31,12,5,4,1,29,1,10,8,Abnormal,Against Medical Advice,Respiratory,Self-Pay,1,1
+22,1,4,1,17,12,4,8,48,Not Tested,Home,Other,Medicaid,1,0
+52,7,7,1,11,5,4,10,86,Not Tested,Home,Diabetes,Medicare,1,1
+92,22,14,6,19,23,2,5,98,Normal,Home,Respiratory,Medicare,1,1
+35,11,9,9,3,29,0,2,296,Normal,Home,Diabetes,Medicare,1,1
+93,5,12,9,11,29,1,10,14,Abnormal,Home,Circulatory,Private,0,1
+26,1,2,9,5,26,1,4,365,Abnormal,Home,Circulatory,Medicaid,1,0
+91,1,13,5,17,19,2,9,95,Abnormal,Home,Other,Medicaid,1,1
+75,8,8,3,22,26,0,7,54,Abnormal,Home,Circulatory,Medicaid,0,1
+34,10,9,4,7,5,5,8,197,Normal,Home,Respiratory,Medicaid,0,0
+24,3,10,0,10,27,2,7,106,Not Tested,Home,Diabetes,Medicaid,1,1
+63,1,14,6,11,19,2,2,38,Not Tested,Home,Other,Self-Pay,1,1
+30,1,10,7,3,21,1,8,193,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+57,1,9,8,20,3,1,2,98,Not Tested,Home,Circulatory,Private,0,1
+59,6,14,7,10,27,0,7,108,Abnormal,Home,Diabetes,Medicare,1,1
+26,2,10,4,10,26,3,9,204,Not Tested,Home,Diabetes,Private,1,1
+67,11,14,2,14,11,4,8,53,Abnormal,Home,Respiratory,Self-Pay,0,1
+44,6,7,9,12,7,2,6,96,Not Tested,Home,Diabetes,Medicare,1,0
+83,1,9,8,15,29,1,3,122,Normal,Home,Circulatory,Medicare,0,1
+22,4,9,5,10,17,3,9,54,Not Tested,Home,Other,Medicare,0,0
+46,2,14,4,10,25,1,8,7,Normal,Against Medical Advice,Diabetes,Medicare,1,0
+54,4,3,2,19,9,2,2,132,Normal,Home,Respiratory,Private,1,1
+55,6,4,5,1,21,1,2,4,Abnormal,Home,Diabetes,Medicare,0,0
+25,8,2,2,24,9,0,1,113,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+82,9,10,9,10,10,0,9,217,Normal,Home,Diabetes,Medicaid,0,1
+34,1,3,5,2,13,3,2,38,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+88,1,11,3,17,15,2,0,9,Not Tested,Home,Respiratory,Medicare,1,1
+62,6,11,1,24,22,0,3,23,Normal,Home,Musculoskeletal,Medicaid,0,1
+21,1,5,7,7,5,3,7,74,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+53,1,5,3,7,29,1,4,257,Normal,Against Medical Advice,Circulatory,Medicare,0,0
+87,1,6,8,20,3,1,1,64,Abnormal,Home,Diabetes,Medicaid,1,1
+48,5,13,6,9,27,1,2,10,Abnormal,Home,Diabetes,Private,0,1
+36,1,7,1,22,27,1,0,88,Abnormal,Home,Respiratory,Medicare,0,1
+78,5,7,3,2,8,2,1,118,Not Tested,Home,Circulatory,Private,0,0
+71,23,1,4,14,20,0,0,44,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,0,1
+56,1,14,2,17,10,0,1,115,Not Tested,Home,Circulatory,Private,1,1
+91,1,2,8,1,13,1,2,35,Not Tested,Home,Other,Medicaid,1,1
+36,2,12,4,9,29,1,0,140,Not Tested,Home,Diabetes,Private,1,0
+56,10,9,1,20,3,1,10,37,Normal,Skilled Nursing Facility,Other,Private,0,1
+84,1,10,2,21,29,1,8,26,Normal,Home,Circulatory,Private,1,0
+62,2,2,8,19,22,3,9,190,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+30,1,6,6,4,8,2,4,71,Not Tested,Home,Circulatory,Medicare,0,0
+75,7,11,1,8,29,2,7,30,Normal,Home,Musculoskeletal,Medicare,0,1
+37,2,11,8,13,9,0,4,246,Not Tested,Home,Respiratory,Medicare,0,0
+89,7,1,3,4,22,0,7,105,Normal,Home,Respiratory,Medicare,1,1
+78,11,3,8,9,21,2,6,22,Normal,Home,Circulatory,Medicaid,0,0
+56,1,2,1,9,12,0,3,85,Normal,Skilled Nursing Facility,Circulatory,Self-Pay,1,0
+18,8,3,9,22,11,2,6,183,Abnormal,Home,Diabetes,Self-Pay,0,1
+20,1,5,3,18,2,3,5,107,Not Tested,Home,Diabetes,Private,1,0
+94,11,11,4,12,18,3,2,25,Normal,Home,Diabetes,Self-Pay,0,1
+79,5,10,1,10,9,1,8,94,Abnormal,Home,Circulatory,Self-Pay,1,1
+80,10,6,9,11,2,2,9,86,Normal,Home,Circulatory,Private,1,1
+42,1,9,0,7,2,1,8,154,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+73,1,12,6,9,3,3,4,17,Normal,Home,Musculoskeletal,Medicare,1,0
+50,2,11,9,6,16,2,7,108,Abnormal,Home,Respiratory,Medicaid,1,1
+55,2,10,0,19,19,1,6,2,Abnormal,Home,Diabetes,Medicare,1,0
+23,1,12,7,16,4,2,8,107,Abnormal,Home,Musculoskeletal,Private,0,0
+75,2,12,2,15,23,0,6,290,Normal,Skilled Nursing Facility,Other,Medicare,1,1
+61,1,13,9,7,25,1,3,17,Normal,Home,Circulatory,Medicare,0,0
+62,2,4,5,16,18,0,3,33,Abnormal,Home,Musculoskeletal,Medicare,0,0
+49,8,7,6,5,20,0,10,78,Not Tested,Against Medical Advice,Respiratory,Medicaid,0,1
+62,3,6,9,16,25,2,7,118,Not Tested,Home,Musculoskeletal,Medicaid,1,1
+78,1,2,0,1,18,3,5,37,Not Tested,Skilled Nursing Facility,Respiratory,Private,0,0
+64,2,10,5,19,10,2,8,98,Not Tested,Home,Diabetes,Medicare,1,0
+38,1,11,6,5,11,2,9,206,Abnormal,Home,Diabetes,Medicaid,1,1
+92,16,11,5,7,29,0,6,116,Normal,Skilled Nursing Facility,Respiratory,Private,0,1
+53,1,11,3,19,17,1,6,111,Normal,Home,Diabetes,Private,0,0
+36,6,8,0,22,26,0,3,43,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+37,18,7,8,5,24,1,2,218,Abnormal,Home,Respiratory,Medicare,1,0
+74,8,7,3,17,25,3,7,29,Not Tested,Home,Circulatory,Medicare,0,1
+35,6,14,6,22,23,1,6,20,Normal,Home,Circulatory,Private,0,1
+64,9,8,6,8,24,0,3,40,Abnormal,Home,Diabetes,Medicare,1,1
+66,20,12,1,1,20,1,3,94,Abnormal,Home,Musculoskeletal,Medicare,1,0
+31,4,12,0,2,16,0,0,178,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+32,4,13,7,15,20,0,10,12,Normal,Skilled Nursing Facility,Respiratory,Private,0,1
+48,4,14,7,20,13,1,6,151,Not Tested,Home,Respiratory,Medicaid,1,1
+18,3,11,6,18,2,0,0,150,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,0
+71,5,1,7,11,24,2,9,79,Not Tested,Against Medical Advice,Other,Medicaid,0,1
+20,2,13,2,10,27,0,9,128,Not Tested,Home,Circulatory,Medicare,0,0
+33,1,1,1,24,2,4,3,18,Abnormal,Home,Respiratory,Medicare,0,0
+74,1,8,6,24,25,1,10,16,Abnormal,Home,Diabetes,Medicare,1,1
+92,1,4,7,4,14,3,2,178,Not Tested,Skilled Nursing Facility,Other,Medicare,1,1
+29,1,5,0,5,4,0,10,62,Abnormal,Skilled Nursing Facility,Circulatory,Private,0,0
+91,1,8,9,4,17,3,2,25,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+33,4,5,8,13,13,1,0,105,Not Tested,Against Medical Advice,Diabetes,Private,1,0
+89,1,10,3,13,4,2,3,200,Abnormal,Home,Diabetes,Medicare,1,1
+93,8,4,3,18,3,3,0,90,Normal,Home,Circulatory,Medicare,0,1
+41,1,12,2,24,12,2,7,38,Abnormal,Home,Diabetes,Medicare,0,1
+45,1,6,5,2,22,0,0,59,Normal,Home,Diabetes,Medicaid,1,0
+25,6,13,0,16,23,1,5,125,Normal,Home,Musculoskeletal,Medicare,1,1
+53,4,12,5,1,8,2,6,6,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+25,1,5,1,19,2,2,9,22,Abnormal,Home,Circulatory,Private,0,1
+75,10,14,8,9,6,1,1,55,Abnormal,Home,Musculoskeletal,Self-Pay,1,1
+77,10,7,1,3,22,0,3,83,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+67,2,14,6,7,10,2,10,37,Not Tested,Home,Musculoskeletal,Medicare,0,0
+45,2,10,0,10,12,3,2,31,Normal,Home,Musculoskeletal,Medicare,0,0
+58,22,7,6,1,21,5,8,3,Normal,Home,Circulatory,Private,0,0
+81,4,13,4,10,10,1,6,2,Abnormal,Home,Circulatory,Medicare,0,1
+44,3,4,7,21,10,1,1,29,Abnormal,Against Medical Advice,Circulatory,Medicaid,0,1
+80,9,12,3,9,23,1,10,68,Not Tested,Home,Other,Medicaid,1,0
+34,1,13,9,15,3,1,5,73,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+90,2,5,6,15,20,4,8,61,Normal,Home,Circulatory,Medicare,0,1
+50,1,13,5,3,10,1,2,47,Abnormal,Home,Circulatory,Medicare,1,1
+94,7,3,4,5,29,3,10,26,Not Tested,Home,Other,Medicare,1,0
+46,4,4,3,9,9,0,5,46,Not Tested,Home,Musculoskeletal,Medicare,0,0
+30,5,14,6,22,20,1,2,13,Normal,Home,Other,Medicaid,0,1
+63,1,4,4,9,19,1,2,11,Abnormal,Home,Respiratory,Medicaid,1,1
+52,1,3,4,23,14,1,3,32,Normal,Home,Diabetes,Medicare,1,1
+23,3,13,0,7,2,1,8,365,Abnormal,Home,Circulatory,Medicaid,1,1
+86,6,10,1,24,5,3,10,35,Normal,Home,Circulatory,Medicare,1,0
+64,3,5,4,23,20,0,7,248,Not Tested,Home,Circulatory,Medicaid,0,1
+42,1,5,2,12,29,3,0,44,Abnormal,Home,Circulatory,Private,0,1
+83,10,11,1,9,29,2,10,52,Not Tested,Home,Diabetes,Private,0,1
+27,1,7,3,6,8,1,0,143,Not Tested,Against Medical Advice,Other,Medicare,1,1
+73,15,4,3,23,7,3,6,8,Normal,Against Medical Advice,Circulatory,Medicaid,1,1
+47,1,13,3,2,6,1,2,18,Abnormal,Skilled Nursing Facility,Other,Private,0,0
+22,5,4,3,9,11,2,10,327,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,1,0
+50,1,9,2,17,12,1,6,63,Abnormal,Home,Respiratory,Medicaid,1,0
+82,12,6,6,1,18,0,8,4,Abnormal,Home,Respiratory,Private,0,0
+35,3,4,8,19,19,1,2,4,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+66,1,2,4,6,10,1,2,213,Abnormal,Home,Circulatory,Medicaid,1,0
+28,2,6,3,5,25,0,1,185,Abnormal,Home,Diabetes,Medicaid,0,0
+43,1,2,1,2,29,1,9,55,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+80,1,5,1,9,25,1,0,16,Normal,Home,Musculoskeletal,Medicare,0,0
+76,14,6,4,14,21,3,8,159,Normal,Home,Respiratory,Medicare,0,0
+44,2,4,6,4,14,1,5,35,Normal,Home,Musculoskeletal,Medicare,1,1
+66,7,14,9,4,3,1,5,48,Normal,Home,Diabetes,Medicare,1,1
+94,5,13,9,21,18,1,7,103,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+50,5,3,8,15,24,1,10,39,Normal,Home,Respiratory,Medicare,1,1
+18,1,7,6,8,15,1,4,89,Normal,Against Medical Advice,Other,Medicaid,0,0
+38,1,2,4,4,6,3,8,194,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+72,7,13,9,16,10,3,10,143,Not Tested,Home,Musculoskeletal,Medicare,0,1
+23,17,11,9,21,27,1,4,43,Not Tested,Home,Circulatory,Medicare,0,1
+86,1,14,9,4,12,2,1,30,Not Tested,Home,Respiratory,Medicare,1,1
+22,1,6,5,16,7,2,5,30,Normal,Against Medical Advice,Diabetes,Medicare,1,1
+20,3,13,2,22,17,5,8,38,Normal,Home,Circulatory,Medicare,0,1
+70,20,4,4,12,1,2,2,61,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+40,1,6,7,16,26,2,9,48,Not Tested,Home,Other,Medicare,0,1
+70,2,4,0,19,18,2,3,12,Not Tested,Home,Respiratory,Medicare,1,1
+54,11,4,0,8,26,2,9,16,Normal,Against Medical Advice,Circulatory,Private,1,1
+91,1,4,6,6,15,4,10,37,Normal,Home,Diabetes,Medicaid,1,1
+91,1,9,4,10,19,1,7,74,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+34,4,7,4,5,28,1,5,80,Normal,Home,Diabetes,Private,1,0
+90,11,3,0,18,1,0,6,59,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,1
+18,1,3,8,10,5,6,6,120,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,1,1
+68,3,6,0,10,15,0,3,120,Abnormal,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,0
+62,2,6,4,7,3,3,5,50,Not Tested,Home,Circulatory,Medicare,0,0
+94,3,4,9,18,1,1,8,11,Abnormal,Home,Other,Private,0,1
+21,4,9,8,1,8,1,2,67,Abnormal,Home,Other,Private,1,0
+79,3,4,3,7,12,0,7,43,Not Tested,Home,Circulatory,Self-Pay,1,0
+82,2,9,7,21,27,1,6,13,Abnormal,Home,Musculoskeletal,Medicaid,0,0
+49,3,4,5,1,22,1,3,360,Abnormal,Home,Diabetes,Medicaid,0,1
+51,4,2,2,15,25,1,9,41,Not Tested,Home,Respiratory,Medicare,1,0
+89,3,2,3,4,19,2,2,88,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+56,9,5,1,20,25,3,6,60,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+43,1,4,0,10,25,0,9,13,Normal,Against Medical Advice,Other,Medicare,1,0
+51,8,7,7,23,12,2,8,5,Abnormal,Home,Circulatory,Self-Pay,0,1
+71,9,14,0,9,13,2,9,88,Not Tested,Home,Circulatory,Medicare,1,1
+20,1,11,0,2,28,2,2,25,Not Tested,Home,Circulatory,Private,0,0
+67,3,5,3,14,1,1,9,25,Normal,Home,Diabetes,Medicare,1,1
+29,2,6,9,16,19,1,8,283,Normal,Home,Other,Medicare,1,0
+82,1,10,9,1,6,0,7,55,Not Tested,Against Medical Advice,Diabetes,Medicaid,0,0
+71,2,4,5,2,8,3,2,2,Normal,Home,Circulatory,Medicare,1,0
+22,1,13,8,7,4,1,7,37,Normal,Home,Respiratory,Self-Pay,0,0
+74,1,12,0,10,5,1,3,79,Normal,Home,Respiratory,Medicare,0,1
+34,8,2,6,22,25,4,5,35,Normal,Home,Circulatory,Medicare,0,0
+64,1,13,9,20,22,2,9,2,Abnormal,Home,Diabetes,Medicare,1,1
+40,8,10,4,1,28,6,1,52,Abnormal,Home,Circulatory,Medicare,1,1
+31,3,9,7,13,7,1,7,10,Abnormal,Home,Musculoskeletal,Medicare,1,0
+83,10,10,6,1,23,1,8,86,Not Tested,Home,Diabetes,Medicaid,1,1
+92,4,7,3,5,4,2,6,86,Normal,Home,Musculoskeletal,Medicaid,1,0
+68,1,4,3,16,20,2,7,3,Normal,Home,Other,Medicare,1,1
+55,5,3,5,15,4,1,6,30,Not Tested,Home,Other,Medicare,1,0
+81,1,10,5,17,15,2,10,48,Not Tested,Home,Circulatory,Private,1,1
+55,2,14,8,23,27,3,9,71,Normal,Against Medical Advice,Other,Medicaid,0,1
+67,13,3,4,16,21,2,3,31,Normal,Home,Musculoskeletal,Medicare,0,0
+47,1,9,7,13,5,0,0,30,Normal,Home,Musculoskeletal,Medicaid,1,0
+68,2,5,4,11,24,1,2,365,Abnormal,Skilled Nursing Facility,Circulatory,Private,0,1
+80,6,13,1,17,9,1,6,3,Normal,Home,Circulatory,Private,1,1
+69,10,3,5,17,2,1,10,365,Abnormal,Skilled Nursing Facility,Other,Private,1,1
+55,5,5,8,2,27,0,10,4,Normal,Against Medical Advice,Circulatory,Medicare,1,1
+47,1,2,2,13,7,1,6,30,Not Tested,Home,Circulatory,Medicare,0,1
+68,5,11,0,14,17,2,10,61,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+22,1,4,0,11,16,1,2,13,Abnormal,Home,Other,Private,1,1
+46,6,10,2,10,17,1,0,13,Normal,Home,Respiratory,Medicare,0,0
+21,15,2,9,3,20,1,9,26,Normal,Skilled Nursing Facility,Other,Medicaid,1,0
+27,6,2,4,17,26,2,8,326,Abnormal,Against Medical Advice,Respiratory,Private,0,1
+73,9,12,2,15,23,0,5,43,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+34,1,8,8,9,2,0,6,75,Not Tested,Home,Respiratory,Medicare,0,0
+91,6,1,7,10,11,0,0,109,Not Tested,Home,Diabetes,Medicare,0,0
+34,8,14,2,8,2,2,0,122,Normal,Home,Respiratory,Medicare,0,0
+86,1,7,8,21,1,1,3,104,Abnormal,Home,Respiratory,Medicare,0,1
+51,10,5,5,13,26,2,6,36,Normal,Against Medical Advice,Circulatory,Medicare,0,0
+23,1,11,6,18,2,0,10,10,Normal,Home,Circulatory,Private,1,0
+70,5,8,3,5,29,1,10,29,Not Tested,Home,Diabetes,Private,0,1
+83,8,1,3,6,23,2,7,21,Not Tested,Home,Respiratory,Medicaid,0,1
+94,5,11,1,17,9,3,9,13,Not Tested,Home,Circulatory,Medicaid,1,1
+60,1,7,4,11,22,3,8,2,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+92,4,5,7,20,26,2,0,247,Not Tested,Home,Respiratory,Medicare,1,1
+40,3,4,6,16,2,0,3,228,Normal,Skilled Nursing Facility,Other,Medicare,1,0
+72,11,7,6,9,28,1,3,4,Not Tested,Home,Respiratory,Medicare,1,1
+92,2,10,5,2,15,3,2,17,Abnormal,Home,Circulatory,Private,0,1
+33,1,2,2,5,10,2,6,13,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+25,6,12,4,1,15,0,0,29,Abnormal,Home,Diabetes,Medicare,0,0
+21,2,1,0,4,10,2,8,20,Abnormal,Home,Diabetes,Medicare,1,0
+21,5,1,6,4,29,4,7,262,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,1
+73,5,11,8,22,25,3,1,7,Normal,Home,Diabetes,Medicare,0,1
+42,10,12,0,3,23,1,1,21,Not Tested,Home,Diabetes,Medicaid,1,1
+84,4,1,1,9,27,3,7,7,Normal,Skilled Nursing Facility,Circulatory,Private,0,0
+84,3,12,2,22,17,0,10,353,Normal,Against Medical Advice,Circulatory,Private,1,1
+44,1,5,2,23,28,3,0,225,Normal,Home,Diabetes,Medicaid,1,1
+49,1,10,7,12,9,1,6,113,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,1
+67,1,7,6,10,18,1,8,49,Normal,Home,Other,Self-Pay,1,0
+78,1,2,5,2,4,4,2,18,Normal,Home,Respiratory,Private,0,1
+68,5,10,9,11,9,2,6,22,Abnormal,Home,Musculoskeletal,Medicare,0,1
+36,6,8,9,10,16,5,5,52,Abnormal,Against Medical Advice,Circulatory,Medicare,1,1
+38,3,4,3,22,4,3,6,131,Normal,Home,Other,Private,1,0
+22,8,12,8,6,16,2,6,27,Normal,Home,Diabetes,Medicare,0,0
+59,23,3,0,18,19,0,9,33,Not Tested,Home,Diabetes,Medicaid,1,1
+78,8,10,1,2,1,2,0,82,Normal,Against Medical Advice,Circulatory,Medicare,0,0
+39,5,11,3,2,23,2,2,24,Normal,Home,Circulatory,Private,0,0
+38,3,8,2,10,6,1,9,78,Normal,Home,Musculoskeletal,Medicaid,0,0
+87,2,2,0,16,10,3,0,44,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+18,1,11,4,12,16,1,4,3,Abnormal,Home,Circulatory,Private,1,1
+22,2,11,6,1,4,0,2,46,Abnormal,Home,Circulatory,Self-Pay,1,0
+29,12,13,1,21,22,3,0,226,Abnormal,Home,Circulatory,Private,1,0
+63,8,3,4,8,22,4,1,31,Normal,Against Medical Advice,Diabetes,Medicare,0,0
+51,1,12,5,16,13,1,9,35,Abnormal,Against Medical Advice,Respiratory,Medicare,1,0
+66,3,3,6,18,16,1,4,6,Not Tested,Home,Circulatory,Medicare,0,0
+62,8,10,0,13,20,3,10,85,Normal,Home,Respiratory,Medicare,0,0
+44,1,11,6,15,29,0,2,170,Normal,Home,Musculoskeletal,Self-Pay,1,1
+90,2,1,3,21,6,1,5,39,Normal,Home,Other,Private,1,1
+43,9,6,7,12,26,5,8,24,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,0,1
+64,2,2,3,8,11,0,5,282,Normal,Home,Diabetes,Medicare,1,1
+73,1,1,5,10,24,2,1,123,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+80,3,2,8,14,29,0,1,75,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+65,9,12,4,5,3,1,7,32,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+78,4,6,3,18,20,4,10,22,Normal,Against Medical Advice,Respiratory,Medicaid,0,1
+43,1,14,7,19,10,4,7,113,Normal,Home,Respiratory,Medicaid,0,0
+53,2,4,8,15,29,0,5,66,Normal,Home,Diabetes,Private,0,1
+18,2,6,3,6,28,7,9,66,Abnormal,Skilled Nursing Facility,Other,Medicare,1,1
+25,4,12,2,11,1,2,6,6,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+69,7,9,7,21,20,2,0,64,Abnormal,Home,Musculoskeletal,Private,1,1
+64,1,13,4,11,11,1,8,155,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+73,11,10,1,20,26,3,4,264,Not Tested,Home,Circulatory,Medicare,0,1
+31,1,12,9,20,26,0,8,10,Abnormal,Home,Musculoskeletal,Medicare,0,1
+45,2,10,8,21,12,1,1,89,Not Tested,Home,Circulatory,Private,0,1
+19,1,8,2,18,14,0,7,75,Normal,Against Medical Advice,Diabetes,Private,1,0
+43,2,1,1,18,25,1,6,198,Normal,Home,Respiratory,Private,1,1
+31,3,13,0,10,8,0,10,125,Abnormal,Home,Respiratory,Medicare,1,1
+76,3,8,7,2,11,0,3,302,Abnormal,Against Medical Advice,Respiratory,Private,1,1
+73,1,9,2,9,4,0,2,289,Abnormal,Skilled Nursing Facility,Other,Medicaid,0,0
+24,5,6,6,14,28,3,3,23,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+20,1,10,0,19,7,1,3,116,Abnormal,Home,Musculoskeletal,Self-Pay,1,0
+40,7,5,0,10,10,2,9,68,Not Tested,Home,Musculoskeletal,Medicaid,0,1
+35,14,6,8,23,19,1,9,21,Normal,Home,Other,Self-Pay,1,1
+55,2,13,7,4,25,1,7,19,Not Tested,Skilled Nursing Facility,Respiratory,Private,0,0
+32,3,6,2,6,26,1,3,7,Abnormal,Home,Diabetes,Medicare,0,0
+81,2,9,5,14,4,1,4,142,Normal,Home,Other,Medicaid,0,0
+45,1,4,2,4,2,1,1,35,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+91,2,2,3,15,26,5,3,175,Abnormal,Home,Diabetes,Private,1,0
+56,7,11,0,16,21,0,6,84,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+74,4,11,4,7,18,1,2,100,Abnormal,Home,Circulatory,Private,0,1
+34,1,9,0,17,14,1,0,31,Abnormal,Home,Respiratory,Medicare,1,1
+61,9,2,0,19,26,2,7,55,Normal,Home,Diabetes,Medicaid,1,1
+42,3,10,9,19,16,1,7,47,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,1
+34,9,9,6,17,22,1,5,24,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+30,4,2,5,6,11,3,6,160,Not Tested,Home,Musculoskeletal,Private,0,0
+42,4,12,1,11,10,1,9,87,Normal,Home,Respiratory,Medicare,0,0
+85,1,8,1,16,17,0,10,3,Not Tested,Home,Diabetes,Medicare,0,1
+27,1,9,6,8,14,1,1,154,Normal,Against Medical Advice,Other,Medicare,0,0
+84,17,12,0,11,22,1,4,10,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+35,1,10,1,7,4,3,6,46,Normal,Against Medical Advice,Musculoskeletal,Medicare,0,1
+51,18,9,7,24,19,1,8,76,Normal,Skilled Nursing Facility,Diabetes,Private,0,0
+25,3,10,5,22,2,2,0,0,Not Tested,Home,Musculoskeletal,Medicaid,1,0
+57,1,9,1,19,7,2,2,95,Abnormal,Home,Respiratory,Medicare,1,1
+59,1,2,6,10,9,0,5,97,Not Tested,Home,Circulatory,Medicare,1,1
+58,1,4,3,9,28,2,6,95,Not Tested,Home,Diabetes,Medicare,1,1
+23,12,7,1,4,19,0,5,16,Abnormal,Home,Respiratory,Medicaid,0,0
+69,2,12,5,23,16,0,0,26,Abnormal,Home,Circulatory,Medicare,0,1
+43,2,2,8,15,22,1,3,25,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+81,1,1,8,13,25,2,5,289,Abnormal,Home,Respiratory,Medicare,1,1
+76,1,3,7,2,16,3,7,6,Normal,Home,Musculoskeletal,Medicare,1,1
+73,3,12,2,2,18,2,9,50,Abnormal,Home,Respiratory,Private,0,0
+76,1,4,2,16,23,1,3,184,Abnormal,Home,Diabetes,Medicare,1,1
+87,9,8,1,9,21,1,6,132,Normal,Skilled Nursing Facility,Other,Medicare,0,0
+50,2,6,4,13,21,2,10,155,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+70,2,11,3,3,11,0,2,322,Not Tested,Home,Circulatory,Self-Pay,0,0
+39,3,2,6,9,7,2,7,44,Abnormal,Home,Other,Private,1,1
+38,2,9,3,13,9,3,0,33,Abnormal,Home,Respiratory,Medicare,1,1
+87,26,14,8,21,4,2,3,2,Normal,Home,Circulatory,Medicare,1,0
+87,3,2,1,22,25,2,7,14,Not Tested,Home,Diabetes,Private,1,1
+21,1,13,5,2,13,0,9,74,Abnormal,Against Medical Advice,Other,Medicare,0,1
+92,4,12,6,8,27,0,3,15,Not Tested,Home,Other,Self-Pay,1,1
+79,1,5,3,9,26,2,1,119,Not Tested,Home,Circulatory,Medicare,1,1
+79,1,12,5,16,25,0,1,3,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+41,17,4,6,2,29,5,3,27,Normal,Home,Musculoskeletal,Medicaid,1,0
+72,7,13,3,6,4,0,3,107,Normal,Home,Respiratory,Medicaid,0,0
+26,19,7,7,22,19,0,1,26,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+20,3,8,8,8,2,2,6,117,Not Tested,Home,Respiratory,Private,0,0
+48,3,5,0,5,9,2,5,365,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,1
+57,1,10,6,9,12,0,10,143,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,0,1
+53,1,14,8,1,2,1,2,37,Abnormal,Skilled Nursing Facility,Circulatory,Private,1,0
+41,9,14,9,9,6,2,7,207,Normal,Against Medical Advice,Respiratory,Medicaid,1,1
+23,2,5,4,10,5,2,7,4,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,0
+83,8,2,1,23,5,2,0,116,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+92,6,8,9,4,20,1,2,2,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+21,1,14,5,3,22,4,4,17,Normal,Against Medical Advice,Respiratory,Private,1,0
+23,3,2,6,10,5,4,1,365,Abnormal,Against Medical Advice,Diabetes,Medicare,1,1
+68,5,10,1,15,27,0,4,40,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+79,1,12,1,11,4,1,10,154,Normal,Home,Other,Private,1,1
+74,8,6,9,14,29,0,9,42,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+83,3,8,9,6,9,1,2,164,Normal,Home,Respiratory,Medicaid,1,1
+92,1,6,0,12,29,2,8,302,Normal,Home,Circulatory,Private,0,1
+25,4,4,3,13,22,3,10,51,Not Tested,Home,Circulatory,Medicare,1,0
+43,30,13,6,17,27,0,0,73,Not Tested,Against Medical Advice,Other,Medicare,1,1
+68,1,4,8,16,10,1,3,89,Not Tested,Home,Respiratory,Medicaid,1,0
+62,8,6,2,3,16,4,9,245,Not Tested,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+61,1,14,6,2,10,2,5,26,Abnormal,Home,Circulatory,Medicaid,0,1
+22,7,13,6,11,29,2,8,85,Not Tested,Home,Diabetes,Medicare,1,0
+87,6,4,6,9,10,4,2,35,Not Tested,Home,Other,Medicare,1,1
+43,1,8,1,3,29,1,2,22,Abnormal,Skilled Nursing Facility,Circulatory,Private,0,0
+85,1,9,5,18,19,2,4,7,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+36,7,1,1,20,10,2,6,87,Not Tested,Home,Other,Private,1,1
+37,3,13,5,15,6,3,4,192,Not Tested,Home,Musculoskeletal,Medicaid,0,0
+29,6,4,9,14,17,0,10,38,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+64,1,4,2,2,5,1,7,72,Normal,Home,Respiratory,Self-Pay,1,1
+18,9,2,1,17,26,1,4,92,Not Tested,Home,Circulatory,Medicare,1,0
+31,6,6,5,22,6,2,6,48,Not Tested,Home,Other,Medicare,1,0
+81,11,3,1,8,27,0,5,210,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,0,1
+55,1,7,4,10,24,2,9,40,Abnormal,Home,Other,Medicare,0,1
+54,4,13,1,18,27,2,1,12,Normal,Home,Circulatory,Medicaid,1,1
+28,4,11,2,19,15,1,2,13,Abnormal,Against Medical Advice,Respiratory,Self-Pay,0,1
+94,2,11,2,8,25,2,10,199,Not Tested,Skilled Nursing Facility,Circulatory,Private,1,1
+20,3,5,5,8,27,2,10,365,Normal,Home,Respiratory,Medicaid,1,0
+50,1,4,5,3,19,1,3,30,Abnormal,Home,Circulatory,Private,1,0
+23,6,5,9,3,18,2,4,13,Not Tested,Home,Respiratory,Medicare,1,0
+67,3,8,2,12,29,1,8,59,Normal,Home,Musculoskeletal,Medicaid,0,0
+27,1,3,2,22,4,2,5,111,Not Tested,Home,Circulatory,Medicare,0,0
+22,5,14,0,17,8,0,0,85,Abnormal,Home,Respiratory,Medicare,1,0
+40,3,7,6,4,27,0,2,271,Not Tested,Home,Other,Medicare,1,0
+27,1,14,7,17,16,0,6,153,Not Tested,Against Medical Advice,Other,Private,0,0
+61,17,6,1,14,24,0,7,182,Abnormal,Against Medical Advice,Circulatory,Private,1,1
+19,14,12,3,19,19,1,6,70,Not Tested,Home,Other,Medicaid,1,0
+30,3,1,9,9,20,3,4,35,Not Tested,Home,Circulatory,Medicare,0,1
+57,1,13,6,21,3,1,9,108,Not Tested,Home,Respiratory,Medicare,1,1
+19,7,7,7,12,10,2,7,52,Abnormal,Home,Other,Self-Pay,1,0
+82,3,14,0,5,2,0,8,30,Abnormal,Home,Musculoskeletal,Medicaid,1,0
+80,1,13,3,11,4,1,6,14,Normal,Against Medical Advice,Other,Medicaid,1,1
+90,3,7,5,20,6,2,10,67,Normal,Skilled Nursing Facility,Musculoskeletal,Self-Pay,0,1
+34,3,14,2,3,11,0,8,81,Abnormal,Home,Circulatory,Medicaid,1,0
+26,4,12,4,21,14,2,0,75,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,0
+92,2,1,9,15,16,2,8,11,Not Tested,Home,Respiratory,Medicare,1,1
+32,4,9,8,14,27,0,2,75,Abnormal,Home,Respiratory,Medicare,0,0
+41,12,6,2,11,21,1,5,16,Not Tested,Home,Circulatory,Medicaid,1,1
+55,2,12,4,20,19,2,7,98,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,0,1
+52,6,2,7,8,2,3,2,50,Normal,Skilled Nursing Facility,Other,Medicaid,0,0
+66,11,5,5,4,25,2,3,170,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+86,3,13,3,12,17,1,6,135,Not Tested,Home,Diabetes,Medicare,0,1
+79,2,11,7,8,9,0,6,115,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+77,4,4,2,6,17,0,3,108,Normal,Against Medical Advice,Musculoskeletal,Medicare,0,0
+67,4,7,2,15,15,2,8,73,Not Tested,Home,Diabetes,Private,0,1
+92,8,8,3,12,7,1,2,5,Normal,Home,Other,Medicare,0,1
+26,3,11,8,16,22,1,7,95,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+51,27,14,4,16,23,1,7,56,Not Tested,Against Medical Advice,Respiratory,Medicare,1,0
+93,1,11,7,21,19,1,3,57,Abnormal,Home,Other,Medicare,1,1
+52,1,1,5,20,3,1,6,42,Not Tested,Home,Other,Medicare,0,1
+18,5,5,2,20,29,0,3,238,Abnormal,Home,Respiratory,Self-Pay,0,0
+57,1,3,7,4,27,3,0,25,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,1
+81,1,1,8,11,1,2,0,34,Not Tested,Against Medical Advice,Musculoskeletal,Private,0,1
+39,1,12,7,13,4,2,0,296,Normal,Home,Diabetes,Medicare,0,0
+77,1,3,3,9,28,1,1,149,Abnormal,Home,Musculoskeletal,Medicare,0,1
+81,1,14,5,4,18,0,5,1,Abnormal,Against Medical Advice,Respiratory,Private,1,0
+89,17,6,0,12,26,2,9,212,Normal,Home,Circulatory,Medicaid,1,0
+28,1,14,3,9,8,2,10,23,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+31,6,7,7,13,19,2,4,110,Abnormal,Home,Diabetes,Medicare,0,1
+77,7,8,0,16,23,3,10,72,Abnormal,Home,Circulatory,Medicare,0,0
+47,13,13,2,6,23,3,1,69,Normal,Home,Circulatory,Medicaid,0,1
+52,1,11,0,10,28,1,7,113,Abnormal,Home,Respiratory,Private,0,1
+54,10,4,8,13,25,0,8,20,Not Tested,Against Medical Advice,Respiratory,Medicare,0,1
+22,3,3,1,7,6,0,6,15,Abnormal,Against Medical Advice,Circulatory,Self-Pay,0,0
+43,5,5,8,19,1,4,8,94,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,1
+79,5,9,3,24,8,2,3,30,Not Tested,Home,Other,Medicaid,1,1
+21,8,13,1,19,1,2,6,328,Normal,Home,Circulatory,Medicare,1,0
+59,2,6,3,17,19,2,4,54,Abnormal,Home,Respiratory,Medicare,1,1
+35,6,9,9,13,11,1,4,10,Normal,Against Medical Advice,Respiratory,Medicare,1,1
+57,3,6,5,13,21,0,2,104,Normal,Home,Other,Medicare,1,0
+89,7,2,6,21,24,4,8,32,Normal,Against Medical Advice,Respiratory,Self-Pay,1,1
+56,23,13,2,2,25,3,9,14,Not Tested,Against Medical Advice,Circulatory,Private,1,1
+31,1,5,2,10,15,4,4,49,Not Tested,Home,Circulatory,Private,1,1
+49,26,12,9,22,23,2,5,299,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+68,1,11,7,13,25,2,2,47,Normal,Against Medical Advice,Musculoskeletal,Self-Pay,0,1
+55,1,9,4,9,11,1,9,38,Normal,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+40,1,8,3,1,19,2,6,52,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,1
+80,2,7,6,14,29,1,8,1,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+32,5,1,6,16,21,4,8,12,Abnormal,Home,Diabetes,Medicare,0,1
+42,1,4,8,20,10,2,9,170,Abnormal,Home,Musculoskeletal,Self-Pay,1,1
+34,1,12,8,15,24,4,9,343,Not Tested,Home,Circulatory,Medicare,1,1
+83,13,7,4,1,12,1,4,15,Normal,Home,Diabetes,Private,1,0
+70,8,11,7,17,1,1,6,69,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+68,8,7,9,24,24,0,2,305,Normal,Home,Diabetes,Medicaid,1,1
+56,10,6,0,13,7,0,5,15,Abnormal,Home,Diabetes,Private,1,0
+68,6,8,8,15,17,0,7,18,Not Tested,Home,Other,Medicaid,1,1
+87,1,11,7,16,29,3,7,235,Normal,Against Medical Advice,Respiratory,Private,0,1
+23,2,13,5,16,29,2,1,110,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+84,6,6,2,2,26,2,5,14,Not Tested,Home,Circulatory,Medicare,1,1
+24,1,10,2,17,28,2,6,45,Normal,Against Medical Advice,Circulatory,Medicare,1,0
+68,5,3,7,11,10,0,6,5,Normal,Home,Circulatory,Medicaid,0,1
+89,1,4,4,8,28,0,2,51,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,0
+59,1,14,9,20,6,1,8,135,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+81,3,3,6,3,17,1,1,72,Abnormal,Against Medical Advice,Other,Medicaid,0,1
+32,4,1,4,12,18,2,10,93,Not Tested,Skilled Nursing Facility,Diabetes,Private,1,0
+46,4,10,7,20,5,1,2,35,Not Tested,Home,Circulatory,Medicare,1,1
+50,5,5,9,16,18,1,10,15,Normal,Home,Circulatory,Private,1,0
+44,1,1,9,14,26,0,1,1,Abnormal,Home,Respiratory,Self-Pay,0,1
+53,1,1,3,16,17,3,10,154,Abnormal,Home,Respiratory,Medicare,1,0
+46,10,2,1,21,22,2,8,91,Not Tested,Home,Circulatory,Medicare,1,0
+55,5,13,2,17,16,3,3,23,Not Tested,Home,Respiratory,Medicare,0,0
+74,1,4,7,11,8,2,1,48,Abnormal,Home,Other,Private,0,0
+44,9,6,6,17,24,1,2,145,Abnormal,Home,Diabetes,Medicare,0,0
+72,1,8,1,19,13,1,3,69,Normal,Home,Diabetes,Private,1,1
+50,3,13,5,22,29,3,9,32,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+85,1,3,8,1,24,3,5,27,Abnormal,Home,Circulatory,Private,0,0
+83,6,1,3,12,16,0,4,22,Abnormal,Against Medical Advice,Circulatory,Private,0,1
+27,5,3,8,15,11,2,2,156,Abnormal,Home,Respiratory,Self-Pay,0,0
+22,1,12,1,18,6,2,9,78,Abnormal,Home,Musculoskeletal,Medicare,0,1
+91,9,3,1,23,27,0,7,111,Not Tested,Home,Respiratory,Medicare,0,1
+55,2,5,8,14,3,2,7,177,Not Tested,Home,Circulatory,Medicare,1,0
+30,1,11,6,1,1,3,6,365,Not Tested,Home,Other,Medicare,1,1
+48,1,12,6,13,18,1,2,25,Normal,Against Medical Advice,Respiratory,Medicaid,1,1
+64,1,12,0,15,5,2,0,17,Not Tested,Home,Musculoskeletal,Self-Pay,1,0
+69,1,4,5,7,13,3,4,55,Not Tested,Home,Other,Private,0,1
+73,4,13,6,15,10,2,0,3,Normal,Home,Respiratory,Medicare,1,0
+32,9,4,5,20,5,1,5,141,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,0,0
+46,3,9,5,10,26,1,10,193,Not Tested,Home,Musculoskeletal,Medicare,0,1
+25,1,7,1,14,14,2,6,104,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+22,1,4,5,6,17,3,4,28,Abnormal,Home,Circulatory,Private,0,1
+46,1,3,3,14,1,1,3,11,Normal,Home,Other,Self-Pay,0,0
+64,2,6,8,24,25,2,1,43,Abnormal,Home,Circulatory,Medicare,0,1
+85,7,3,0,22,2,2,4,161,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,0,0
+93,1,6,7,12,7,2,8,38,Normal,Skilled Nursing Facility,Respiratory,Private,0,1
+62,6,11,4,11,10,3,3,3,Abnormal,Home,Circulatory,Medicare,0,0
+19,10,13,0,20,20,2,1,28,Normal,Home,Circulatory,Medicare,0,0
+44,3,11,3,22,7,2,5,365,Not Tested,Home,Respiratory,Private,1,1
+53,8,13,0,24,24,1,7,101,Not Tested,Home,Respiratory,Private,1,0
+53,4,13,5,19,16,0,1,208,Abnormal,Home,Circulatory,Medicare,1,0
+43,5,12,1,2,5,0,8,134,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+60,3,9,4,22,29,1,6,69,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+44,3,6,6,20,28,5,1,14,Normal,Home,Respiratory,Private,0,1
+86,1,12,1,1,12,3,10,38,Not Tested,Against Medical Advice,Respiratory,Medicaid,0,1
+37,1,4,5,8,17,4,4,78,Normal,Against Medical Advice,Other,Medicare,1,1
+28,1,5,5,14,16,1,4,184,Normal,Home,Diabetes,Private,0,0
+91,4,13,4,9,20,1,6,28,Abnormal,Home,Circulatory,Medicaid,0,1
+55,1,6,4,2,26,2,4,11,Abnormal,Against Medical Advice,Diabetes,Private,0,1
+23,12,11,2,23,16,0,10,73,Abnormal,Home,Musculoskeletal,Self-Pay,0,1
+89,6,3,9,5,19,1,5,17,Normal,Home,Circulatory,Private,1,1
+40,2,8,9,23,26,1,8,84,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,1,0
+64,1,4,1,8,15,1,2,27,Abnormal,Home,Respiratory,Self-Pay,0,1
+63,10,8,6,16,12,1,2,23,Normal,Skilled Nursing Facility,Other,Medicaid,1,0
+29,8,10,0,22,21,2,7,45,Abnormal,Home,Respiratory,Private,1,1
+30,6,10,5,16,10,3,9,80,Normal,Home,Musculoskeletal,Medicaid,0,0
+79,1,3,5,13,29,0,5,70,Abnormal,Home,Respiratory,Medicaid,0,0
+77,2,10,2,20,26,1,9,25,Abnormal,Home,Musculoskeletal,Medicare,1,0
+60,1,7,1,15,29,2,2,199,Not Tested,Home,Respiratory,Medicare,1,1
+93,1,11,1,1,22,1,1,10,Normal,Home,Respiratory,Medicare,1,1
+85,7,13,8,22,2,2,1,3,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+22,6,12,4,3,7,1,1,83,Normal,Home,Other,Medicare,0,0
+54,4,9,6,6,13,3,4,11,Normal,Home,Circulatory,Self-Pay,1,1
+89,11,4,4,22,3,3,4,63,Normal,Home,Circulatory,Medicaid,0,1
+48,4,8,6,14,15,2,0,272,Normal,Home,Musculoskeletal,Medicare,0,1
+26,3,3,3,4,1,0,1,107,Normal,Home,Diabetes,Medicaid,0,0
+68,2,7,7,18,26,1,1,86,Abnormal,Home,Circulatory,Medicare,0,1
+46,14,3,9,15,3,3,3,76,Abnormal,Against Medical Advice,Circulatory,Private,1,0
+57,1,12,9,9,25,1,6,17,Normal,Home,Respiratory,Medicare,0,0
+58,13,7,6,18,10,1,2,51,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+28,8,14,9,3,27,1,4,37,Normal,Home,Musculoskeletal,Private,0,0
+40,1,11,4,10,27,2,10,275,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+18,4,10,5,17,15,2,8,24,Abnormal,Home,Other,Private,1,1
+63,10,10,4,7,22,3,4,57,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+38,4,11,6,15,27,1,8,250,Normal,Home,Circulatory,Medicare,0,0
+53,11,11,1,1,6,2,0,140,Normal,Home,Diabetes,Medicaid,0,1
+71,14,6,4,11,20,1,8,300,Not Tested,Home,Diabetes,Medicare,0,1
+74,2,2,9,17,15,2,4,84,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,1
+18,2,11,2,5,24,2,7,36,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+80,13,3,8,7,21,2,4,157,Abnormal,Home,Musculoskeletal,Private,0,1
+71,5,6,5,19,7,0,5,31,Normal,Home,Circulatory,Private,1,1
+72,1,14,9,24,25,1,7,16,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+57,1,4,2,15,29,0,1,110,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+32,4,6,6,3,29,1,2,91,Not Tested,Home,Musculoskeletal,Self-Pay,1,0
+38,13,1,3,15,21,3,10,190,Abnormal,Against Medical Advice,Circulatory,Medicare,1,0
+64,9,10,2,5,27,2,8,294,Not Tested,Home,Musculoskeletal,Medicaid,0,1
+90,5,12,7,23,5,1,4,175,Abnormal,Home,Diabetes,Medicaid,0,1
+70,1,1,3,12,4,2,4,5,Normal,Home,Musculoskeletal,Private,1,1
+26,1,3,0,20,22,2,8,98,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,1,1
+91,10,8,5,5,18,2,9,138,Not Tested,Home,Respiratory,Self-Pay,1,1
+69,1,8,9,3,3,0,2,361,Not Tested,Home,Other,Medicare,0,0
+74,1,11,0,9,17,1,3,42,Not Tested,Home,Musculoskeletal,Medicare,1,0
+43,1,4,4,9,18,1,6,16,Normal,Home,Respiratory,Medicare,1,0
+58,5,6,6,7,18,1,1,172,Normal,Home,Diabetes,Medicare,1,1
+52,14,8,5,2,24,1,7,34,Normal,Home,Diabetes,Medicare,1,0
+80,1,7,1,23,24,0,4,82,Abnormal,Against Medical Advice,Respiratory,Self-Pay,1,1
+42,3,11,3,23,2,0,0,44,Not Tested,Home,Respiratory,Medicare,1,0
+92,5,7,1,21,13,1,2,46,Not Tested,Home,Respiratory,Private,1,0
+55,30,13,0,16,22,1,8,118,Not Tested,Skilled Nursing Facility,Other,Medicare,1,1
+19,1,4,2,9,15,0,4,40,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+24,3,9,2,13,5,3,7,106,Abnormal,Home,Circulatory,Medicare,0,1
+51,2,12,6,19,3,2,0,1,Not Tested,Home,Diabetes,Medicaid,1,0
+34,10,10,0,20,5,2,6,35,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+60,3,6,8,17,5,1,6,34,Abnormal,Home,Circulatory,Private,0,1
+76,1,14,5,6,5,0,7,124,Not Tested,Home,Respiratory,Medicaid,1,0
+68,5,12,3,4,3,2,2,33,Abnormal,Home,Diabetes,Medicaid,1,1
+71,7,11,2,1,3,0,0,90,Not Tested,Skilled Nursing Facility,Other,Medicare,0,1
+41,1,3,2,18,20,1,10,104,Abnormal,Home,Other,Self-Pay,1,0
+42,9,5,1,19,23,1,8,96,Normal,Against Medical Advice,Circulatory,Self-Pay,0,1
+88,1,5,1,9,28,2,0,83,Abnormal,Home,Diabetes,Medicare,1,1
+69,4,14,9,13,28,1,10,48,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+87,2,5,4,8,28,0,5,42,Abnormal,Home,Circulatory,Private,0,1
+50,6,8,8,23,18,2,8,74,Normal,Home,Musculoskeletal,Private,0,0
+66,2,9,1,13,26,0,1,5,Not Tested,Home,Other,Medicaid,0,0
+46,10,13,1,15,20,2,3,187,Not Tested,Home,Diabetes,Medicare,0,0
+80,6,9,5,11,4,2,1,157,Normal,Home,Respiratory,Private,1,0
+39,5,13,9,12,1,0,3,38,Normal,Skilled Nursing Facility,Other,Medicare,0,0
+43,7,6,1,14,26,2,1,75,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+45,7,6,3,4,16,1,0,242,Not Tested,Home,Musculoskeletal,Medicare,0,0
+66,1,9,5,1,8,1,10,28,Normal,Home,Respiratory,Medicare,1,1
+88,2,4,4,24,17,0,2,122,Normal,Home,Musculoskeletal,Self-Pay,1,1
+66,13,6,0,4,8,4,7,7,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+37,1,4,5,19,7,2,4,66,Abnormal,Home,Circulatory,Private,0,0
+80,6,11,0,9,25,3,3,193,Normal,Skilled Nursing Facility,Diabetes,Medicaid,1,1
+78,18,1,2,10,8,2,4,72,Not Tested,Home,Other,Private,1,1
+66,1,7,9,4,21,3,5,86,Not Tested,Home,Musculoskeletal,Medicaid,0,1
+88,5,14,4,20,24,2,5,214,Normal,Home,Musculoskeletal,Medicare,1,1
+18,3,10,9,9,27,0,4,113,Abnormal,Home,Respiratory,Private,1,0
+30,4,11,4,13,26,2,10,107,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+68,1,12,9,12,12,1,5,79,Normal,Skilled Nursing Facility,Other,Medicaid,0,1
+73,1,6,5,11,16,1,8,90,Normal,Skilled Nursing Facility,Diabetes,Medicaid,1,1
+79,5,9,9,12,12,3,4,146,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+49,8,7,7,18,19,0,5,348,Not Tested,Home,Respiratory,Medicare,0,0
+47,7,13,4,12,10,3,3,142,Abnormal,Home,Musculoskeletal,Private,0,1
+46,3,7,0,16,7,2,2,110,Normal,Skilled Nursing Facility,Other,Medicare,1,1
+66,1,2,4,5,12,1,5,13,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+62,5,12,2,20,20,2,10,152,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+47,1,11,3,12,5,2,10,119,Normal,Home,Circulatory,Medicare,1,1
+33,12,9,7,21,16,2,4,132,Normal,Home,Other,Private,1,0
+57,9,10,6,11,9,0,3,23,Abnormal,Home,Diabetes,Private,1,0
+36,6,9,4,9,7,1,4,210,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+35,14,6,1,18,20,0,6,9,Normal,Against Medical Advice,Respiratory,Medicaid,1,1
+18,1,13,5,3,22,1,0,26,Abnormal,Home,Musculoskeletal,Medicare,1,0
+64,6,3,5,20,26,3,0,97,Normal,Home,Diabetes,Medicaid,1,1
+83,2,1,9,17,14,1,10,100,Abnormal,Home,Circulatory,Medicaid,0,1
+55,11,4,9,14,11,3,0,33,Abnormal,Home,Other,Medicare,1,1
+68,1,14,5,1,7,0,1,108,Not Tested,Home,Respiratory,Medicare,1,0
+80,6,14,8,17,29,1,8,44,Abnormal,Against Medical Advice,Respiratory,Medicaid,1,1
+21,10,3,7,8,10,1,4,0,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+18,1,14,7,5,29,4,8,15,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+25,2,12,0,5,9,4,4,192,Normal,Home,Diabetes,Self-Pay,0,0
+46,7,1,4,9,4,1,6,22,Abnormal,Home,Circulatory,Medicare,0,1
+72,3,3,6,3,16,1,5,10,Not Tested,Against Medical Advice,Musculoskeletal,Medicaid,1,1
+20,1,14,5,19,10,3,1,103,Abnormal,Home,Respiratory,Medicare,1,1
+49,1,14,4,23,19,1,2,52,Not Tested,Against Medical Advice,Respiratory,Private,0,0
+27,1,4,7,9,24,1,4,143,Normal,Skilled Nursing Facility,Diabetes,Medicare,1,1
+91,9,13,2,22,17,2,3,177,Abnormal,Home,Musculoskeletal,Medicare,1,1
+51,4,13,5,18,9,1,10,168,Normal,Home,Circulatory,Medicaid,1,1
+72,1,14,4,16,13,2,5,33,Normal,Home,Other,Private,0,0
+49,2,8,7,1,1,0,7,63,Abnormal,Home,Diabetes,Private,1,1
+67,2,9,3,2,2,1,7,94,Not Tested,Home,Circulatory,Medicare,1,1
+24,1,3,7,14,13,1,2,34,Abnormal,Skilled Nursing Facility,Respiratory,Private,1,0
+25,2,6,9,14,24,0,3,3,Abnormal,Skilled Nursing Facility,Respiratory,Private,0,1
+82,2,10,1,1,9,1,0,61,Not Tested,Home,Musculoskeletal,Self-Pay,0,1
+74,2,11,8,16,7,1,1,1,Normal,Home,Respiratory,Self-Pay,1,1
+84,6,5,8,15,16,0,8,270,Not Tested,Home,Respiratory,Medicaid,0,1
+76,1,6,9,15,19,3,9,143,Normal,Home,Circulatory,Private,1,1
+89,5,4,9,12,7,2,9,19,Normal,Home,Circulatory,Medicaid,0,1
+71,4,10,5,16,6,2,1,30,Normal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,0
+84,4,6,3,14,18,2,5,365,Normal,Home,Diabetes,Medicare,0,1
+68,5,7,3,24,19,1,6,42,Not Tested,Home,Circulatory,Medicare,0,1
+25,3,9,5,15,11,2,5,137,Not Tested,Home,Circulatory,Medicare,0,0
+51,10,10,4,23,29,2,7,53,Normal,Home,Respiratory,Self-Pay,1,0
+52,5,7,5,15,12,3,8,179,Normal,Home,Musculoskeletal,Medicare,0,1
+49,3,6,6,19,29,1,7,109,Normal,Home,Musculoskeletal,Medicare,1,1
+63,8,1,6,8,26,3,4,2,Abnormal,Home,Circulatory,Medicare,0,1
+33,4,2,8,2,10,1,7,31,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+85,1,1,7,2,13,2,9,73,Abnormal,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+54,1,9,5,10,12,1,9,234,Not Tested,Skilled Nursing Facility,Other,Medicaid,1,1
+71,1,10,5,3,21,0,8,9,Abnormal,Home,Diabetes,Medicare,1,1
+31,11,10,4,23,10,2,7,82,Not Tested,Home,Circulatory,Self-Pay,1,0
+72,6,9,0,17,20,2,1,32,Normal,Home,Respiratory,Medicare,1,1
+65,13,7,8,8,18,0,1,198,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,1,1
+24,4,13,8,23,4,3,2,130,Normal,Home,Diabetes,Medicare,1,1
+91,3,2,8,4,28,0,6,41,Normal,Home,Circulatory,Private,1,1
+24,1,6,7,14,24,0,8,16,Not Tested,Home,Respiratory,Medicare,0,1
+50,5,11,9,21,5,2,7,1,Not Tested,Against Medical Advice,Diabetes,Self-Pay,1,1
+40,4,4,2,10,5,4,8,87,Not Tested,Against Medical Advice,Circulatory,Medicare,0,1
+36,23,1,0,1,29,1,5,46,Normal,Home,Diabetes,Medicare,0,0
+36,1,1,7,4,28,3,0,34,Not Tested,Skilled Nursing Facility,Respiratory,Private,0,1
+53,3,12,6,1,12,3,3,365,Normal,Home,Musculoskeletal,Medicare,1,0
+46,5,5,4,17,26,2,5,56,Normal,Home,Circulatory,Private,1,0
+77,5,12,9,17,3,1,5,124,Normal,Home,Other,Private,0,1
+19,4,2,6,7,29,3,7,17,Not Tested,Home,Circulatory,Medicaid,0,1
+18,7,4,9,23,8,4,0,1,Abnormal,Home,Circulatory,Medicare,0,0
+64,1,1,3,20,22,2,10,48,Abnormal,Against Medical Advice,Musculoskeletal,Self-Pay,0,1
+86,6,4,8,15,2,2,1,98,Normal,Skilled Nursing Facility,Other,Private,0,0
+37,4,11,9,13,18,3,1,63,Normal,Home,Circulatory,Medicare,1,1
+28,11,6,1,2,9,0,5,199,Normal,Home,Other,Medicare,0,0
+19,9,10,8,19,13,1,10,51,Abnormal,Home,Circulatory,Medicare,0,1
+84,1,4,8,24,7,1,6,33,Abnormal,Home,Diabetes,Medicare,1,1
+29,1,1,4,13,10,1,1,222,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+37,19,7,0,24,9,2,4,47,Not Tested,Home,Respiratory,Private,0,1
+22,3,14,6,11,22,4,5,28,Normal,Home,Respiratory,Private,0,1
+54,11,2,9,22,15,2,3,9,Normal,Home,Diabetes,Private,0,1
+55,1,9,9,15,5,2,0,141,Abnormal,Home,Diabetes,Medicare,1,1
+26,5,13,3,10,12,0,2,156,Abnormal,Home,Respiratory,Medicare,0,0
+70,8,3,8,9,1,4,9,3,Abnormal,Against Medical Advice,Other,Private,0,1
+61,14,8,5,9,12,2,8,39,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,1
+41,2,13,2,20,22,1,5,124,Abnormal,Home,Circulatory,Medicaid,1,1
+91,6,8,5,1,6,0,1,263,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+47,3,3,9,17,19,2,8,42,Normal,Against Medical Advice,Circulatory,Medicaid,0,1
+76,1,4,5,12,19,4,3,185,Not Tested,Home,Respiratory,Medicare,1,1
+31,5,2,4,10,16,0,10,45,Not Tested,Home,Respiratory,Medicare,0,1
+26,5,4,1,5,19,0,7,17,Normal,Home,Respiratory,Medicaid,1,0
+57,13,11,9,18,3,2,9,0,Normal,Home,Other,Medicare,0,1
+83,3,11,9,15,23,0,6,36,Abnormal,Skilled Nursing Facility,Circulatory,Self-Pay,1,1
+42,1,11,1,6,10,1,10,42,Abnormal,Home,Circulatory,Medicare,1,1
+90,1,14,6,7,27,2,2,261,Normal,Home,Circulatory,Medicaid,0,1
+39,2,9,1,17,18,1,7,20,Abnormal,Home,Circulatory,Private,1,1
+21,1,2,5,6,26,1,3,43,Normal,Home,Respiratory,Medicare,0,0
+43,7,12,4,8,13,0,1,2,Not Tested,Home,Diabetes,Private,1,0
+75,2,12,3,12,26,0,10,129,Normal,Skilled Nursing Facility,Musculoskeletal,Private,0,1
+46,14,13,6,21,18,0,4,222,Not Tested,Home,Musculoskeletal,Self-Pay,1,0
+54,16,3,7,14,3,0,0,24,Abnormal,Home,Circulatory,Medicare,1,1
+92,4,11,3,12,26,2,7,50,Normal,Home,Circulatory,Medicare,1,1
+87,13,11,0,23,28,5,7,11,Abnormal,Against Medical Advice,Other,Medicare,0,1
+35,7,4,0,10,23,2,2,54,Normal,Home,Circulatory,Private,1,1
+59,3,5,0,22,3,1,0,12,Abnormal,Home,Other,Medicaid,1,1
+58,1,1,0,20,23,4,3,66,Abnormal,Home,Musculoskeletal,Medicare,0,1
+55,3,7,4,15,25,0,8,119,Normal,Home,Other,Medicare,1,1
+51,4,14,3,7,27,1,8,72,Normal,Home,Respiratory,Medicare,0,1
+34,9,10,8,9,26,0,0,25,Not Tested,Home,Circulatory,Private,0,0
+54,3,7,2,10,12,2,10,39,Normal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+42,11,9,6,10,27,0,6,91,Abnormal,Home,Musculoskeletal,Medicare,1,0
+93,5,4,7,16,20,0,5,80,Normal,Home,Circulatory,Medicare,0,1
+44,1,14,5,7,7,4,6,13,Not Tested,Skilled Nursing Facility,Musculoskeletal,Private,1,0
+74,26,14,9,5,25,3,6,167,Abnormal,Home,Circulatory,Private,1,1
+48,3,6,0,23,24,2,7,58,Abnormal,Home,Respiratory,Medicaid,0,1
+23,2,11,7,3,8,3,7,15,Normal,Home,Other,Medicare,1,0
+57,5,2,9,18,9,1,9,11,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+29,1,12,2,11,14,1,10,303,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+70,5,12,7,15,5,0,1,29,Normal,Home,Circulatory,Medicaid,0,1
+88,3,14,3,21,21,0,3,215,Abnormal,Home,Circulatory,Medicaid,0,1
+27,2,4,7,20,19,1,3,47,Abnormal,Skilled Nursing Facility,Circulatory,Self-Pay,0,1
+62,15,2,0,5,21,1,10,43,Abnormal,Home,Circulatory,Self-Pay,0,1
+34,3,10,2,24,16,0,9,108,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+43,1,5,5,12,24,1,7,0,Normal,Home,Musculoskeletal,Medicare,1,1
+79,3,7,8,4,12,2,2,37,Normal,Against Medical Advice,Other,Medicare,1,0
+63,12,13,1,15,21,0,2,32,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,1,0
+81,1,1,0,9,4,2,1,182,Abnormal,Home,Circulatory,Medicaid,1,0
+19,1,10,9,7,8,1,0,67,Abnormal,Home,Circulatory,Private,1,0
+71,1,10,2,10,7,2,7,40,Normal,Home,Musculoskeletal,Medicare,0,1
+82,1,7,3,23,15,1,8,27,Abnormal,Home,Diabetes,Private,1,1
+68,8,10,4,13,6,2,8,80,Normal,Skilled Nursing Facility,Other,Medicaid,0,1
+70,6,13,2,8,5,0,10,14,Not Tested,Home,Circulatory,Self-Pay,1,1
+53,2,6,9,12,14,1,7,25,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,0,1
+43,5,6,1,22,21,1,4,31,Normal,Home,Diabetes,Private,0,0
+46,2,12,1,24,13,4,0,84,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+38,15,8,6,19,10,1,8,42,Abnormal,Home,Diabetes,Private,0,1
+28,17,8,8,1,18,2,5,63,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,0,1
+57,2,6,9,16,29,1,6,94,Normal,Home,Diabetes,Medicaid,1,1
+28,9,3,1,22,4,1,7,281,Normal,Home,Musculoskeletal,Medicare,1,1
+53,7,5,6,17,8,1,4,130,Normal,Home,Circulatory,Medicare,0,1
+76,1,2,6,18,24,3,5,46,Normal,Home,Circulatory,Medicare,1,1
+56,1,14,6,11,11,1,6,124,Not Tested,Home,Respiratory,Medicare,1,1
+71,3,5,2,18,17,1,6,269,Not Tested,Home,Circulatory,Medicare,1,1
+72,7,14,6,7,18,0,1,62,Abnormal,Against Medical Advice,Respiratory,Self-Pay,1,1
+41,16,9,0,18,21,1,10,47,Not Tested,Home,Other,Medicare,1,0
+39,7,10,9,8,25,1,0,7,Normal,Skilled Nursing Facility,Diabetes,Private,1,0
+86,9,1,0,6,26,2,7,200,Not Tested,Home,Diabetes,Medicare,1,1
+73,4,10,4,7,11,2,4,25,Not Tested,Home,Diabetes,Medicaid,1,1
+50,9,5,1,23,16,1,9,5,Abnormal,Home,Musculoskeletal,Medicare,1,1
+53,7,12,8,22,12,3,1,69,Normal,Skilled Nursing Facility,Other,Medicare,0,0
+37,2,6,6,10,13,0,2,168,Not Tested,Home,Diabetes,Medicare,1,1
+79,4,14,3,11,27,0,5,46,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+90,8,11,3,13,16,1,9,137,Not Tested,Home,Respiratory,Medicare,1,1
+43,1,7,1,9,23,3,5,162,Normal,Skilled Nursing Facility,Respiratory,Self-Pay,0,0
+83,8,9,4,7,26,1,7,54,Abnormal,Home,Respiratory,Medicare,1,0
+90,1,6,3,9,21,4,4,80,Abnormal,Home,Respiratory,Private,0,0
+90,3,5,0,13,1,0,4,68,Normal,Home,Diabetes,Self-Pay,1,1
+57,8,12,7,3,16,1,6,252,Abnormal,Home,Diabetes,Medicaid,0,1
+34,1,7,2,3,15,2,9,116,Normal,Home,Circulatory,Self-Pay,1,0
+18,1,13,5,1,6,0,4,233,Abnormal,Home,Other,Medicare,0,0
+78,2,1,3,21,12,0,8,22,Not Tested,Home,Respiratory,Private,1,0
+60,11,11,8,20,8,0,5,33,Normal,Home,Diabetes,Medicare,0,1
+59,1,14,6,2,7,0,6,6,Not Tested,Home,Musculoskeletal,Medicaid,0,1
+42,11,5,8,3,2,0,7,62,Normal,Home,Diabetes,Medicaid,0,1
+56,1,2,9,15,12,1,4,186,Abnormal,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+52,23,4,2,24,21,2,10,35,Not Tested,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,0
+20,15,7,0,6,14,3,3,12,Normal,Home,Circulatory,Medicare,1,1
+61,3,5,4,13,16,3,7,6,Not Tested,Home,Diabetes,Medicare,0,1
+68,3,12,2,21,11,3,9,53,Abnormal,Home,Circulatory,Private,1,1
+29,3,6,5,1,20,2,8,16,Normal,Skilled Nursing Facility,Diabetes,Private,0,0
+36,5,2,7,20,9,1,0,38,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+61,1,3,3,19,10,2,2,154,Normal,Home,Musculoskeletal,Medicare,1,1
+76,1,7,4,1,17,1,3,43,Normal,Skilled Nursing Facility,Circulatory,Private,0,0
+66,1,11,4,21,12,1,6,84,Abnormal,Home,Other,Private,1,1
+78,2,2,3,22,6,1,5,62,Not Tested,Home,Other,Medicare,0,1
+34,1,12,3,2,19,2,9,114,Not Tested,Against Medical Advice,Respiratory,Private,1,1
+91,4,6,3,15,11,1,9,15,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+74,24,5,3,14,9,0,10,227,Not Tested,Skilled Nursing Facility,Musculoskeletal,Self-Pay,0,0
+72,2,10,3,19,21,0,0,92,Not Tested,Home,Circulatory,Medicaid,1,0
+64,4,1,4,11,29,2,3,28,Not Tested,Home,Circulatory,Medicare,0,1
+29,2,12,1,15,6,0,5,11,Normal,Skilled Nursing Facility,Circulatory,Private,1,0
+79,9,11,1,6,27,1,2,14,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+25,11,10,8,20,25,1,1,137,Not Tested,Home,Circulatory,Self-Pay,1,1
+38,10,11,1,9,25,2,1,79,Abnormal,Home,Circulatory,Medicaid,1,0
+87,18,4,5,5,24,3,9,43,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+89,1,11,1,20,25,1,3,36,Normal,Against Medical Advice,Circulatory,Medicare,1,1
+42,9,2,4,2,16,1,0,174,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,0
+29,6,4,3,6,20,0,9,186,Not Tested,Skilled Nursing Facility,Other,Private,1,0
+32,1,1,6,18,16,4,1,78,Not Tested,Home,Diabetes,Private,0,0
+76,15,2,6,23,6,0,9,66,Normal,Home,Respiratory,Medicare,1,1
+43,1,13,5,19,5,2,1,152,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+43,5,8,9,9,21,0,3,124,Not Tested,Home,Diabetes,Medicaid,1,0
+64,1,6,4,21,4,0,3,46,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,1
+49,2,2,0,24,2,4,0,7,Abnormal,Against Medical Advice,Other,Private,1,1
+27,6,12,2,6,28,4,6,131,Abnormal,Home,Diabetes,Medicare,1,0
+33,4,6,8,14,6,4,6,16,Not Tested,Skilled Nursing Facility,Other,Private,0,1
+88,2,10,0,24,9,1,9,1,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+34,1,9,4,13,28,3,10,166,Not Tested,Home,Respiratory,Medicare,1,1
+40,9,7,1,11,17,3,9,77,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+43,1,9,3,12,14,0,9,200,Abnormal,Home,Musculoskeletal,Medicaid,0,1
+24,2,5,0,19,7,0,0,59,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,1,1
+31,11,7,2,19,22,3,10,234,Abnormal,Home,Circulatory,Medicaid,0,0
+24,9,11,9,21,19,1,7,39,Not Tested,Skilled Nursing Facility,Respiratory,Private,1,0
+26,2,14,6,19,1,4,9,116,Not Tested,Home,Circulatory,Medicare,1,1
+65,7,7,9,24,29,2,6,32,Abnormal,Home,Musculoskeletal,Self-Pay,1,1
+89,8,12,2,13,20,0,6,0,Not Tested,Home,Diabetes,Self-Pay,1,1
+76,10,12,3,14,25,0,10,42,Normal,Home,Other,Medicare,0,1
+56,3,3,1,24,15,1,5,120,Not Tested,Home,Diabetes,Private,1,1
+35,1,7,2,18,18,1,3,14,Normal,Home,Musculoskeletal,Medicaid,1,0
+76,1,1,8,12,3,1,10,63,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+34,1,9,2,4,18,1,7,21,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+31,4,10,4,10,2,0,1,6,Abnormal,Against Medical Advice,Other,Private,0,0
+48,1,13,1,17,10,1,6,86,Not Tested,Skilled Nursing Facility,Musculoskeletal,Self-Pay,0,1
+41,5,6,3,4,11,1,2,273,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,1,0
+77,2,5,6,12,27,2,2,33,Normal,Home,Circulatory,Medicare,1,1
+62,1,7,6,13,24,0,6,78,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,1
+20,10,5,2,4,3,3,2,276,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+54,3,10,4,10,7,3,4,94,Normal,Home,Circulatory,Medicaid,0,1
+60,1,5,0,3,8,0,7,100,Abnormal,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+57,8,11,9,15,19,2,3,17,Abnormal,Home,Respiratory,Medicare,1,0
+72,1,10,9,2,18,5,6,61,Not Tested,Against Medical Advice,Circulatory,Medicare,0,1
+56,6,11,9,17,13,2,6,41,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,0
+32,7,7,0,6,13,0,1,57,Normal,Against Medical Advice,Circulatory,Medicare,0,0
+21,2,10,4,8,24,3,7,145,Not Tested,Home,Circulatory,Medicare,1,0
+42,8,7,9,3,19,0,9,55,Not Tested,Home,Musculoskeletal,Medicaid,0,1
+30,3,13,8,18,23,1,9,5,Not Tested,Against Medical Advice,Musculoskeletal,Self-Pay,1,1
+50,3,11,0,22,12,2,8,212,Normal,Home,Circulatory,Private,1,1
+33,1,3,0,1,17,0,5,70,Abnormal,Home,Other,Medicaid,0,0
+59,1,3,3,16,28,1,4,232,Not Tested,Home,Circulatory,Medicaid,0,1
+83,13,10,3,7,22,2,0,76,Normal,Skilled Nursing Facility,Other,Medicare,0,1
+72,2,12,1,3,12,1,0,6,Abnormal,Home,Musculoskeletal,Private,0,0
+59,3,13,8,23,28,0,8,72,Normal,Home,Respiratory,Medicaid,0,1
+51,3,3,8,4,13,1,3,77,Abnormal,Home,Circulatory,Self-Pay,0,0
+47,4,6,1,9,25,3,0,21,Not Tested,Home,Respiratory,Self-Pay,0,1
+30,1,12,8,5,12,3,10,57,Abnormal,Home,Circulatory,Medicare,1,0
+30,2,6,5,19,19,0,9,55,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,0,0
+35,6,13,7,15,14,5,2,87,Abnormal,Skilled Nursing Facility,Respiratory,Self-Pay,1,0
+49,1,13,9,8,7,4,5,27,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+56,1,3,3,6,13,2,10,78,Abnormal,Home,Musculoskeletal,Medicare,1,1
+63,1,3,1,18,6,0,10,24,Normal,Skilled Nursing Facility,Circulatory,Private,1,1
+46,2,8,1,19,24,1,7,53,Abnormal,Against Medical Advice,Diabetes,Medicare,1,1
+79,10,8,8,24,19,0,9,11,Not Tested,Home,Circulatory,Medicaid,0,0
+79,1,7,0,15,19,1,1,3,Not Tested,Home,Musculoskeletal,Medicare,1,1
+74,1,10,6,7,4,1,7,34,Abnormal,Against Medical Advice,Diabetes,Medicaid,1,0
+33,1,4,2,10,19,3,0,28,Abnormal,Home,Musculoskeletal,Self-Pay,0,0
+73,6,4,2,6,9,1,10,47,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,1
+27,5,3,1,14,16,0,1,294,Not Tested,Home,Circulatory,Private,1,1
+47,2,5,9,17,27,1,7,66,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+42,7,3,5,9,4,2,6,72,Not Tested,Against Medical Advice,Circulatory,Private,0,1
+22,4,13,9,19,6,0,4,255,Abnormal,Home,Circulatory,Medicaid,1,0
+82,11,8,1,5,8,2,9,228,Normal,Home,Diabetes,Medicare,0,1
+66,8,7,9,23,27,0,1,193,Normal,Home,Diabetes,Medicaid,1,1
+20,1,13,3,7,29,1,8,9,Not Tested,Home,Musculoskeletal,Private,1,1
+62,1,3,9,19,24,1,4,90,Normal,Home,Respiratory,Medicare,1,1
+31,1,9,8,20,16,3,7,148,Abnormal,Skilled Nursing Facility,Diabetes,Private,0,0
+47,2,12,8,7,5,1,3,162,Not Tested,Home,Other,Medicaid,1,0
+85,30,14,5,24,21,1,8,77,Normal,Home,Diabetes,Medicare,1,1
+35,2,13,3,2,22,2,9,1,Not Tested,Home,Diabetes,Self-Pay,0,0
+79,1,5,6,23,10,4,6,327,Not Tested,Home,Other,Medicaid,1,1
+54,7,9,0,16,23,2,1,57,Not Tested,Home,Other,Medicare,1,1
+42,3,7,3,13,13,1,2,45,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+65,1,7,4,8,29,1,1,45,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,0
+82,2,6,7,6,26,0,4,49,Not Tested,Home,Respiratory,Private,0,1
+70,2,2,1,6,14,2,1,24,Normal,Home,Musculoskeletal,Medicaid,0,0
+90,7,9,4,9,7,2,4,35,Abnormal,Home,Other,Private,0,1
+32,1,6,5,4,29,2,8,365,Not Tested,Home,Respiratory,Private,0,1
+66,1,8,4,11,20,1,1,41,Normal,Home,Musculoskeletal,Medicare,0,0
+85,3,1,8,5,6,2,8,67,Not Tested,Skilled Nursing Facility,Diabetes,Medicaid,1,1
+29,1,5,9,17,7,2,6,169,Abnormal,Home,Circulatory,Self-Pay,1,0
+76,4,12,0,20,5,2,6,67,Normal,Home,Musculoskeletal,Self-Pay,0,1
+54,3,1,2,7,21,1,4,35,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+78,2,10,1,15,18,3,7,66,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+60,14,11,2,15,23,3,6,10,Normal,Home,Other,Medicare,1,0
+87,5,14,9,14,12,1,5,12,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,1,1
+56,1,8,8,13,6,3,1,106,Normal,Against Medical Advice,Diabetes,Private,0,1
+73,4,8,8,11,27,2,5,224,Abnormal,Home,Musculoskeletal,Medicare,1,0
+80,7,1,9,13,1,4,1,116,Not Tested,Home,Other,Medicare,1,1
+63,6,9,1,22,4,2,0,6,Abnormal,Home,Other,Private,0,0
+28,1,2,2,24,19,3,8,46,Normal,Skilled Nursing Facility,Diabetes,Self-Pay,0,1
+79,17,12,3,9,12,1,4,0,Not Tested,Home,Diabetes,Self-Pay,0,1
+94,2,9,8,10,15,3,9,64,Normal,Against Medical Advice,Circulatory,Medicaid,0,1
+42,1,1,2,4,3,1,9,19,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+88,1,12,6,17,23,3,3,182,Not Tested,Home,Other,Medicare,0,1
+69,1,10,2,14,27,0,10,9,Not Tested,Home,Musculoskeletal,Private,1,0
+21,8,14,6,24,28,0,7,0,Not Tested,Home,Circulatory,Self-Pay,1,1
+76,1,14,6,18,26,1,4,53,Abnormal,Home,Circulatory,Private,0,1
+89,1,9,8,11,20,2,6,15,Not Tested,Against Medical Advice,Other,Private,1,1
+37,9,4,1,16,28,1,2,120,Not Tested,Home,Musculoskeletal,Medicare,0,0
+80,2,9,5,1,8,0,7,227,Abnormal,Home,Respiratory,Medicare,1,0
+71,1,7,8,7,11,2,7,3,Abnormal,Home,Diabetes,Medicare,1,1
+91,1,11,1,10,16,0,2,45,Not Tested,Home,Circulatory,Private,1,1
+74,1,6,1,9,9,3,8,365,Abnormal,Home,Musculoskeletal,Medicare,1,1
+58,1,5,4,3,3,2,7,118,Not Tested,Home,Diabetes,Medicaid,1,1
+20,5,11,9,22,5,2,0,275,Abnormal,Home,Diabetes,Medicare,1,0
+23,1,9,9,23,20,1,7,16,Abnormal,Home,Respiratory,Medicaid,0,0
+22,1,2,9,14,14,0,10,22,Normal,Home,Respiratory,Private,0,1
+22,7,14,7,15,28,0,3,15,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+71,5,13,8,2,26,1,5,32,Abnormal,Home,Other,Private,1,0
+64,2,11,1,24,15,2,9,115,Abnormal,Home,Other,Medicaid,1,1
+66,3,14,4,14,6,4,8,16,Abnormal,Home,Musculoskeletal,Medicare,1,1
+26,1,12,6,16,27,3,4,66,Not Tested,Home,Other,Medicare,0,0
+37,3,2,5,7,26,3,6,28,Abnormal,Against Medical Advice,Diabetes,Self-Pay,1,1
+78,3,11,5,4,4,2,0,159,Not Tested,Home,Circulatory,Medicare,1,0
+52,2,12,6,18,8,1,8,0,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,1
+67,11,9,2,24,19,0,5,22,Abnormal,Home,Respiratory,Medicare,1,0
+79,1,12,2,5,27,2,10,83,Normal,Home,Respiratory,Medicare,1,1
+34,7,3,9,6,5,0,3,9,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+20,1,8,8,7,13,4,5,56,Normal,Home,Respiratory,Medicaid,0,0
+49,7,11,7,15,16,2,4,51,Abnormal,Skilled Nursing Facility,Diabetes,Self-Pay,0,1
+30,4,9,4,1,1,0,2,172,Abnormal,Home,Circulatory,Private,0,0
+90,9,8,5,24,13,0,6,88,Normal,Home,Circulatory,Medicare,0,1
+85,1,4,9,4,22,1,2,91,Abnormal,Skilled Nursing Facility,Diabetes,Private,1,0
+31,4,12,0,1,11,1,1,272,Not Tested,Home,Musculoskeletal,Private,1,0
+28,3,1,9,11,21,2,3,363,Normal,Skilled Nursing Facility,Diabetes,Private,0,0
+73,6,4,0,18,8,0,6,95,Not Tested,Home,Circulatory,Medicare,0,1
+84,3,14,3,14,25,0,4,66,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+46,3,9,1,22,8,1,8,84,Normal,Home,Musculoskeletal,Private,1,1
+26,2,2,6,11,24,2,9,43,Normal,Skilled Nursing Facility,Diabetes,Private,0,0
+84,1,3,1,10,28,1,6,365,Normal,Against Medical Advice,Circulatory,Medicaid,1,0
+42,3,10,9,17,14,3,8,109,Not Tested,Home,Other,Medicare,1,1
+93,1,8,1,4,13,1,8,30,Normal,Home,Circulatory,Medicaid,1,0
+59,16,6,4,24,3,1,1,5,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+26,6,8,3,15,4,3,0,4,Normal,Home,Respiratory,Medicare,1,1
+57,15,7,7,16,27,2,10,20,Abnormal,Home,Respiratory,Medicare,1,1
+42,1,14,3,21,20,2,3,23,Not Tested,Against Medical Advice,Other,Medicare,0,1
+22,10,13,5,13,15,1,3,48,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+28,8,13,4,9,15,3,1,21,Abnormal,Home,Respiratory,Medicare,0,0
+76,5,5,1,11,27,2,2,89,Abnormal,Home,Respiratory,Medicare,0,1
+55,4,9,7,11,21,2,2,21,Normal,Home,Respiratory,Medicare,1,0
+89,1,4,1,6,13,2,4,18,Abnormal,Home,Circulatory,Medicare,1,1
+22,8,6,8,1,9,1,0,57,Abnormal,Home,Circulatory,Medicare,0,0
+65,3,2,8,22,28,2,8,197,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+35,1,2,2,6,25,1,7,56,Not Tested,Home,Diabetes,Medicare,1,0
+87,1,2,3,13,10,0,7,48,Abnormal,Against Medical Advice,Musculoskeletal,Medicaid,1,1
+54,13,10,7,22,29,2,2,77,Normal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+77,9,7,8,24,12,1,1,26,Normal,Against Medical Advice,Diabetes,Medicare,0,1
+65,20,13,2,22,14,4,0,39,Abnormal,Home,Respiratory,Private,0,0
+94,4,2,4,5,1,2,5,21,Not Tested,Home,Other,Medicaid,1,1
+45,1,12,7,15,14,1,9,76,Normal,Home,Respiratory,Private,0,1
+86,1,13,2,18,14,0,0,107,Not Tested,Home,Circulatory,Medicaid,1,1
+94,1,2,6,20,8,0,10,100,Abnormal,Home,Diabetes,Self-Pay,0,1
+57,1,9,7,14,16,2,4,26,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+62,2,7,9,15,14,1,8,136,Abnormal,Home,Respiratory,Medicaid,0,1
+79,1,11,2,5,1,1,10,26,Normal,Home,Circulatory,Medicaid,1,0
+75,2,3,1,4,16,2,8,14,Abnormal,Home,Circulatory,Self-Pay,0,0
+84,13,3,9,2,18,0,3,38,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+73,2,7,6,7,7,4,6,81,Normal,Against Medical Advice,Circulatory,Private,1,1
+57,10,5,8,10,15,1,10,13,Not Tested,Home,Diabetes,Medicaid,1,1
+57,4,10,0,16,24,0,6,93,Not Tested,Home,Circulatory,Private,0,0
+94,1,14,2,10,17,2,3,178,Normal,Against Medical Advice,Circulatory,Private,1,1
+50,2,14,4,18,19,0,4,31,Abnormal,Home,Circulatory,Self-Pay,1,0
+23,1,6,2,17,23,0,10,53,Normal,Skilled Nursing Facility,Circulatory,Private,1,0
+36,2,13,0,21,13,0,8,23,Not Tested,Home,Circulatory,Medicare,1,1
+57,5,12,6,13,9,0,6,40,Normal,Home,Diabetes,Medicare,1,1
+76,1,8,6,1,24,4,6,1,Abnormal,Home,Respiratory,Medicare,0,1
+76,1,9,9,1,24,2,9,276,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+65,2,1,7,15,15,4,6,48,Normal,Home,Circulatory,Medicare,1,0
+58,20,3,4,1,25,1,8,139,Not Tested,Home,Other,Medicaid,0,0
+30,7,11,9,6,26,2,4,13,Not Tested,Home,Other,Private,0,0
+62,6,7,4,13,3,1,5,150,Abnormal,Home,Circulatory,Medicare,0,0
+70,1,6,4,1,24,0,2,177,Abnormal,Skilled Nursing Facility,Other,Medicaid,0,0
+59,7,7,0,5,1,1,0,113,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+80,7,8,9,9,16,2,10,210,Normal,Home,Diabetes,Private,0,1
+44,4,6,4,17,8,2,1,16,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+55,23,3,5,16,29,2,7,58,Abnormal,Home,Diabetes,Medicaid,0,0
+77,1,2,0,8,23,1,0,87,Not Tested,Home,Diabetes,Self-Pay,0,1
+24,14,12,6,17,13,1,9,81,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,0,1
+22,12,7,0,15,8,2,6,177,Normal,Home,Musculoskeletal,Private,0,0
+62,1,12,1,24,17,0,4,21,Abnormal,Home,Diabetes,Private,1,0
+75,2,12,1,1,22,0,5,17,Normal,Home,Diabetes,Medicare,1,0
+48,18,12,4,12,23,1,7,26,Not Tested,Skilled Nursing Facility,Other,Self-Pay,0,1
+40,1,11,9,5,14,2,3,199,Not Tested,Home,Other,Private,0,0
+59,3,1,6,24,27,3,5,254,Normal,Home,Other,Medicare,1,0
+27,19,3,0,6,21,2,10,75,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+49,4,12,9,1,21,1,2,62,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+70,1,11,0,1,7,2,6,83,Normal,Skilled Nursing Facility,Respiratory,Private,0,0
+47,4,4,0,10,27,1,1,86,Abnormal,Home,Circulatory,Medicare,0,0
+56,1,13,5,10,15,3,7,16,Abnormal,Home,Other,Private,1,1
+48,3,14,1,3,16,1,6,104,Normal,Home,Circulatory,Medicare,1,1
+19,1,1,0,17,19,0,7,54,Abnormal,Skilled Nursing Facility,Respiratory,Private,1,0
+94,4,5,5,19,6,1,1,65,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,0
+29,3,10,1,11,23,0,2,2,Abnormal,Against Medical Advice,Circulatory,Medicaid,1,0
+56,6,3,5,18,1,3,3,130,Not Tested,Home,Circulatory,Medicaid,0,1
+83,4,2,9,2,12,1,8,162,Abnormal,Home,Diabetes,Private,0,1
+30,3,3,7,9,18,2,4,86,Normal,Home,Circulatory,Medicare,1,0
+63,5,8,1,24,16,1,5,124,Normal,Home,Diabetes,Private,1,0
+44,1,6,8,17,12,4,0,66,Abnormal,Home,Musculoskeletal,Medicare,0,0
+34,4,13,7,14,20,0,3,86,Normal,Against Medical Advice,Musculoskeletal,Private,0,1
+77,1,14,9,4,13,0,3,45,Abnormal,Home,Circulatory,Private,1,0
+81,12,7,0,17,8,2,9,141,Normal,Home,Other,Medicare,1,1
+52,1,12,6,17,27,1,7,56,Not Tested,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+87,2,6,9,12,29,2,7,102,Not Tested,Home,Circulatory,Medicaid,0,1
+47,5,6,5,20,26,1,9,87,Not Tested,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,1
+88,3,12,5,18,22,1,5,109,Normal,Home,Musculoskeletal,Medicare,0,1
+91,1,3,5,3,1,0,7,138,Abnormal,Home,Respiratory,Medicare,1,1
+80,4,12,5,11,26,2,8,64,Normal,Home,Circulatory,Private,1,1
+45,5,13,9,18,21,1,4,150,Not Tested,Home,Diabetes,Private,1,0
+77,6,14,6,4,7,0,0,61,Normal,Home,Musculoskeletal,Medicaid,0,0
+54,2,8,2,17,15,2,0,282,Not Tested,Home,Circulatory,Self-Pay,1,1
+39,4,12,5,18,29,2,1,125,Abnormal,Home,Diabetes,Medicaid,1,0
+85,2,7,2,5,22,1,1,16,Not Tested,Home,Respiratory,Self-Pay,1,1
+37,5,7,6,14,13,1,4,159,Not Tested,Home,Diabetes,Medicaid,0,0
+85,4,6,6,10,13,2,6,72,Abnormal,Home,Respiratory,Medicare,1,1
+81,3,5,7,15,28,1,6,365,Not Tested,Home,Respiratory,Medicare,0,1
+34,1,10,1,1,9,1,3,114,Normal,Skilled Nursing Facility,Other,Self-Pay,1,0
+29,1,8,8,16,24,2,3,7,Not Tested,Against Medical Advice,Musculoskeletal,Medicare,0,0
+39,1,5,4,11,15,0,10,45,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+34,1,9,8,23,4,3,9,65,Not Tested,Home,Respiratory,Private,1,1
+27,2,9,9,20,13,2,2,164,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+82,4,1,4,6,27,1,10,117,Normal,Home,Musculoskeletal,Medicaid,1,1
+39,1,6,6,24,12,3,1,41,Not Tested,Home,Diabetes,Medicaid,0,1
+67,13,7,8,22,5,5,2,95,Not Tested,Home,Diabetes,Medicaid,1,1
+31,1,3,3,16,7,1,7,77,Normal,Skilled Nursing Facility,Other,Medicare,1,0
+81,7,7,1,2,8,1,0,12,Normal,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,0
+64,4,11,8,1,5,2,3,24,Normal,Against Medical Advice,Circulatory,Medicaid,1,1
+46,2,11,1,24,9,2,6,37,Not Tested,Home,Diabetes,Self-Pay,1,1
+93,1,7,2,24,14,0,4,19,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,0,1
+53,4,14,9,9,26,0,1,14,Normal,Home,Musculoskeletal,Medicare,1,0
+69,2,13,1,22,12,4,0,5,Normal,Home,Circulatory,Medicaid,0,0
+93,13,11,2,12,4,1,5,185,Abnormal,Against Medical Advice,Respiratory,Private,0,1
+24,3,2,5,17,20,0,4,30,Normal,Home,Respiratory,Medicare,0,0
+46,14,7,2,15,29,0,2,30,Not Tested,Home,Circulatory,Self-Pay,0,0
+28,1,1,9,19,8,2,10,20,Abnormal,Home,Respiratory,Medicaid,1,1
+50,6,5,7,22,17,2,10,58,Abnormal,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+23,4,9,5,10,8,3,10,64,Not Tested,Home,Respiratory,Private,1,1
+49,6,7,6,12,21,1,8,21,Abnormal,Home,Diabetes,Private,0,0
+68,1,7,0,14,29,2,2,84,Normal,Home,Diabetes,Medicaid,0,0
+92,5,11,2,9,27,2,1,115,Not Tested,Home,Diabetes,Medicaid,0,1
+75,3,13,2,13,1,2,4,42,Normal,Against Medical Advice,Diabetes,Private,0,1
+43,6,12,1,3,20,0,8,79,Not Tested,Home,Circulatory,Medicaid,0,1
+63,1,2,6,21,2,1,7,62,Normal,Home,Circulatory,Private,1,1
+46,11,8,8,14,4,2,5,19,Not Tested,Home,Musculoskeletal,Private,1,1
+21,1,3,3,21,24,0,2,117,Normal,Home,Diabetes,Medicaid,0,0
+30,8,8,4,10,21,0,5,145,Normal,Home,Musculoskeletal,Medicaid,0,0
+56,9,3,2,16,1,3,4,94,Abnormal,Home,Diabetes,Medicare,0,1
+32,8,10,8,7,7,2,0,35,Not Tested,Against Medical Advice,Circulatory,Medicare,0,0
+46,3,7,3,4,1,2,4,235,Not Tested,Home,Musculoskeletal,Self-Pay,0,0
+46,2,2,4,20,9,1,6,54,Normal,Home,Circulatory,Private,1,1
+92,27,4,0,23,3,1,8,27,Normal,Home,Other,Medicare,0,1
+49,1,11,1,11,12,0,0,47,Abnormal,Home,Circulatory,Private,0,0
+19,3,6,8,16,19,3,2,106,Normal,Home,Diabetes,Medicare,1,0
+64,5,11,1,20,15,1,7,168,Not Tested,Home,Circulatory,Medicaid,1,1
+39,6,9,4,4,22,0,5,39,Abnormal,Against Medical Advice,Other,Medicare,0,1
+92,1,5,7,22,16,3,4,23,Not Tested,Home,Other,Self-Pay,0,0
+44,5,13,2,22,10,1,9,88,Not Tested,Home,Circulatory,Self-Pay,1,1
+84,8,9,5,23,22,2,1,228,Abnormal,Home,Circulatory,Medicaid,1,1
+73,1,5,3,17,29,1,2,18,Not Tested,Home,Circulatory,Medicare,0,0
+38,12,10,6,13,27,0,1,146,Normal,Home,Musculoskeletal,Medicaid,1,0
+64,1,8,9,11,27,2,0,58,Normal,Home,Respiratory,Private,1,1
+76,2,13,2,3,6,0,6,144,Not Tested,Home,Diabetes,Medicare,0,1
+23,1,13,5,9,29,1,2,63,Normal,Home,Circulatory,Medicare,0,0
+36,1,1,9,6,17,1,6,42,Normal,Skilled Nursing Facility,Musculoskeletal,Private,0,0
+74,12,7,8,22,21,1,6,107,Not Tested,Home,Diabetes,Medicare,1,0
+86,2,4,9,21,28,1,7,207,Abnormal,Home,Musculoskeletal,Medicare,1,1
+20,2,5,0,11,22,1,0,34,Abnormal,Against Medical Advice,Musculoskeletal,Medicaid,1,0
+18,1,6,2,16,24,0,4,55,Not Tested,Home,Circulatory,Private,1,0
+75,4,5,1,19,29,5,9,23,Normal,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+55,4,12,7,5,17,0,8,18,Not Tested,Home,Diabetes,Medicare,0,1
+32,2,1,6,14,21,0,10,135,Normal,Home,Diabetes,Medicaid,1,1
+51,2,12,1,17,19,3,6,20,Abnormal,Home,Circulatory,Medicare,0,0
+78,10,9,5,3,18,1,0,141,Not Tested,Home,Musculoskeletal,Medicare,1,0
+52,2,2,2,4,11,3,7,50,Abnormal,Home,Other,Medicaid,0,1
+81,3,9,7,16,24,2,2,365,Not Tested,Skilled Nursing Facility,Other,Medicare,0,0
+42,1,10,9,16,7,2,3,19,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+41,7,2,2,21,10,1,3,8,Not Tested,Skilled Nursing Facility,Respiratory,Private,1,1
+29,2,9,9,4,7,2,9,7,Normal,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+35,3,6,8,19,5,0,7,162,Abnormal,Against Medical Advice,Circulatory,Self-Pay,0,1
+32,1,11,0,17,12,1,0,51,Not Tested,Home,Respiratory,Medicare,0,0
+44,21,9,4,13,16,0,7,0,Abnormal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+89,1,13,2,22,29,1,8,186,Abnormal,Home,Circulatory,Medicare,0,1
+77,7,6,5,23,25,0,8,188,Abnormal,Skilled Nursing Facility,Other,Medicare,0,1
+63,2,6,9,24,21,1,4,147,Normal,Skilled Nursing Facility,Other,Self-Pay,1,1
+34,1,13,1,1,18,1,3,25,Normal,Home,Other,Private,0,0
+70,8,11,8,12,3,3,3,41,Not Tested,Home,Circulatory,Medicare,0,1
+25,2,14,5,4,20,0,8,122,Abnormal,Against Medical Advice,Other,Private,1,0
+44,10,2,6,11,15,0,7,60,Normal,Home,Circulatory,Self-Pay,0,1
+63,12,8,4,5,5,2,9,15,Not Tested,Home,Diabetes,Medicare,0,0
+67,9,3,8,2,13,1,9,25,Abnormal,Home,Diabetes,Medicare,1,0
+88,1,7,0,17,19,4,6,323,Not Tested,Home,Respiratory,Medicare,1,0
+20,7,5,4,8,12,0,2,14,Normal,Home,Other,Private,0,0
+81,2,3,9,6,23,1,3,116,Not Tested,Home,Respiratory,Medicare,0,1
+61,10,1,5,21,21,2,8,58,Abnormal,Home,Diabetes,Medicare,0,1
+70,5,8,6,9,5,4,7,124,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+41,8,3,3,13,6,3,0,97,Normal,Home,Other,Medicaid,1,0
+77,3,2,0,11,7,1,2,52,Normal,Home,Respiratory,Private,1,1
+20,3,1,7,16,26,1,9,39,Normal,Home,Musculoskeletal,Medicare,0,0
+37,1,4,9,16,10,2,1,126,Not Tested,Home,Diabetes,Medicaid,1,0
+63,7,13,3,2,16,0,1,35,Normal,Against Medical Advice,Diabetes,Self-Pay,0,0
+32,2,8,2,10,8,1,7,139,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,1,0
+42,3,13,6,12,9,0,5,102,Normal,Home,Circulatory,Medicare,1,1
+88,7,3,1,8,27,1,5,77,Normal,Home,Diabetes,Private,0,1
+34,4,14,7,11,4,0,3,41,Normal,Home,Other,Private,1,1
+26,1,1,5,10,21,4,0,20,Not Tested,Home,Musculoskeletal,Medicare,0,1
+55,4,4,6,13,21,1,10,111,Not Tested,Home,Circulatory,Medicare,1,0
+65,2,9,4,17,8,5,6,8,Not Tested,Home,Circulatory,Private,1,1
+77,3,13,8,7,25,1,7,317,Not Tested,Against Medical Advice,Respiratory,Medicaid,0,1
+80,1,1,4,24,7,0,1,346,Normal,Home,Musculoskeletal,Private,0,1
+19,1,12,4,3,15,2,1,12,Not Tested,Home,Respiratory,Private,1,0
+89,1,14,2,20,21,1,0,9,Abnormal,Home,Musculoskeletal,Medicare,1,1
+28,6,11,0,13,3,2,3,47,Not Tested,Home,Other,Private,0,0
+81,1,2,1,19,17,3,5,298,Normal,Home,Respiratory,Medicare,1,0
+94,2,9,7,7,11,2,4,46,Not Tested,Home,Circulatory,Private,0,1
+89,12,2,0,9,9,0,3,40,Normal,Against Medical Advice,Other,Private,1,1
+38,1,13,6,19,5,1,3,109,Normal,Home,Respiratory,Medicaid,0,0
+35,3,3,4,13,25,2,9,17,Normal,Home,Respiratory,Medicaid,1,0
+81,7,7,2,22,10,0,6,40,Normal,Home,Respiratory,Medicare,0,1
+55,14,3,6,8,15,0,6,30,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,0,1
+49,6,9,8,22,28,4,1,82,Not Tested,Home,Diabetes,Medicare,1,0
+28,6,6,1,18,29,1,6,15,Not Tested,Home,Respiratory,Private,0,0
+62,8,3,7,23,14,2,1,71,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+50,2,9,8,2,4,2,3,175,Normal,Home,Musculoskeletal,Medicare,1,0
+58,8,1,2,18,21,0,0,64,Abnormal,Against Medical Advice,Circulatory,Private,1,1
+25,1,10,1,18,20,2,4,103,Not Tested,Home,Circulatory,Medicare,0,0
+28,12,3,6,11,2,3,0,7,Normal,Home,Diabetes,Private,1,0
+68,2,1,4,1,12,2,3,53,Abnormal,Home,Other,Medicaid,0,1
+58,4,2,4,14,1,2,8,8,Normal,Home,Circulatory,Medicaid,0,1
+34,1,12,9,16,24,0,7,82,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+93,6,8,4,11,20,0,5,29,Normal,Home,Diabetes,Self-Pay,1,1
+63,1,7,3,1,5,3,7,30,Normal,Home,Diabetes,Medicare,1,1
+49,10,2,4,7,6,1,4,7,Normal,Against Medical Advice,Respiratory,Medicare,1,1
+71,8,2,3,16,24,1,6,33,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+37,1,9,5,14,11,1,7,63,Normal,Home,Circulatory,Private,0,0
+50,8,13,3,15,8,2,6,79,Abnormal,Home,Musculoskeletal,Medicare,0,1
+91,7,13,1,14,7,3,3,6,Normal,Home,Respiratory,Private,1,1
+57,5,6,8,21,4,2,4,94,Normal,Skilled Nursing Facility,Other,Private,0,0
+49,2,5,1,11,6,1,9,60,Normal,Skilled Nursing Facility,Diabetes,Medicaid,1,0
+19,1,10,8,16,16,0,5,69,Not Tested,Home,Diabetes,Medicaid,0,1
+50,1,6,9,19,20,0,10,160,Abnormal,Home,Other,Medicare,0,0
+94,1,9,5,17,15,1,5,37,Not Tested,Home,Circulatory,Medicare,1,0
+47,11,11,8,6,14,2,8,17,Abnormal,Home,Diabetes,Medicaid,0,1
+50,1,7,8,11,23,2,9,72,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+94,8,10,2,17,12,2,1,261,Normal,Home,Respiratory,Medicaid,0,0
+43,2,10,0,9,29,0,5,65,Abnormal,Home,Circulatory,Medicare,1,1
+39,3,14,0,18,12,3,2,160,Abnormal,Home,Circulatory,Medicaid,1,0
+83,7,9,2,17,16,2,1,127,Not Tested,Home,Other,Medicaid,1,1
+55,10,4,4,12,15,3,5,65,Not Tested,Home,Diabetes,Private,1,1
+63,2,2,2,23,29,1,3,93,Abnormal,Skilled Nursing Facility,Other,Medicaid,0,0
+32,3,12,8,22,13,2,4,46,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+61,2,8,8,22,11,1,4,68,Normal,Home,Diabetes,Medicare,0,1
+66,1,4,2,5,17,2,2,63,Normal,Skilled Nursing Facility,Circulatory,Medicaid,1,0
+92,1,13,2,11,21,1,3,111,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+78,3,9,4,4,15,2,2,47,Normal,Home,Diabetes,Medicaid,0,1
+84,2,4,1,4,14,0,6,9,Not Tested,Home,Circulatory,Medicaid,1,0
+23,6,8,5,3,10,0,0,139,Abnormal,Home,Musculoskeletal,Private,0,0
+26,2,9,6,24,12,2,5,103,Abnormal,Home,Circulatory,Self-Pay,1,0
+23,3,13,8,23,16,0,3,269,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+90,2,9,5,17,15,0,0,50,Abnormal,Home,Diabetes,Private,1,1
+49,6,10,2,7,10,2,0,7,Abnormal,Against Medical Advice,Other,Medicare,1,0
+58,9,4,4,4,4,1,4,11,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+93,3,1,3,23,27,6,4,133,Normal,Home,Diabetes,Medicaid,1,0
+25,7,3,4,13,23,1,9,6,Normal,Skilled Nursing Facility,Diabetes,Medicaid,0,1
+89,1,9,7,12,29,1,6,214,Abnormal,Home,Circulatory,Medicare,1,1
+67,3,4,7,1,9,0,3,29,Normal,Home,Diabetes,Private,0,0
+79,2,5,5,21,21,1,8,206,Not Tested,Home,Circulatory,Medicare,1,1
+79,2,7,0,19,20,1,3,133,Not Tested,Home,Circulatory,Medicare,0,1
+24,6,5,7,21,9,4,6,184,Normal,Home,Circulatory,Medicare,0,0
+92,10,4,7,20,21,0,4,21,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,0,1
+21,1,2,1,18,25,1,4,81,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+23,5,2,3,11,24,0,5,8,Not Tested,Home,Respiratory,Medicare,1,0
+75,4,13,1,20,20,1,7,20,Normal,Home,Circulatory,Medicare,0,0
+39,1,13,3,3,11,1,4,33,Normal,Home,Circulatory,Medicare,0,0
+43,1,4,9,17,11,0,2,121,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+20,1,10,6,12,7,0,5,2,Not Tested,Home,Respiratory,Medicare,0,0
+58,1,13,8,10,21,0,1,210,Normal,Against Medical Advice,Circulatory,Medicare,0,1
+77,1,10,7,8,10,2,7,6,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+31,1,13,8,15,4,1,7,42,Abnormal,Home,Musculoskeletal,Medicare,0,1
+92,2,9,7,5,5,1,2,7,Normal,Against Medical Advice,Diabetes,Medicaid,0,1
+29,6,8,1,4,5,2,7,131,Not Tested,Against Medical Advice,Circulatory,Medicare,0,0
+29,4,3,6,21,11,4,8,13,Abnormal,Home,Respiratory,Medicare,1,1
+30,21,14,1,20,9,2,4,194,Not Tested,Home,Circulatory,Private,1,0
+42,2,9,1,19,28,0,4,67,Normal,Skilled Nursing Facility,Diabetes,Medicaid,1,0
+62,7,14,3,21,16,1,5,266,Normal,Against Medical Advice,Respiratory,Self-Pay,1,1
+36,10,5,0,4,9,1,6,30,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+72,5,11,4,15,22,4,2,54,Abnormal,Home,Circulatory,Private,0,1
+62,2,3,5,17,4,0,4,106,Normal,Skilled Nursing Facility,Respiratory,Private,1,0
+25,7,5,8,12,2,1,0,160,Abnormal,Home,Musculoskeletal,Private,0,0
+70,1,13,9,3,14,1,10,49,Not Tested,Against Medical Advice,Circulatory,Self-Pay,0,1
+72,1,10,7,10,3,2,9,200,Normal,Home,Circulatory,Medicare,0,1
+49,3,13,1,15,18,1,4,11,Not Tested,Against Medical Advice,Diabetes,Medicare,1,0
+68,4,4,0,10,21,5,3,111,Normal,Home,Diabetes,Medicaid,1,0
+61,1,8,1,24,6,2,0,38,Not Tested,Against Medical Advice,Circulatory,Medicare,1,0
+87,14,13,6,23,11,0,6,9,Abnormal,Home,Circulatory,Private,1,1
+35,5,12,3,18,21,1,0,43,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+39,3,5,9,1,18,2,7,190,Abnormal,Against Medical Advice,Circulatory,Private,1,1
+54,13,10,4,3,12,1,9,354,Not Tested,Home,Respiratory,Medicare,0,0
+73,2,12,6,21,5,1,1,44,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,1
+76,19,8,2,12,9,1,9,195,Normal,Home,Diabetes,Self-Pay,1,1
+20,3,9,9,1,20,0,4,64,Abnormal,Home,Other,Medicare,0,0
+45,1,4,1,3,28,0,5,113,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,0
+91,7,7,6,3,26,0,8,4,Normal,Home,Respiratory,Medicare,0,0
+52,5,2,4,5,18,3,6,73,Normal,Skilled Nursing Facility,Diabetes,Private,0,1
+78,7,6,0,19,19,0,5,6,Abnormal,Skilled Nursing Facility,Diabetes,Private,1,1
+71,15,8,0,1,3,1,4,28,Abnormal,Home,Musculoskeletal,Private,0,1
+80,7,12,8,4,9,2,5,75,Normal,Home,Diabetes,Medicaid,0,1
+24,4,7,4,4,4,1,10,148,Not Tested,Home,Diabetes,Medicare,0,0
+93,9,7,0,17,17,1,3,74,Abnormal,Home,Circulatory,Medicare,1,1
+66,5,8,6,14,17,1,0,247,Normal,Against Medical Advice,Respiratory,Medicare,0,0
+48,2,7,8,18,23,1,8,149,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+75,10,5,0,1,23,1,10,15,Abnormal,Home,Circulatory,Medicaid,1,0
+78,1,7,9,22,2,2,4,44,Abnormal,Home,Respiratory,Medicare,1,1
+41,6,13,3,16,9,2,7,99,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+37,10,14,2,3,9,1,6,250,Normal,Home,Diabetes,Medicare,1,0
+54,6,10,4,23,5,1,7,365,Abnormal,Home,Other,Medicare,1,0
+21,5,3,6,21,15,2,0,129,Not Tested,Home,Circulatory,Medicare,1,0
+37,6,5,7,9,15,1,8,76,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+77,3,7,1,23,3,2,0,127,Normal,Home,Other,Medicare,0,0
+41,10,9,6,4,19,1,2,28,Not Tested,Home,Other,Private,1,0
+67,1,2,0,21,28,3,7,30,Normal,Against Medical Advice,Respiratory,Medicare,0,1
+66,1,4,6,5,3,2,10,95,Normal,Home,Circulatory,Private,0,0
+68,1,12,7,11,6,1,0,184,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+53,3,7,1,21,4,2,0,315,Normal,Home,Circulatory,Medicaid,1,0
+83,3,1,8,9,24,4,5,37,Abnormal,Home,Other,Medicare,1,1
+51,8,13,0,3,13,0,4,143,Normal,Home,Musculoskeletal,Medicaid,0,0
+53,2,2,5,6,27,3,10,171,Not Tested,Home,Circulatory,Medicare,0,0
+23,3,9,0,24,13,1,5,87,Abnormal,Home,Other,Medicare,0,0
+56,1,13,2,11,27,3,2,38,Abnormal,Home,Diabetes,Self-Pay,1,1
+59,2,10,5,9,11,0,9,86,Abnormal,Home,Other,Medicaid,0,0
+75,5,7,2,15,5,0,9,79,Abnormal,Home,Other,Medicare,1,1
+29,1,12,7,23,1,1,5,83,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+20,1,10,4,3,9,4,1,86,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,1,0
+35,1,7,1,1,17,2,7,168,Not Tested,Skilled Nursing Facility,Diabetes,Private,0,1
+57,1,6,3,20,22,3,5,16,Abnormal,Home,Other,Medicaid,0,1
+38,3,3,8,22,1,2,3,41,Abnormal,Against Medical Advice,Other,Medicare,0,0
+32,1,10,3,19,3,4,3,79,Not Tested,Home,Diabetes,Medicare,1,1
+43,6,3,9,14,15,5,10,29,Abnormal,Home,Circulatory,Medicaid,0,1
+25,9,2,9,17,26,2,6,344,Normal,Home,Circulatory,Medicare,1,1
+59,3,11,7,22,21,1,2,27,Normal,Skilled Nursing Facility,Musculoskeletal,Medicaid,0,1
+61,20,6,4,14,26,2,10,57,Not Tested,Skilled Nursing Facility,Diabetes,Private,0,1
+31,2,4,9,17,23,2,2,188,Normal,Home,Diabetes,Medicaid,1,0
+19,3,5,0,14,10,1,5,7,Not Tested,Home,Respiratory,Medicare,0,1
+54,22,3,6,12,8,3,8,154,Normal,Skilled Nursing Facility,Musculoskeletal,Private,1,0
+86,1,6,2,16,12,2,0,76,Abnormal,Home,Other,Medicare,1,1
+55,14,11,9,1,25,3,4,2,Abnormal,Home,Respiratory,Medicaid,1,0
+58,1,12,7,13,22,0,0,209,Normal,Home,Circulatory,Self-Pay,0,0
+79,2,3,2,6,15,1,0,3,Not Tested,Home,Diabetes,Medicaid,0,1
+77,1,14,0,17,27,1,2,65,Abnormal,Home,Other,Medicaid,0,0
+31,6,14,4,12,9,1,2,4,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,0
+19,4,8,1,23,24,1,3,6,Abnormal,Home,Circulatory,Private,0,1
+87,6,9,3,19,25,0,2,196,Normal,Home,Circulatory,Medicare,1,1
+34,2,4,0,6,10,1,5,130,Abnormal,Home,Circulatory,Private,0,0
+45,2,9,8,7,20,3,3,19,Normal,Against Medical Advice,Circulatory,Medicare,1,0
+83,1,12,5,1,9,4,7,87,Normal,Home,Diabetes,Medicare,0,1
+52,2,7,7,1,15,1,0,142,Not Tested,Home,Circulatory,Medicare,1,1
+22,13,3,3,5,23,0,7,198,Abnormal,Home,Diabetes,Medicare,0,0
+82,2,7,8,6,21,1,10,56,Not Tested,Home,Circulatory,Private,0,1
+57,8,14,1,16,21,0,0,205,Abnormal,Home,Circulatory,Private,0,0
+93,9,1,8,16,1,1,10,63,Normal,Home,Diabetes,Medicaid,1,1
+73,2,3,4,14,2,2,0,104,Abnormal,Home,Diabetes,Medicare,1,1
+53,4,6,5,1,26,3,6,347,Not Tested,Home,Circulatory,Medicare,1,0
+62,1,4,2,13,19,2,0,24,Normal,Home,Musculoskeletal,Medicaid,1,0
+40,1,7,3,20,14,0,8,16,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,0
+64,1,14,5,10,8,0,7,37,Abnormal,Against Medical Advice,Respiratory,Private,1,1
+48,4,3,6,24,6,1,0,16,Normal,Against Medical Advice,Diabetes,Medicare,1,1
+28,2,1,0,10,12,1,1,30,Abnormal,Skilled Nursing Facility,Other,Medicaid,1,1
+27,3,9,6,9,26,4,1,122,Abnormal,Home,Respiratory,Private,0,0
+84,3,6,0,13,27,1,1,58,Normal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+31,2,8,4,3,29,2,5,42,Not Tested,Skilled Nursing Facility,Diabetes,Private,0,1
+91,5,3,5,18,15,0,3,41,Not Tested,Skilled Nursing Facility,Respiratory,Private,1,1
+27,7,8,1,20,14,3,7,19,Not Tested,Home,Musculoskeletal,Medicaid,0,0
+93,1,2,9,2,21,1,0,53,Not Tested,Home,Circulatory,Medicare,0,1
+18,1,12,8,17,29,1,9,88,Not Tested,Against Medical Advice,Musculoskeletal,Medicare,1,0
+22,6,4,9,19,1,2,3,13,Not Tested,Against Medical Advice,Circulatory,Private,0,1
+37,2,3,5,23,28,3,9,324,Normal,Home,Other,Medicaid,1,1
+25,5,10,6,13,11,0,10,52,Abnormal,Against Medical Advice,Respiratory,Private,0,1
+60,2,1,9,13,28,3,4,266,Normal,Skilled Nursing Facility,Other,Medicaid,0,1
+93,2,13,7,1,25,4,8,13,Abnormal,Home,Respiratory,Medicare,1,1
+18,1,13,9,2,3,5,4,131,Not Tested,Home,Circulatory,Self-Pay,0,0
+74,1,7,0,1,19,0,10,86,Normal,Home,Circulatory,Medicare,0,1
+81,4,11,7,24,18,0,2,154,Abnormal,Home,Other,Self-Pay,0,1
+45,2,10,3,5,20,0,10,82,Abnormal,Against Medical Advice,Respiratory,Medicare,1,1
+54,7,2,9,24,28,0,3,296,Normal,Home,Respiratory,Medicare,1,0
+64,9,4,7,3,2,1,9,88,Normal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+93,3,9,5,7,29,1,6,138,Abnormal,Skilled Nursing Facility,Other,Self-Pay,0,1
+54,7,6,8,24,25,0,0,189,Normal,Home,Circulatory,Private,0,0
+66,1,8,3,22,28,0,10,112,Abnormal,Home,Circulatory,Private,1,1
+61,2,2,1,13,26,2,5,66,Abnormal,Skilled Nursing Facility,Other,Medicare,1,1
+73,6,7,1,23,7,3,7,28,Abnormal,Home,Other,Medicare,0,1
+45,2,6,4,18,8,3,0,173,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,0
+23,4,13,9,24,19,0,7,58,Abnormal,Home,Other,Medicare,0,1
+78,1,14,8,21,22,4,6,87,Normal,Home,Circulatory,Private,1,1
+37,4,9,2,7,15,2,0,7,Not Tested,Home,Circulatory,Private,1,1
+19,9,7,7,1,10,1,8,61,Normal,Home,Musculoskeletal,Medicare,1,0
+90,10,1,3,5,22,0,10,107,Not Tested,Home,Musculoskeletal,Private,1,1
+54,6,14,5,17,29,2,2,78,Not Tested,Against Medical Advice,Circulatory,Private,0,1
+37,6,8,9,8,1,1,1,53,Not Tested,Home,Circulatory,Self-Pay,1,1
+43,4,11,5,15,6,2,6,22,Normal,Against Medical Advice,Circulatory,Medicaid,0,0
+46,4,10,2,20,13,3,10,33,Normal,Against Medical Advice,Musculoskeletal,Private,1,1
+18,1,3,4,4,14,2,2,108,Abnormal,Against Medical Advice,Other,Medicaid,0,1
+52,2,14,2,2,3,4,0,22,Normal,Home,Circulatory,Medicare,0,1
+87,2,2,0,5,11,2,9,87,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+76,15,12,6,1,3,0,2,80,Abnormal,Home,Circulatory,Medicare,1,0
+86,2,3,3,5,19,2,5,316,Not Tested,Home,Diabetes,Medicare,0,1
+50,3,11,6,6,10,0,2,5,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,0
+68,3,6,2,2,27,3,4,10,Normal,Home,Diabetes,Private,1,1
+29,5,13,4,1,15,0,8,63,Abnormal,Against Medical Advice,Circulatory,Medicaid,0,0
+37,6,14,4,4,11,1,6,67,Normal,Skilled Nursing Facility,Other,Medicare,0,0
+70,1,3,1,7,15,0,1,3,Normal,Home,Circulatory,Medicare,0,1
+60,3,10,9,22,26,2,0,157,Normal,Home,Respiratory,Medicaid,0,0
+67,8,5,1,1,27,0,6,61,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+46,3,6,3,1,24,1,3,38,Abnormal,Home,Respiratory,Medicare,1,0
+74,1,8,3,8,13,0,10,34,Abnormal,Skilled Nursing Facility,Circulatory,Private,0,0
+56,5,7,3,20,5,1,6,177,Normal,Home,Diabetes,Private,0,0
+73,8,14,5,16,4,3,5,19,Abnormal,Home,Musculoskeletal,Medicaid,1,1
+60,1,11,1,21,13,2,6,15,Abnormal,Home,Respiratory,Medicaid,0,1
+67,7,8,5,13,9,0,3,21,Normal,Home,Circulatory,Medicare,1,1
+40,8,3,6,23,25,1,2,88,Normal,Home,Respiratory,Medicaid,0,0
+61,3,4,9,24,17,2,4,149,Abnormal,Home,Other,Medicaid,0,0
+55,20,6,2,23,2,1,2,36,Abnormal,Home,Circulatory,Private,0,1
+40,7,11,7,18,24,1,2,17,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+62,7,7,1,20,5,1,3,21,Not Tested,Home,Diabetes,Private,0,0
+69,6,9,7,10,16,0,7,86,Normal,Home,Circulatory,Medicare,1,1
+67,1,13,4,12,7,1,1,25,Abnormal,Home,Respiratory,Medicaid,1,0
+25,1,1,1,1,1,0,3,188,Normal,Home,Other,Medicaid,0,0
+18,3,13,6,10,28,0,10,9,Normal,Home,Circulatory,Medicaid,0,0
+25,1,8,1,9,26,2,2,2,Not Tested,Home,Musculoskeletal,Medicaid,0,0
+46,2,8,5,3,12,1,6,8,Not Tested,Home,Musculoskeletal,Medicare,1,1
+22,10,6,9,19,21,2,1,168,Abnormal,Home,Circulatory,Medicare,1,0
+64,8,4,2,9,11,2,0,94,Not Tested,Home,Circulatory,Medicare,0,1
+51,4,3,8,10,12,1,9,284,Not Tested,Home,Other,Medicare,0,1
+82,9,11,2,19,19,2,0,36,Abnormal,Home,Musculoskeletal,Medicare,0,1
+72,7,3,2,16,26,0,5,21,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+60,2,6,4,24,12,0,2,74,Abnormal,Home,Circulatory,Medicare,1,1
+91,1,13,6,18,12,5,6,69,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,1,1
+47,3,8,7,14,14,0,7,80,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+34,6,7,6,3,2,0,4,38,Normal,Home,Diabetes,Self-Pay,1,0
+43,2,11,8,2,2,1,4,0,Not Tested,Against Medical Advice,Other,Private,1,1
+25,5,1,4,1,25,0,1,3,Normal,Home,Respiratory,Self-Pay,1,0
+64,1,11,9,18,29,0,7,98,Not Tested,Against Medical Advice,Other,Medicaid,0,1
+93,6,6,2,24,4,0,9,66,Normal,Home,Diabetes,Medicare,1,1
+89,8,7,5,9,20,1,0,154,Normal,Home,Circulatory,Private,1,0
+63,6,12,4,13,23,2,9,32,Normal,Home,Musculoskeletal,Medicare,1,1
+85,17,7,3,2,26,0,8,152,Not Tested,Against Medical Advice,Diabetes,Medicare,0,1
+50,8,9,1,7,16,1,0,49,Normal,Home,Circulatory,Medicare,1,0
+18,11,11,6,16,10,1,0,9,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+36,13,11,4,21,13,2,0,343,Abnormal,Skilled Nursing Facility,Diabetes,Medicaid,0,0
+48,8,10,3,19,2,1,6,64,Normal,Home,Diabetes,Medicaid,0,0
+31,5,5,7,15,3,1,3,89,Not Tested,Home,Other,Medicare,0,0
+70,1,1,8,22,19,3,6,99,Normal,Home,Other,Self-Pay,1,1
+65,3,2,8,11,6,1,4,40,Abnormal,Home,Circulatory,Medicaid,1,1
+86,4,4,2,1,19,0,6,123,Abnormal,Skilled Nursing Facility,Musculoskeletal,Medicaid,1,1
+79,1,5,2,21,27,0,9,183,Normal,Against Medical Advice,Circulatory,Self-Pay,0,1
+83,1,9,4,7,21,0,6,44,Normal,Skilled Nursing Facility,Circulatory,Medicare,0,1
+81,16,11,4,20,20,2,3,96,Not Tested,Against Medical Advice,Circulatory,Private,0,0
+87,11,1,9,8,19,5,1,127,Not Tested,Home,Diabetes,Medicare,0,1
+80,9,3,1,10,8,4,7,18,Normal,Home,Circulatory,Medicaid,0,1
+90,2,5,0,5,14,1,1,36,Normal,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+50,1,3,7,9,10,0,8,10,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+58,1,4,2,1,3,3,4,82,Normal,Home,Respiratory,Medicare,1,0
+65,1,14,0,2,6,3,8,145,Abnormal,Home,Other,Medicare,1,1
+30,1,3,0,19,29,2,8,84,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+90,1,4,1,14,15,0,7,17,Normal,Home,Diabetes,Private,0,1
+94,12,14,5,20,23,1,7,71,Abnormal,Home,Diabetes,Medicare,0,0
+48,6,13,5,10,23,1,3,162,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,0
+92,1,13,2,9,18,2,3,32,Abnormal,Against Medical Advice,Musculoskeletal,Private,1,1
+85,1,1,3,10,14,4,1,160,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+21,3,12,1,6,19,1,3,138,Abnormal,Skilled Nursing Facility,Circulatory,Private,1,0
+36,1,8,1,17,28,1,3,1,Abnormal,Home,Respiratory,Medicare,0,0
+87,13,4,6,6,26,1,5,24,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+30,2,7,0,4,10,2,2,70,Not Tested,Home,Respiratory,Medicare,0,1
+40,2,2,6,20,15,2,1,113,Abnormal,Against Medical Advice,Respiratory,Self-Pay,1,0
+92,2,2,0,3,4,3,7,191,Normal,Home,Musculoskeletal,Medicaid,1,1
+18,1,6,5,23,23,0,1,92,Not Tested,Home,Musculoskeletal,Medicare,1,0
+71,5,14,2,19,2,0,7,43,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+88,6,2,7,18,3,3,6,18,Not Tested,Home,Circulatory,Medicaid,0,1
+32,5,6,5,24,7,0,2,128,Normal,Against Medical Advice,Diabetes,Medicare,0,1
+82,1,11,1,4,23,2,5,20,Not Tested,Home,Circulatory,Private,0,0
+93,4,2,7,8,16,1,5,106,Abnormal,Home,Circulatory,Medicare,0,1
+88,4,4,4,17,10,1,9,17,Not Tested,Home,Musculoskeletal,Medicare,1,1
+32,10,7,7,5,19,1,4,8,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+38,2,8,7,13,28,1,7,26,Not Tested,Skilled Nursing Facility,Other,Medicare,1,1
+36,2,3,5,1,17,0,10,30,Not Tested,Home,Musculoskeletal,Self-Pay,1,0
+77,4,14,1,13,28,2,4,93,Normal,Home,Other,Medicare,1,1
+50,5,13,7,4,19,3,6,15,Not Tested,Against Medical Advice,Circulatory,Private,1,1
+66,3,9,5,22,5,3,5,239,Normal,Home,Circulatory,Medicare,1,1
+52,2,2,5,24,23,1,10,72,Not Tested,Home,Circulatory,Private,0,1
+61,3,8,7,14,20,2,6,60,Not Tested,Home,Circulatory,Medicare,0,1
+28,9,8,0,3,13,2,8,51,Normal,Skilled Nursing Facility,Respiratory,Self-Pay,1,0
+89,3,13,1,5,13,2,2,75,Abnormal,Home,Musculoskeletal,Medicare,0,0
+91,14,14,8,7,11,1,9,2,Not Tested,Home,Other,Private,0,1
+83,3,4,7,1,11,3,6,365,Normal,Against Medical Advice,Other,Medicaid,1,1
+63,14,1,6,23,16,1,9,73,Normal,Home,Respiratory,Medicare,0,1
+26,8,13,6,12,15,1,2,3,Normal,Home,Diabetes,Medicare,1,0
+20,2,1,4,11,17,1,1,80,Normal,Home,Circulatory,Private,1,0
+43,9,2,1,24,22,1,6,51,Abnormal,Against Medical Advice,Respiratory,Medicare,1,1
+89,1,14,5,8,18,3,3,2,Abnormal,Skilled Nursing Facility,Other,Private,1,1
+65,12,12,9,6,28,1,0,232,Normal,Home,Circulatory,Medicare,1,1
+83,4,14,2,22,19,3,5,0,Not Tested,Skilled Nursing Facility,Diabetes,Self-Pay,1,1
+87,1,9,3,2,4,4,10,77,Abnormal,Home,Other,Medicaid,0,0
+45,5,13,9,19,22,1,5,293,Abnormal,Against Medical Advice,Circulatory,Medicare,0,0
+43,18,2,1,20,22,2,5,24,Normal,Home,Other,Medicare,0,1
+42,1,2,1,20,23,0,1,26,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,0,0
+29,4,6,7,24,5,3,0,0,Abnormal,Home,Other,Medicare,0,1
+22,6,7,7,14,7,1,2,6,Not Tested,Home,Respiratory,Medicare,1,0
+65,8,13,9,1,2,2,1,4,Abnormal,Skilled Nursing Facility,Circulatory,Private,0,0
+54,2,7,5,10,1,1,5,155,Normal,Home,Circulatory,Private,0,0
+61,1,13,4,16,12,2,5,163,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+32,1,9,7,4,10,1,4,116,Abnormal,Skilled Nursing Facility,Other,Medicaid,0,0
+60,4,6,3,11,8,4,9,39,Abnormal,Home,Diabetes,Medicare,0,0
+65,3,14,3,16,1,1,9,154,Not Tested,Home,Other,Medicare,1,0
+87,14,8,4,20,12,1,4,69,Abnormal,Against Medical Advice,Musculoskeletal,Medicare,1,1
+63,1,11,0,1,2,1,8,32,Not Tested,Home,Circulatory,Private,1,1
+60,5,6,0,16,27,2,4,51,Abnormal,Home,Diabetes,Self-Pay,0,1
+38,1,2,1,19,28,0,9,6,Normal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+40,1,1,7,21,10,1,5,260,Not Tested,Against Medical Advice,Respiratory,Medicare,1,0
+64,3,5,6,22,22,2,10,86,Abnormal,Home,Circulatory,Medicare,1,1
+32,3,14,9,9,17,1,3,118,Abnormal,Home,Circulatory,Self-Pay,0,0
+42,5,9,8,9,26,1,9,101,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,0,0
+53,12,8,4,9,3,3,0,99,Abnormal,Home,Circulatory,Medicaid,0,1
+92,5,14,1,17,7,1,3,1,Not Tested,Home,Diabetes,Private,1,1
+68,15,13,6,12,12,1,1,67,Not Tested,Against Medical Advice,Other,Medicare,0,1
+32,10,4,7,13,8,1,9,155,Normal,Home,Circulatory,Medicaid,0,1
+85,4,5,6,8,20,4,2,4,Normal,Home,Musculoskeletal,Medicare,0,1
+38,8,13,6,16,12,0,6,281,Normal,Home,Diabetes,Private,0,0
+30,5,5,4,18,3,2,6,49,Not Tested,Home,Circulatory,Medicare,1,0
+36,1,6,1,1,17,4,0,30,Normal,Home,Musculoskeletal,Self-Pay,1,1
+51,6,3,5,1,28,0,7,68,Normal,Home,Circulatory,Self-Pay,1,0
+85,1,5,3,12,9,2,6,145,Normal,Skilled Nursing Facility,Circulatory,Private,0,1
+69,4,2,9,6,10,1,0,57,Normal,Skilled Nursing Facility,Circulatory,Medicaid,0,1
+44,6,10,1,9,22,0,7,93,Abnormal,Home,Diabetes,Private,0,0
+46,1,1,8,23,6,1,1,62,Not Tested,Home,Respiratory,Medicare,0,1
+45,1,11,6,5,25,0,7,89,Normal,Skilled Nursing Facility,Respiratory,Medicare,0,0
+52,12,1,5,16,1,1,2,13,Abnormal,Home,Circulatory,Medicare,1,1
+25,4,10,4,18,22,1,9,3,Not Tested,Home,Musculoskeletal,Medicaid,1,1
+33,1,7,2,17,12,0,6,13,Abnormal,Skilled Nursing Facility,Other,Private,0,1
+53,5,2,9,18,5,2,5,30,Not Tested,Home,Diabetes,Self-Pay,0,1
+47,4,4,9,1,13,0,4,26,Abnormal,Home,Circulatory,Medicaid,0,1
+35,3,5,3,19,27,3,10,85,Normal,Against Medical Advice,Circulatory,Private,0,1
+19,18,7,2,22,15,1,9,54,Not Tested,Home,Other,Private,1,0
+66,5,2,7,8,22,2,10,3,Abnormal,Home,Circulatory,Self-Pay,1,1
+94,2,14,2,3,11,1,1,3,Normal,Home,Circulatory,Medicaid,1,1
+21,8,6,6,5,8,0,1,8,Normal,Home,Respiratory,Medicare,0,0
+92,10,1,6,23,5,0,0,39,Not Tested,Skilled Nursing Facility,Musculoskeletal,Medicaid,0,1
+24,1,7,6,8,2,0,8,0,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,0,0
+91,1,9,6,19,12,2,10,61,Abnormal,Home,Circulatory,Medicaid,1,1
+56,1,5,1,18,28,4,7,40,Not Tested,Home,Diabetes,Self-Pay,1,1
+30,5,5,9,18,2,4,7,72,Abnormal,Against Medical Advice,Diabetes,Self-Pay,0,1
+48,4,4,2,21,26,1,0,114,Normal,Home,Diabetes,Medicare,1,0
+88,4,3,9,1,16,1,4,26,Not Tested,Home,Circulatory,Medicare,0,1
+80,14,9,8,15,21,2,5,15,Not Tested,Home,Musculoskeletal,Medicare,0,1
+73,7,5,2,18,3,2,1,29,Abnormal,Home,Respiratory,Medicare,0,0
+59,1,8,1,7,10,3,9,0,Normal,Home,Diabetes,Medicare,0,0
+78,2,9,8,16,19,3,4,11,Normal,Home,Diabetes,Private,1,1
+59,2,5,9,16,8,2,5,125,Not Tested,Skilled Nursing Facility,Circulatory,Medicare,0,1
+73,2,10,8,15,7,1,8,22,Not Tested,Skilled Nursing Facility,Circulatory,Medicaid,1,1
+53,5,9,3,6,1,3,9,365,Abnormal,Home,Circulatory,Medicare,1,1
+85,11,2,8,9,12,2,0,16,Not Tested,Home,Respiratory,Medicaid,1,1
+24,1,9,2,7,29,0,9,139,Not Tested,Home,Respiratory,Private,1,1
+71,4,11,6,14,28,3,2,109,Not Tested,Home,Musculoskeletal,Private,0,1
+18,7,4,6,11,5,2,8,34,Normal,Home,Circulatory,Medicare,0,0
+61,2,6,7,21,16,3,0,36,Abnormal,Home,Other,Private,1,0
+62,1,6,9,16,25,1,0,74,Abnormal,Home,Circulatory,Medicare,1,1
+64,3,6,3,6,4,1,0,172,Normal,Home,Respiratory,Medicaid,1,0
+30,1,2,2,22,17,1,6,43,Not Tested,Against Medical Advice,Circulatory,Medicare,0,1
+39,14,7,2,16,24,0,4,5,Not Tested,Home,Diabetes,Medicaid,0,1
+38,1,13,4,20,21,0,5,42,Abnormal,Home,Musculoskeletal,Medicare,1,1
+26,2,6,0,16,2,3,7,20,Not Tested,Home,Other,Medicaid,1,0
+43,3,11,9,12,12,0,1,252,Abnormal,Home,Respiratory,Medicaid,1,0
+26,21,14,2,17,1,1,1,107,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+32,1,1,5,5,12,4,2,4,Abnormal,Home,Musculoskeletal,Self-Pay,0,0
+27,1,2,2,13,12,2,2,31,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,1,1
+59,1,7,4,8,12,1,2,4,Abnormal,Home,Other,Private,1,1
+89,1,1,8,24,19,3,3,159,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,1
+41,1,1,1,5,25,2,2,213,Not Tested,Home,Musculoskeletal,Private,0,1
+66,4,1,1,12,17,1,1,10,Abnormal,Home,Circulatory,Medicaid,1,1
+43,1,8,5,9,20,0,8,52,Normal,Home,Respiratory,Medicare,0,0
+54,1,4,5,3,24,0,5,241,Normal,Home,Circulatory,Medicare,0,1
+85,8,4,7,3,24,3,2,14,Not Tested,Home,Diabetes,Medicaid,0,0
+67,2,13,1,1,26,3,8,31,Abnormal,Home,Diabetes,Private,1,1
+41,2,2,8,22,28,1,3,32,Not Tested,Skilled Nursing Facility,Circulatory,Self-Pay,1,1
+36,1,11,1,18,11,3,3,2,Abnormal,Home,Respiratory,Medicare,1,1
+77,18,11,0,24,13,1,7,3,Abnormal,Home,Respiratory,Medicare,1,1
+56,1,11,9,12,27,1,6,274,Not Tested,Home,Circulatory,Medicaid,1,1
+91,11,1,1,9,8,4,6,76,Normal,Home,Circulatory,Medicaid,1,1
+35,7,12,6,9,10,1,9,32,Abnormal,Home,Respiratory,Self-Pay,1,1
+36,1,10,7,18,8,2,6,42,Abnormal,Home,Musculoskeletal,Medicare,1,1
+53,21,9,4,18,20,1,9,112,Abnormal,Home,Respiratory,Medicare,0,1
+91,1,7,5,7,8,1,10,41,Not Tested,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+72,1,4,0,4,9,2,4,23,Normal,Skilled Nursing Facility,Other,Medicare,1,0
+86,8,12,5,13,7,2,6,9,Abnormal,Home,Circulatory,Private,1,0
+64,6,6,7,17,14,1,3,117,Normal,Home,Musculoskeletal,Medicare,0,0
+66,4,14,2,24,28,2,7,17,Normal,Home,Respiratory,Medicaid,0,1
+50,1,2,0,2,2,1,8,6,Abnormal,Home,Other,Medicaid,1,0
+38,3,7,3,14,25,1,2,50,Normal,Home,Respiratory,Medicare,0,1
+39,7,2,0,3,11,1,6,3,Abnormal,Home,Musculoskeletal,Medicare,1,0
+65,1,10,7,5,8,2,9,301,Normal,Home,Circulatory,Self-Pay,0,1
+54,1,8,4,14,13,1,8,88,Normal,Home,Other,Self-Pay,0,1
+32,1,8,0,3,21,1,0,14,Normal,Home,Respiratory,Self-Pay,0,1
+52,1,1,7,23,15,1,1,17,Normal,Home,Diabetes,Self-Pay,0,1
+88,10,13,8,7,28,2,6,75,Not Tested,Home,Circulatory,Medicare,1,1
+49,2,8,9,18,3,1,1,39,Abnormal,Home,Other,Medicare,1,0
+28,20,2,1,13,23,2,6,133,Not Tested,Skilled Nursing Facility,Diabetes,Medicare,1,1
+27,2,6,8,23,14,0,0,71,Normal,Skilled Nursing Facility,Circulatory,Private,0,0
+90,6,13,7,22,15,3,2,51,Not Tested,Home,Circulatory,Private,1,1
+94,1,1,6,10,2,1,4,296,Abnormal,Home,Respiratory,Medicaid,1,1
+74,2,5,2,13,29,2,10,44,Normal,Home,Circulatory,Self-Pay,1,1
+42,1,11,1,16,19,0,5,46,Not Tested,Home,Respiratory,Medicaid,1,0
+19,2,7,6,9,12,0,8,98,Not Tested,Against Medical Advice,Other,Medicare,0,1
+81,3,13,4,2,25,2,8,149,Abnormal,Home,Diabetes,Medicare,1,0
+52,24,10,5,23,20,1,2,88,Abnormal,Skilled Nursing Facility,Other,Medicare,1,1
+24,5,1,3,5,4,0,7,107,Abnormal,Home,Respiratory,Medicare,1,0
+35,1,2,1,22,3,1,3,42,Normal,Skilled Nursing Facility,Musculoskeletal,Medicare,0,0
+84,1,7,8,17,5,3,6,58,Abnormal,Skilled Nursing Facility,Respiratory,Private,1,1
+59,1,6,2,23,3,2,5,19,Not Tested,Skilled Nursing Facility,Respiratory,Medicare,1,1
+56,4,3,6,22,25,0,7,102,Abnormal,Home,Diabetes,Private,0,1
+58,7,14,7,4,15,1,5,22,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,1,0
+92,14,10,1,17,19,0,3,0,Abnormal,Home,Other,Self-Pay,1,0
+41,1,2,5,9,2,2,1,244,Not Tested,Against Medical Advice,Respiratory,Private,0,1
+77,3,10,7,20,12,0,6,32,Not Tested,Home,Musculoskeletal,Self-Pay,1,1
+63,3,4,6,2,5,2,10,19,Normal,Home,Diabetes,Medicare,1,1
+36,5,3,2,24,22,2,10,28,Abnormal,Against Medical Advice,Respiratory,Medicare,0,1
+85,4,7,0,18,17,1,3,36,Abnormal,Skilled Nursing Facility,Respiratory,Medicaid,1,1
+59,5,8,5,21,14,2,8,57,Abnormal,Skilled Nursing Facility,Respiratory,Medicare,1,1
+49,5,2,7,22,28,1,8,6,Abnormal,Home,Circulatory,Medicaid,0,0
+56,1,10,5,11,27,0,6,4,Not Tested,Against Medical Advice,Musculoskeletal,Medicare,0,0
+53,8,7,4,13,22,1,4,31,Not Tested,Skilled Nursing Facility,Other,Medicaid,0,0
+53,1,8,7,8,10,3,2,31,Abnormal,Home,Circulatory,Self-Pay,1,0
+20,5,6,1,1,3,1,2,11,Abnormal,Against Medical Advice,Other,Medicare,1,0
+90,2,6,0,17,4,2,8,46,Abnormal,Home,Circulatory,Self-Pay,0,1
+25,3,10,0,12,6,0,8,30,Normal,Home,Diabetes,Medicare,1,0
+87,11,1,3,4,24,0,10,2,Not Tested,Home,Respiratory,Medicare,1,0
+58,11,4,5,21,25,4,3,195,Abnormal,Home,Circulatory,Medicaid,0,1
+85,8,14,8,13,22,2,10,195,Abnormal,Skilled Nursing Facility,Circulatory,Private,1,0
+30,3,1,0,9,16,2,0,21,Not Tested,Home,Respiratory,Private,1,0
+66,6,4,0,7,7,3,9,16,Normal,Home,Circulatory,Private,1,1
+77,3,2,4,23,15,2,4,71,Not Tested,Home,Circulatory,Medicare,0,1
+19,10,11,9,24,21,1,7,89,Not Tested,Home,Circulatory,Medicare,1,1
+77,2,13,4,5,28,3,9,284,Not Tested,Home,Circulatory,Medicare,1,0
+22,17,5,4,5,25,1,3,42,Normal,Home,Circulatory,Medicare,1,0
+61,13,10,9,17,20,0,9,86,Abnormal,Home,Diabetes,Self-Pay,0,1
+44,6,14,5,9,26,1,9,189,Normal,Skilled Nursing Facility,Musculoskeletal,Self-Pay,1,0
+49,1,9,7,6,11,2,3,53,Abnormal,Skilled Nursing Facility,Circulatory,Medicare,1,0
+38,1,11,2,19,22,2,8,11,Not Tested,Home,Circulatory,Private,0,0
+25,9,12,8,16,21,2,8,42,Normal,Home,Musculoskeletal,Medicaid,1,1
+89,1,10,0,21,1,0,6,13,Abnormal,Home,Circulatory,Medicare,1,1
+67,9,3,3,2,5,0,9,1,Abnormal,Home,Musculoskeletal,Medicare,0,1
+84,3,8,8,10,13,2,7,125,Not Tested,Against Medical Advice,Circulatory,Medicaid,0,1
+61,2,3,7,16,21,2,3,24,Abnormal,Home,Circulatory,Medicaid,1,1
+75,11,6,9,5,14,3,7,0,Normal,Home,Circulatory,Medicare,0,1
+20,4,4,8,15,9,2,5,185,Normal,Home,Circulatory,Self-Pay,1,0
+87,4,8,0,13,17,2,2,52,Not Tested,Against Medical Advice,Musculoskeletal,Medicaid,0,1
+19,4,11,8,13,15,2,6,24,Abnormal,Home,Circulatory,Medicare,0,1
+61,2,6,2,13,21,1,2,27,Abnormal,Home,Other,Medicare,0,0
+19,7,8,9,15,7,1,10,24,Normal,Home,Respiratory,Private,1,1
+52,1,1,8,14,27,2,6,19,Abnormal,Home,Other,Medicaid,1,0
+47,13,6,0,8,22,0,4,165,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,0
+25,11,1,0,11,22,4,3,16,Not Tested,Home,Circulatory,Medicare,0,0
+39,2,1,8,18,12,0,2,74,Normal,Skilled Nursing Facility,Diabetes,Medicare,0,1
+61,6,8,5,24,23,1,7,7,Abnormal,Home,Circulatory,Medicare,1,1
+75,4,7,3,4,6,3,3,268,Normal,Home,Musculoskeletal,Medicare,1,1
+53,2,3,6,10,21,1,7,83,Not Tested,Home,Respiratory,Medicaid,0,1
+86,22,6,4,1,16,0,9,210,Abnormal,Skilled Nursing Facility,Diabetes,Medicare,0,0
+94,1,9,9,5,26,0,2,45,Not Tested,Home,Circulatory,Medicare,1,1
+48,1,7,6,13,5,2,9,149,Not Tested,Home,Diabetes,Medicare,0,1
+64,3,12,7,1,9,0,8,172,Not Tested,Home,Diabetes,Medicaid,0,0
+72,3,3,7,23,14,2,5,109,Not Tested,Skilled Nursing Facility,Musculoskeletal,Private,1,1
+79,4,14,0,8,8,0,4,8,Normal,Skilled Nursing Facility,Circulatory,Private,0,0
+47,6,14,7,3,14,4,4,1,Not Tested,Skilled Nursing Facility,Other,Private,1,0
+72,4,13,5,3,12,0,2,16,Not Tested,Home,Other,Medicaid,0,1
+33,4,6,3,7,10,1,1,11,Abnormal,Home,Other,Medicare,0,1
+29,1,11,7,4,20,3,5,116,Not Tested,Home,Diabetes,Private,1,0
+34,2,4,2,3,20,2,10,73,Not Tested,Home,Respiratory,Medicare,0,1
+33,1,14,3,15,26,2,0,67,Not Tested,Skilled Nursing Facility,Circulatory,Private,0,0
+29,1,13,5,8,21,2,6,26,Normal,Skilled Nursing Facility,Other,Private,0,1
+25,4,3,6,3,13,2,4,15,Abnormal,Skilled Nursing Facility,Other,Medicaid,1,1
+20,1,9,3,7,29,1,3,20,Normal,Home,Circulatory,Medicare,1,0
+33,1,10,3,18,19,0,8,46,Not Tested,Skilled Nursing Facility,Respiratory,Self-Pay,0,1
+47,1,2,6,11,15,1,9,121,Not Tested,Against Medical Advice,Other,Private,1,0
+40,14,1,5,11,8,1,0,26,Abnormal,Home,Circulatory,Private,1,0
+22,14,14,7,17,23,1,10,107,Abnormal,Home,Circulatory,Medicare,1,0
+82,4,2,0,6,21,1,3,60,Not Tested,Home,Other,Medicare,1,1
+47,12,7,9,8,10,1,2,194,Normal,Home,Musculoskeletal,Medicare,0,1
+38,7,10,6,1,3,1,5,23,Abnormal,Skilled Nursing Facility,Other,Medicare,0,0
+87,4,1,6,10,21,3,4,53,Not Tested,Home,Circulatory,Medicaid,0,1
+39,1,6,6,19,3,2,6,9,Normal,Home,Circulatory,Private,0,0
+89,7,14,6,3,26,6,0,36,Normal,Home,Diabetes,Medicare,0,1
+49,6,7,9,4,5,4,4,63,Not Tested,Home,Diabetes,Medicaid,1,1
+50,4,9,9,11,16,1,1,118,Abnormal,Home,Circulatory,Medicare,0,0

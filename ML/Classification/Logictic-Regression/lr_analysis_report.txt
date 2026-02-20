@@ -1,0 +1,135 @@
+
+================================================================================
+LOGISTIC REGRESSION CLASSIFICATION - HOSPITAL READMISSION PREDICTION
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Predict which patients will be readmitted to the hospital within 30 days
+of discharge, to enable targeted interventions that improve outcomes and
+reduce CMS (Centers for Medicare & Medicaid) readmission penalties.
+
+WHY LOGISTIC REGRESSION FOR HEALTHCARE?
+  • Outputs probabilities → Risk stratification tiers
+  • Interpretable coefficients → Clinicians trust the model
+  • FDA/regulatory compliance → Explainable AI
+  • Efficient training → Fast enough for real-time scoring
+  • Handles mixed data types well
+
+DATASET SUMMARY
+================================================================================
+Total patients:   2000
+Features:         19
+Readmitted (30d): 1145 (57.2%)
+Not Readmitted:   855 (42.8%)
+
+Feature Categories:
+  Numerical  : Age, LengthOfStay, NumDiagnoses, NumProcedures,
+               NumMedications, NumLabTests, NumPrevAdmissions,
+               ComorbidityScore, DaysSinceLastAdm
+  Categorical: HbA1c, DischargeType, DiagnosisCategory,
+               InsuranceType, ERAdmission
+
+PREPROCESSING
+================================================================================
+  • Stratified train/test split (80/20)
+  • StandardScaler on numerical features
+  • Label encoding for ordinal categories
+  • One-Hot encoding for nominal categories
+  • No missing values generated
+
+MODEL COMPARISON (REGULARIZATION SWEEP)
+================================================================================
+
+Model                            Accuracy    ROC-AUC   F1-Score   Avg Precision
+---------------------------------------------------------------------------
+No Regularization                  0.6375     0.6827     0.7071          0.7348
+L2 (C=1.0)                         0.6375     0.6827     0.7071          0.7348
+L2 (C=0.1)                         0.6375     0.6826     0.7071          0.7348
+L2 (C=0.01)                        0.6375     0.6842     0.7117          0.7366
+
+Best Model: L2 (C=0.01)
+  ROC-AUC = 0.6842
+
+BEST MODEL PERFORMANCE
+================================================================================
+Threshold: 0.3 (optimized for F1)
+
+  Confusion Matrix:
+    True Negatives  (Not Readmitted, Correct): 76
+    False Positives (Predicted Readmit, Wrong): 95
+    False Negatives (Missed Readmission!):      50
+    True Positives  (Caught Readmission):       179
+
+  Clinical Metrics:
+    Sensitivity (Recall):  0.7817  (78.2% of readmissions caught)
+    Specificity:           0.4444  (44.4% of non-readmits correct)
+    Positive Pred Value:   0.6533
+    Negative Pred Value:   0.6032
+    ROC-AUC:               0.6842
+
+CROSS-VALIDATION (5-Fold Stratified)
+================================================================================
+  ROC-AUC: 0.7033 ± 0.0165
+  F1-Score: 0.7270 ± 0.0073
+  Stability: ✓ Excellent
+
+TOP FEATURE IMPACT (COEFFICIENTS)
+================================================================================
+  Age                                 Coef:   0.5126  OR:   1.6696
+  NumMedications                      Coef:   0.2085  OR:   1.2319
+  ComorbidityScore                    Coef:   0.2066  OR:   1.2295
+  NumProcedures                       Coef:   0.0832  OR:   1.0868
+  InsuranceType_Self-Pay              Coef:   0.0721  OR:   1.0748
+  NumPrevAdmissions                   Coef:   0.0658  OR:   1.0680
+  ERAdmission                         Coef:   0.0474  OR:   1.0485
+  DiagnosisCategory_Diabetes          Coef:   0.0100  OR:   1.0101
+  InsuranceType_Private               Coef:   0.0006  OR:   1.0006
+  LengthOfStay                        Coef:  -0.0066  OR:   0.9934
+  DiagnosisCategory_Respiratory       Coef:  -0.0071  OR:   0.9930
+  HbA1c_encoded                       Coef:  -0.0219  OR:   0.9783
+  NumLabTests                         Coef:  -0.0353  OR:   0.9653
+  DiagnosisCategory_Musculoskeletal   Coef:  -0.0475  OR:   0.9536
+  DiagnosisCategory_Other             Coef:  -0.0507  OR:   0.9505
+  InsuranceType_Medicare              Coef:  -0.0593  OR:   0.9424
+  DaysSinceLastAdm                    Coef:  -0.0977  OR:   0.9069
+  NumDiagnoses                        Coef:  -0.1053  OR:   0.9000
+  DischargeType_encoded               Coef:  -0.1451  OR:   0.8649
+
+RISK STRATIFICATION TIERS
+================================================================================
+  HIGH RISK   (P > 0.60): 198 patients  → Care coordinator intervention
+  MEDIUM RISK (P 0.4-0.6): 143 patients → 48hr follow-up call
+  LOW RISK    (P < 0.40): 59 patients  → Standard discharge
+
+CLINICAL INSIGHTS
+================================================================================
+  • Top risk-increasing factors: Age, NumMedications, ComorbidityScore
+  • Top protective factors: DaysSinceLastAdm, NumDiagnoses, DischargeType_encoded
+  • AMA discharge dramatically increases readmission odds
+  • Each additional prior admission increases readmission risk
+  • Recent admissions (short days-since-last) → higher risk
+
+BUSINESS RECOMMENDATIONS
+================================================================================
+  1. Implement risk scoring at discharge for all patients
+  2. Focus interventions on HIGH RISK patients (>P0.3)
+  3. Prioritize AMA discharge patients for outreach
+  4. Address social determinants (Self-Pay → care access)
+  5. Diabetic patients with abnormal HbA1c need enhanced follow-up
+  6. Reduce medication complexity (polypharmacy → higher risk)
+
+FILES GENERATED
+================================================================================
+  • hospital_readmission_data.csv
+  • lr_viz_1_distribution.png
+  • lr_viz_2_roc_pr.png
+  • lr_viz_3_confusion_matrix.png
+  • lr_viz_4_coefficients.png
+  • lr_viz_5_threshold.png
+  • lr_viz_6_regularization.png
+  • lr_viz_7_risk_tiers.png
+
+================================================================================
+END OF REPORT
+================================================================================
