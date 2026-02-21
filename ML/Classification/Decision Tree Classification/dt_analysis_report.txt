@@ -1,0 +1,161 @@
+
+================================================================================
+DECISION TREE CLASSIFICATION - STUDENT DROPOUT RISK PREDICTION
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Predict student dropout risk (LOW RISK / AT RISK / HIGH RISK) from academic
+and engagement data, so university advisors can intervene early with targeted
+support before students disengage completely.
+
+WHY DECISION TREE FOR STUDENT ADVISING?
+  - Rules are fully transparent: advisors trace every decision
+  - No black box: students can be told exactly WHY they are flagged
+  - Handles mixed data (GPA + attendance + categorical) without scaling
+  - Visual tree = training guide for new academic advisors
+  - Fast prediction across entire student population each semester
+
+DATASET SUMMARY
+================================================================================
+  Total students:  1400
+  Features:        12
+  LOW RISK:        600 (43%)
+  AT RISK:         500  (36%)
+  HIGH RISK:       300 (21%)
+  Train/Test:      80% / 20% stratified
+
+PREPROCESSING
+================================================================================
+  - NO scaling required (Decision Trees use thresholds, not distances)
+  - Label encoding for: FinancialAidStatus, FirstGenStudent, GPATrend
+  - Stratified split to preserve class ratios
+
+DEPTH TUNING
+================================================================================
+  Tested max_depth: 1 to 20 + unlimited
+  Best max_depth:   9
+  Unlimited tree:   Train=1.0, Test=0.9286 (severe overfit)
+  Pruned tree:      Train=0.9768, Test=0.8929 (controlled)
+
+SPLITTING CRITERIA COMPARISON
+================================================================================
+  Criterion     Train Acc   Test Acc   F1-Score    CV Mean
+  ------------------------------------------------------
+  gini             0.9768     0.8929     0.8933     0.9384
+  entropy          0.9839     0.9286     0.9281     0.9313
+  log_loss         0.9839     0.9286     0.9281     0.9313
+  Best criterion: entropy
+
+FINAL MODEL PERFORMANCE (max_depth=9, entropy)
+================================================================================
+  Train Accuracy:  0.9768
+  Test Accuracy:   0.8929  (89.29%)
+  Weighted F1:     0.8933
+  Overfitting Gap: 0.0839
+  Tree Depth:      9
+  Leaf Nodes:      35
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+    LOW RISK       0.84      0.86      0.85       100
+     AT RISK       0.87      0.88      0.88        60
+   HIGH RISK       0.95      0.93      0.94       120
+
+    accuracy                           0.89       280
+   macro avg       0.89      0.89      0.89       280
+weighted avg       0.89      0.89      0.89       280
+
+
+  Confusion Matrix:
+                 LOW RISK    AT RISK  HIGH RISK
+  LOW RISK            111          9          0
+  AT RISK               6         86          8
+  HIGH RISK             0          7         53
+
+FEATURE IMPORTANCE
+================================================================================
+   1. GPA                       0.6374 (63.74%)
+   2. AttendanceRate            0.1421 (14.21%)
+   3. StudyHoursPerWeek         0.0935 (9.35%)
+   4. AssignmentsCompleted      0.0831 (8.31%)
+   5. CreditHoursEnrolled       0.0194 (1.94%)
+   6. FailedCourses             0.0115 (1.15%)
+   7. ExtracurricularCount      0.0079 (0.79%)
+   8. FinancialAidStatus        0.0029 (0.29%)
+   9. LibraryVisitsMonth        0.0022 (0.22%)
+  10. FirstGenStudent           0.0000 (0.00%)
+  11. SemesterNumber            0.0000 (0.00%)
+  12. GPATrend                  0.0000 (0.00%)
+
+CROSS-VALIDATION (5-Fold Stratified)
+================================================================================
+  Accuracy: 0.9223 +/- 0.0073
+  F1-Score: 0.9223 +/- 0.0073
+  Stability: Excellent
+
+DECISION TREE vs OTHER ALGORITHMS
+================================================================================
+  vs Logistic Regression:
+    DT handles non-linear boundaries naturally
+    DT needs no feature scaling
+    LR gives smoother probabilities
+
+  vs KNN:
+    DT is much faster at prediction time (no distance calc)
+    DT is interpretable (KNN is not)
+    DT handles categorical features natively
+
+  vs SVM:
+    DT is fully explainable (SVM is a black box)
+    DT trains and predicts faster
+    SVM often achieves higher accuracy on complex boundaries
+
+  vs Random Forest:
+    DT: single tree = interpretable rules
+    RF: 100+ trees = better accuracy but less interpretable
+    RF is the natural upgrade when accuracy > interpretability
+
+DECISION TREE ADVANTAGES
+================================================================================
+  - Fully transparent: every prediction is traceable to a rule
+  - No preprocessing: no scaling, handles mixed feature types
+  - Fast training and prediction
+  - Can be printed as a flowchart for advisors
+  - Handles both classification and regression
+  - Feature importance is intuitive
+
+DECISION TREE LIMITATIONS
+================================================================================
+  - Prone to overfitting (needs pruning via max_depth)
+  - Unstable: small data changes can flip entire tree structure
+  - Greedy splits: locally optimal but not globally
+  - Biased toward features with more values/levels
+  - Weaker than ensemble methods (Random Forest, Gradient Boosting)
+
+BUSINESS RECOMMENDATIONS
+================================================================================
+  1. Run model at start of each semester on all enrolled students
+  2. HIGH RISK students: assign a personal academic advisor immediately
+  3. AT RISK students: proactive email + optional counseling session
+  4. Track GPA Trend weekly: declining trend is the earliest warning
+  5. Target first-gen students with peer mentoring programs
+  6. Review students dropping credit hours mid-semester
+  7. Upgrade to Random Forest next semester for higher accuracy
+     while keeping DT as the explainability layer
+
+FILES GENERATED
+================================================================================
+  student_dropout_data.csv
+  dt_viz_1_distribution.png          - Class distribution + scatter plots
+  dt_viz_2_tree.png                  - Visual tree structure (top 3 levels)
+  dt_viz_3_depth_tuning.png          - Depth tuning curves
+  dt_viz_4_confusion.png             - Confusion matrix (count + %)
+  dt_viz_5_importance.png            - Feature importance chart
+  dt_viz_6_boxplots.png              - Feature distributions by risk level
+  dt_viz_7_criteria_confidence.png   - Criterion comparison + confidence
+
+================================================================================
+END OF REPORT
+================================================================================

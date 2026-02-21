@@ -1,0 +1,144 @@
+
+================================================================================
+RANDOM FOREST CLASSIFICATION - RESTAURANT HEALTH INSPECTION RISK
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Classify restaurants as PASS / CONDITIONAL PASS / FAIL before dispatching
+health inspectors, enabling the city health department to prioritize
+urgent visits, optimize inspector workload, and protect public health.
+
+WHY RANDOM FOREST FOR HEALTH INSPECTIONS?
+  - Noisy complaint data (false reports, duplicates) — RF averages noise away
+  - Complex interactions: old permit + pest complaints = very high risk
+  - Rare FAIL cases handled better by ensemble bootstrap sampling
+  - Feature importance reveals which factors truly drive violations
+  - More stable predictions than single DT for public health decisions
+
+DATASET SUMMARY
+================================================================================
+  Total restaurants:  1500
+  Features:           15
+  PASS:               700 (47%)
+  CONDITIONAL PASS:   500 (33%)
+  FAIL:               300 (20%)
+  Train/Test:         80% / 20% stratified
+
+DT vs RF COMPARISON
+================================================================================
+  Model                   Train Acc   Test Acc       F1       CV      Gap
+  --------------------------------------------------------------------
+  Decision Tree              0.9950     0.9567   0.9567   0.9525   0.0383
+  RF Default                 1.0000     0.9933   0.9933   0.9925   0.0067
+  RF Optimized               1.0000     0.9933   0.9933   0.9908   0.0067
+
+  Accuracy improvement over DT:  +0.0367
+  Overfitting reduction:         +0.0317
+
+BEST MODEL: RANDOM FOREST OPTIMIZED
+================================================================================
+  Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 100}
+  OOB Score:       0.9917
+  Test Accuracy:   0.9933 (99.33%)
+  Weighted F1:     0.9933
+  Overfitting Gap: 0.0067
+
+  Classification Report:
+                  precision    recall  f1-score   support
+
+            PASS       0.99      0.99      0.99       100
+CONDITIONAL PASS       0.98      1.00      0.99        60
+            FAIL       1.00      0.99      1.00       140
+
+        accuracy                           0.99       300
+       macro avg       0.99      0.99      0.99       300
+    weighted avg       0.99      0.99      0.99       300
+
+
+  Confusion Matrix:
+                             PASS     COND     FAIL
+  PASS               139        1        0
+  COND PASS            0       99        1
+  FAIL                 0        0       60
+
+N_ESTIMATORS SWEEP
+================================================================================
+  Best n_estimators: 300
+  OOB and test accuracy stabilize well before 100 trees
+  Adding trees beyond 150 gives minimal improvement
+
+CROSS-VALIDATION (5-Fold)
+================================================================================
+  Accuracy: 0.9908 +/- 0.0041
+  F1-Score: 0.9908 +/- 0.0041
+  Stability: Excellent
+
+FEATURE IMPORTANCE (RF — Averaged across all trees)
+================================================================================
+   1. KitchenInspectionScore         RF: 0.2820 (28.20%)  DT: 0.6900
+   2. DaysSinceRenovation            RF: 0.1556 (15.56%)  DT: 0.1093
+   3. FoodHandlerCertified           RF: 0.1460 (14.60%)  DT: 0.0449
+   4. ComplaintsLast6Months          RF: 0.0823 (8.23%)  DT: 0.0304
+   5. PreviousViolationCount         RF: 0.0783 (7.83%)  DT: 0.0177
+   6. DaysSinceLastInspection        RF: 0.0762 (7.62%)  DT: 0.0300
+   7. RoachCockroachComplaints       RF: 0.0503 (5.03%)  DT: 0.0367
+   8. CriticalViolationsBefore       RF: 0.0480 (4.80%)  DT: 0.0186
+   9. PermitAge                      RF: 0.0286 (2.86%)  DT: 0.0079
+  10. TemperatureViolations          RF: 0.0251 (2.51%)  DT: 0.0000
+  11. EmployeeCount                  RF: 0.0151 (1.51%)  DT: 0.0117
+  12. SeatingCapacity                RF: 0.0087 (0.87%)  DT: 0.0013
+  13. OwnershipChangedRecently       RF: 0.0019 (0.19%)  DT: 0.0000
+  14. HighRiskFoodServed             RF: 0.0010 (0.10%)  DT: 0.0013
+  15. InspectorChangedRecently       RF: 0.0010 (0.10%)  DT: 0.0000
+
+INSPECTOR DISPATCH PRIORITY SYSTEM
+================================================================================
+  FAIL predicted:             Dispatch TODAY — close until resolved
+  CONDITIONAL PASS predicted: Schedule inspection within 2 weeks
+  PASS predicted:             Routine annual scheduling
+
+  Using this model, the health dept can:
+  - Prioritize the 61 restaurants predicted FAIL in test set
+  - Pre-allocate inspector time before complaints escalate
+  - Reduce unnecessary visits to low-risk establishments
+
+RF vs DT KEY DIFFERENCES IN THIS SCENARIO
+================================================================================
+  Decision Tree:
+    - One tree memorizes specific past violations
+    - Sensitive to which complaints happened to be in training data
+    - Feature importance unstable across random seeds
+    - Overfits on rare FAIL cases
+
+  Random Forest:
+    - 100+ trees each trained on different bootstrapped data
+    - Complaint noise averaged out across trees
+    - Feature importance stable and reliable
+    - FAIL cases appear in multiple bootstrap samples
+    - OOB score = free validation, no data sacrifice needed
+
+BUSINESS RECOMMENDATIONS
+================================================================================
+  1. Run model weekly against complaint database updates
+  2. Auto-dispatch inspectors when FAIL probability > 70%
+  3. Focus on top risk factors: KitchenInspectionScore, DaysSinceRenovation
+  4. Track restaurants with rising complaint counts month-over-month
+  5. Flag ownership changes immediately for re-inspection scheduling
+  6. Use CONDITIONAL PASS predictions to plan proactive advisory visits
+  7. Retrain model quarterly with new inspection outcomes
+
+FILES GENERATED
+================================================================================
+  restaurant_inspection_data.csv
+  rf_cls_viz_1_distribution.png     - Class distribution + scatter plots
+  rf_cls_viz_2_comparison.png       - DT vs RF comparison
+  rf_cls_viz_3_estimators.png       - n_estimators sweep + OOB
+  rf_cls_viz_4_confusion.png        - Confusion matrix (count + %)
+  rf_cls_viz_5_importance.png       - Feature importance DT vs RF
+  rf_cls_viz_6_boxplots.png         - Feature distributions by result
+  rf_cls_viz_7_confidence_oob.png   - Confidence + OOB convergence
+
+================================================================================
+END OF REPORT
+================================================================================
