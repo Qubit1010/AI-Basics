@@ -1,0 +1,184 @@
+
+================================================================================
+ASSOCIATION RULE LEARNING - APRIORI ALGORITHM
+SCENARIO: BOOKSTORE PURCHASE PATTERN DISCOVERY
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+A small bookstore wants to discover hidden purchasing patterns:
+  • Which book genres are frequently bought together?
+  • What recommendations should be made at checkout?
+  • How should shelves be arranged to boost cross-sales?
+  • Which genres to bundle in promotional combo offers?
+
+Why Apriori for Bookstore Data?
+  • Transactions are naturally basket-style (multiple items per visit)
+  • No labels or target variable — purely unsupervised pattern mining
+  • Actionable rules: IF customer buys X THEN recommend Y
+  • Scalable: Apriori pruning handles large item catalogs efficiently
+
+DATASET SUMMARY
+================================================================================
+Total transactions: 200
+Unique book genres: 8
+Genres: Fiction, Self-Help, Science, History, Children, Cooking, Biography, Travel
+
+Transaction Statistics:
+  Average items per transaction: 2.00
+  Most items in one transaction: 4
+  Least items in one transaction: 1
+
+Most Popular Genres:
+  1. Fiction         support = 0.4000 (80 transactions)
+  2. Self-Help       support = 0.3800 (76 transactions)
+  3. History         support = 0.2350 (47 transactions)
+  4. Biography       support = 0.2250 (45 transactions)
+  5. Science         support = 0.2200 (44 transactions)
+  6. Travel          support = 0.2100 (42 transactions)
+  7. Cooking         support = 0.2000 (40 transactions)
+  8. Children        support = 0.1350 (27 transactions)
+
+APRIORI PARAMETERS
+================================================================================
+  Minimum Support    : 10%  (appears in ≥ 20 transactions)
+  Minimum Confidence : 40%  (rule is correct ≥ 40% of antecedent cases)
+  Minimum Lift       : 1.0   (positive association only)
+
+APRIORI EXECUTION SUMMARY
+================================================================================
+Step 1 - Frequent 1-Itemsets (L1):
+  Candidates (C1): 8
+  Frequent (L1):   8
+  Pruned:          0
+
+Step 2 - Frequent 2-Itemsets (L2):
+  Candidates (C2): 28
+  Frequent (L2):   5
+  Pruned:          23
+
+Step 3 - Frequent 3-Itemsets (L3):
+  Candidates (C3): 0 (after Apriori pruning from raw 35)
+  Frequent (L3):   0
+
+Total Frequent Itemsets: 13
+
+ASSOCIATION RULES
+================================================================================
+Total rules generated: 10
+Strong rules (Conf ≥ 40%, Lift ≥ 1.0): 8
+
+--- All Strong Rules (sorted by Lift) ---
+#    Antecedent                → Consequent                     Sup     Conf     Lift
+-------------------------------------------------------------------------------------
+  1   {Cooking}                 → {Travel}                    0.1100   0.5500   2.6190
+  2   {Travel}                  → {Cooking}                   0.1100   0.5238   2.6190
+  3   {Science}                 → {History}                   0.1250   0.5682   2.4178
+  4   {History}                 → {Science}                   0.1250   0.5319   2.4178
+  5   {Cooking}                 → {Self-Help}                 0.1150   0.5750   1.5132
+  6   {Biography}               → {Self-Help}                 0.1050   0.4667   1.2281
+  7   {Self-Help}               → {Fiction}                   0.1850   0.4868   1.2171
+  8   {Fiction}                 → {Self-Help}                 0.1850   0.4625   1.2171
+
+TOP RULES EXPLAINED
+================================================================================
+Rule #1: {Cooking} → {Travel}
+  Support    = 0.1100  (11.0% of all transactions)
+  Confidence = 0.5500  (55.0% of people buying {Cooking} also buy {Travel})
+  Lift       = 2.6190  (2.62x more likely than random)
+Rule #2: {Travel} → {Cooking}
+  Support    = 0.1100  (11.0% of all transactions)
+  Confidence = 0.5238  (52.4% of people buying {Travel} also buy {Cooking})
+  Lift       = 2.6190  (2.62x more likely than random)
+Rule #3: {Science} → {History}
+  Support    = 0.1250  (12.5% of all transactions)
+  Confidence = 0.5682  (56.8% of people buying {Science} also buy {History})
+  Lift       = 2.4178  (2.42x more likely than random)
+Rule #4: {History} → {Science}
+  Support    = 0.1250  (12.5% of all transactions)
+  Confidence = 0.5319  (53.2% of people buying {History} also buy {Science})
+  Lift       = 2.4178  (2.42x more likely than random)
+Rule #5: {Cooking} → {Self-Help}
+  Support    = 0.1150  (11.5% of all transactions)
+  Confidence = 0.5750  (57.5% of people buying {Cooking} also buy {Self-Help})
+  Lift       = 1.5132  (1.51x more likely than random)
+
+BUSINESS RECOMMENDATIONS
+================================================================================
+
+1. SHELF PLACEMENT
+   • Place Self-Help near Fiction section (strong co-purchase signal)
+   • Place Biography near Fiction & History sections
+   • Create a "Lifestyle Corner" with Cooking + Travel together
+   • Keep Science and History shelves adjacent
+
+2. BUNDLE PROMOTIONS
+   • "Reader's Combo": Fiction + Self-Help → save 15%
+   • "Explorer's Pack": Cooking + Travel → save 12%
+   • "Knowledge Bundle": Science + History + Biography → save 20%
+
+3. CHECKOUT RECOMMENDATIONS
+   At checkout, suggest based on cart:
+   • Cart has Fiction? → Recommend Self-Help or Biography
+   • Cart has Cooking? → Recommend Travel
+   • Cart has Science? → Recommend History or Biography
+
+4. EMAIL CAMPAIGNS
+   • Target Fiction buyers: offer discount on Self-Help
+   • Target Science buyers: announce new History arrivals
+   • Target Cooking buyers: highlight Travel bestsellers
+
+5. LOYALTY PROGRAM
+   • Award bonus points for purchasing high-lift pairs
+   • Create genre-crossing reading challenges (Fiction + Science, etc.)
+
+APRIORI ALGORITHM EXPLANATION
+================================================================================
+Core Concepts:
+
+  SUPPORT = P(A and B) = transactions with ItemsetAB / all transactions
+    -> Measures HOW FREQUENTLY the itemset appears
+    -> High support = popular combination
+
+  CONFIDENCE = P(B | A) = support(A,B) / support(A)
+    -> Measures HOW OFTEN the rule is correct
+    -> "If customer buys A, they buy B with 40%+ probability"
+
+  LIFT = Confidence / P(B) = P(A and B) / (P(A) x P(B))
+    -> Measures HOW MUCH BETTER than random chance
+    -> Lift > 1: Positive association (buying A encourages buying B)
+    -> Lift = 1: Independent (no association)
+    -> Lift < 1: Negative association (buying A discourages buying B)
+
+Anti-Monotone (Apriori) Property:
+  "If itemset X is infrequent, all supersets of X are also infrequent"
+  This eliminates entire branches from the search tree, making the algorithm
+  scalable to thousands of items and millions of transactions.
+
+ADVANTAGES OF APRIORI
+{'='*80}
+  ✓ Unsupervised: No labels needed — learns from raw transactions
+  ✓ Interpretable: Rules are human-readable IF→THEN statements
+  ✓ Actionable: Direct business application (shelf placement, bundles, recommendations)
+  ✓ Scalable: Anti-monotone pruning reduces search space
+  ✓ Flexible: Works on any categorical transaction data
+
+LIMITATIONS
+{'='*80}
+  ⚠ Computationally expensive with very large item sets (exponential search)
+  ⚠ Sensitive to support threshold (too low = too many rules, too high = miss patterns)
+  ⚠ Does not capture sequence/order of purchases
+  ⚠ Correlation ≠ Causation (lift shows association, not why it happens)
+
+FILES GENERATED
+{'='*80}
+  • apriori_viz_1_item_frequency.png   — Individual genre support
+  • apriori_viz_2_pruning_steps.png    — C1→L1, C2→L2, C3→L3 pruning
+  • apriori_viz_3_scatter.png          — Support vs Confidence scatter (color=Lift)
+  • apriori_viz_4_heatmap.png          — Confidence heatmap (A → B)
+  • apriori_viz_5_top_rules.png        — Top 10 rules by Lift and Confidence
+  • apriori_viz_6_cooccurrence.png     — Co-occurrence matrix + transaction sizes
+
+{'='*80}
+END OF REPORT
+{'='*80}

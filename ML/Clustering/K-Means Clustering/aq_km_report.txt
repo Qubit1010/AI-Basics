@@ -1,0 +1,128 @@
+
+================================================================================
+K-MEANS CLUSTERING - URBAN AIR QUALITY MONITORING STATIONS
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Group 400 air quality sensors into pollution zone clusters based on their
+multi-pollutant signatures, enabling the environmental agency to:
+  - Issue targeted health alerts by zone type (not city-wide blankets)
+  - Deploy field inspection teams to highest-risk industrial/traffic zones
+  - Understand dominant pollution sources district by district
+  - Track seasonal cluster shifts (winter heating changes residential profile)
+
+WHY K-MEANS FOR AIR QUALITY STATIONS?
+  - Unsupervised: no prior zone labels needed
+  - Multi-pollutant fingerprint naturally groups by pollution source
+  - Centroids = average pollution signature = actionable threshold per zone
+  - Re-cluster monthly/seasonally to detect changing patterns
+  - Scalable to city-wide networks of thousands of sensors
+
+DATASET
+================================================================================
+  Total sensors:  400
+  Features:       12 pollutants + meteorological variables
+  Algorithm:      K-Means with K-Means++ init (n_init=20)
+  Optimal K:      4
+
+CLUSTERING QUALITY
+================================================================================
+  Silhouette Score: 0.4187  (Reasonable structure)
+  Inertia (WCSS):   1627.19
+  Convergence:      2 iterations
+
+  Per-Cluster Silhouette:
+  Cluster Name                    Size   Mean Sil
+  ----------------------------------------------
+  0     Clean Background         110     0.5482
+  1     Residential Burning      100     0.3652
+  2     Traffic Hotspot          110     0.3977
+  3     Industrial Zone           80     0.3365
+
+CLUSTER PROFILES (Centroid Values)
+================================================================================
+   PM2_5   PM10    NO2    CO    SO2     O3    VOC  BlackCarbon  HumidityAvg  TemperatureAvg  WindSpeedAvg  NightDayRatio
+0   8.07  16.66   9.27  0.57   3.04  38.13   9.49         0.56        61.18           15.08          4.45           0.72
+1  43.03  51.81  22.39  4.18   8.56  21.34  29.94         3.43        63.19           16.66          1.97           1.47
+2  27.41  49.00  72.90  2.82   4.64  28.54  37.48         4.30        59.58           18.54          3.29           0.38
+3  34.68  81.82  33.27  3.46  44.22  18.21  60.91         2.54        52.20           19.49          2.54           0.88
+
+HEALTH RISK SCORES
+================================================================================
+  Industrial Zone       : 3721/100  [CRITICAL]
+  Residential Burning   : 3220/100  [CRITICAL]
+  Traffic Hotspot       : 2881/100  [CRITICAL]
+  Clean Background      : 712/100  [CRITICAL]
+
+POLLUTION SOURCE SIGNATURES
+================================================================================
+  Traffic Hotspot:
+    Key markers: NO2 high (exhaust), BlackCarbon high (diesel),
+                 CO elevated, low NightDayRatio (dies at night)
+    Source:      Highways, intersections, bus depots
+
+  Industrial Zone:
+    Key markers: SO2 very high (coal/fossil fuel), VOC high (solvents),
+                 PM10 high (grinding/dust), NightDayRatio ~1.0 (24/7 ops)
+    Source:      Factories, power plants, chemical plants
+
+  Residential Burning:
+    Key markers: NightDayRatio > 1.0 (evening/overnight peak),
+                 PM2.5 high (wood smoke), CO high (incomplete combustion)
+    Source:      Cooking fires, heating stoves, residential boilers
+
+  Clean Background:
+    Key markers: All pollutants low, O3 slightly elevated (no NOx to consume),
+                 High wind speed (open areas disperse pollution)
+    Source:      Parks, forests, low-density suburbs
+
+OPERATIONAL RECOMMENDATIONS
+================================================================================
+  [Industrial Zone — CRITICAL risk]
+    1. Daily automatic alerts to nearby residents on high-SO2 days
+    2. Dispatch inspection team if SO2 > 60 ppb for 3+ consecutive days
+    3. Cross-reference with factory operating schedules
+    4. Push for industrial scrubber compliance checks
+
+  [Residential Burning — HIGH risk]
+    1. Evening air quality alerts (5pm-9pm) to affected neighborhoods
+    2. Winter coal/wood burning incentive programs for cleaner alternatives
+    3. Work with housing authority on heating system upgrades
+    4. NightDayRatio > 1.8 triggers automatic advisory
+
+  [Traffic Hotspot — HIGH risk]
+    1. Real-time NO2 display boards at major intersections
+    2. Coordinate with traffic management for bus-priority signal timing
+    3. School zone alerts when NO2 > 80 ppb during school hours
+    4. Long-term: flag for EV charging infrastructure priority zones
+
+  [Clean Background — LOW risk]
+    1. Maintain as baseline reference sensors for the city
+    2. Use as control group for pollution dispersion modeling
+    3. Annual calibration checks sufficient
+    4. Protect from development that could shift cluster
+
+K-MEANS SPECIFIC NOTES FOR THIS SCENARIO
+================================================================================
+  - NightDayRatio was the KEY feature separating Residential from Traffic
+    Without scaling, this 0-2 range feature would be invisible to K-Means
+  - SO2 was the clearest Industrial Zone separator (very low in all others)
+  - K=4 aligns perfectly with 4 known urban pollution source archetypes
+  - Seasonal re-clustering essential: winter heating inflates Residential cluster
+  - Sensors near cluster boundaries (low silhouette) warrant physical inspection
+
+FILES GENERATED
+================================================================================
+  air_quality_data.csv
+  aq_viz_1_elbow_sil.png        - Elbow curve + silhouette by K
+  aq_viz_2_pca.png              - PCA clusters vs true types
+  aq_viz_3_profiles.png         - Pollutant profiles per cluster
+  aq_viz_4_silhouette.png       - Station-level silhouette plot
+  aq_viz_5_scatter.png          - Pollution source signature pairs
+  aq_viz_6_heatmap_risk.png     - Centroid heatmap + health risk scores
+  aq_viz_7_boxplots.png         - Feature distributions per cluster
+
+================================================================================
+END OF REPORT
+================================================================================

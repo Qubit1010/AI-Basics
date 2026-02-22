@@ -1,0 +1,9 @@
+Antecedent,Consequent,Support,Confidence,Lift,Leverage,Conviction
+{Cooking},{Travel},0.11,0.55,2.619,0.068,1.7556
+{Travel},{Cooking},0.11,0.5238,2.619,0.068,1.68
+{Science},{History},0.125,0.5682,2.4178,0.0733,1.7716
+{History},{Science},0.125,0.5319,2.4178,0.0733,1.6664
+{Cooking},{Self-Help},0.115,0.575,1.5132,0.039,1.4588
+{Biography},{Self-Help},0.105,0.4667,1.2281,0.0195,1.1625
+{Self-Help},{Fiction},0.185,0.4868,1.2171,0.033,1.1692
+{Fiction},{Self-Help},0.185,0.4625,1.2171,0.033,1.1535
