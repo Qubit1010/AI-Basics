@@ -1,0 +1,193 @@
+
+================================================================================
+HIERARCHICAL CLUSTERING — CITY PUBLIC LIBRARY BRANCH USAGE PATTERNS
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+Group 38 library branches into operational clusters based on usage
+and service patterns, enabling administrators to:
+  - Assign budgets fairly by cluster tier (not branch-by-branch guesswork)
+  - Create shared specialist staff pools within each cluster
+  - Standardise collection development policies per cluster
+  - Design targeted outreach programs for each branch type
+  - Prioritise inter-branch loan partnerships from merge history
+
+WHY HIERARCHICAL CLUSTERING?
+================================================================================
+  - Small N (38 branches): dendrogram is fully readable and auditable
+  - No K needed upfront: board can see K=2, 3, 4, 5 from ONE run
+  - Deterministic: same result every year for fair year-over-year comparison
+  - Merge history = resource-sharing priority list built-in
+  - Cophenetic correlation validates how accurately tree reflects reality
+  - Ward linkage produces operationally coherent, compact clusters
+
+DATASET
+================================================================================
+  Branches:  38
+  Features:  12 service and usage metrics
+  Algorithm: Agglomerative HC, Ward linkage
+  K chosen:  4 (largest dendrogram height gap)
+
+LINKAGE COMPARISON
+================================================================================
+  Method         Cophenetic  Quality
+  ----------------------------------------
+  ward               0.8677  Excellent  ← used
+  complete           0.9001  Excellent
+  average            0.9135  Excellent
+  single             0.8749  Excellent
+
+CLUSTERING QUALITY (K=4)
+================================================================================
+  Silhouette Score: 0.5876  (Strong)
+  Cophenetic:       0.8677
+  Cut Height:       10.806
+
+  Per-Cluster Silhouette:
+  C    Name                      Size   Sil Mean
+  ------------------------------------------------
+  0    Central / Flagship           6     0.5368
+  1    Community Active             9     0.6665
+  2    Low-Usage                    8     0.7852
+  3    Digital-First               15     0.4551
+
+CLUSTER COMPOSITIONS
+================================================================================
+  [Central / Flagship]
+    • Central Library
+    • Westside Main
+    • Northgate Flagship
+    • Civic Centre Branch
+    • Downtown Heritage
+    • Eastside Central
+  [Community Active]
+    • Greenpark Branch
+    • Riverside Community
+    • Lakeside Branch
+    • Sunridge Community
+    • Oakdale Branch
+    • Maplewood Branch
+    • Hillview Community
+    • Cedarwood Branch
+    • Pinehurst Branch
+  [Low-Usage]
+    • Far North Branch
+    • Southfield Small
+    • Westmere Outpost
+    • Rural Route Branch
+    • Brookside Tiny
+    • Millcreek Branch
+    • Pineview Small
+    • Clearwater Branch
+  [Digital-First]
+    • University Branch
+    • Tech Hub Library
+    • Innovation Branch
+    • Metro East Branch
+    • College Park Branch
+    • Silicon Quarter
+    • Campus West Library
+    • Digital Commons
+    • Quiet Oaks Branch
+    • Scholars Corner
+    • Reading Room Branch
+    • Elmwood Study Branch
+    • Birchwood Quiet
+    • Heritage Study
+    • Archive & Study
+
+CENTROID PROFILES (original units)
+================================================================================
+                        AvgDailyVisitors  BooksCheckedOutPerDay  DigitalLoansPerDay  ProgramAttendancePerMonth  ChildrenPrograms  ComputerSessionsPerDay  StudyRoomBookingsPerDay  VolunteerHoursPerMonth  OverdueFineRatePercent  CollectionSizePer1000  StaffPerShift  SqFtPerThousand
+C0: Central / Flagship             832.7                  289.0               194.8                      597.0              14.7                    82.8                     27.0                   127.0                     6.9                   40.8            9.3             20.2
+C1: Community Active               305.0                  145.1                55.3                      476.6              22.3                    36.4                      7.7                   197.6                    10.1                   29.7            5.3              9.5
+C2: Low-Usage                       72.5                   28.1                20.6                       55.4               4.5                    10.4                      3.2                    43.3                    10.5                   13.5            2.6              3.6
+C3: Digital-First                  345.4                   83.0               176.0                      117.8               3.3                    73.4                     41.9                    53.0                     4.7                   24.4            4.5              6.5
+
+CLOSEST BRANCH PAIRS (First 8 Merges — Highest Resource-Sharing Priority)
+================================================================================
+  Reading Room Branch <-> Birchwood Quiet  (distance=0.483)
+  Westmere Outpost <-> Millcreek Branch  (distance=0.533)
+  Oakdale Branch <-> Pinehurst Branch  (distance=0.674)
+  Far North Branch <-> Rural Route Branch  (distance=0.677)
+  College Park Branch <-> Digital Commons  (distance=0.882)
+  Riverside Community <-> Sunridge Community  (distance=0.962)
+
+MULTI-K FLEXIBILITY (From One Tree)
+================================================================================
+  K=2  →  Core flagship group vs Neighbourhood group  (funding formula)
+  K=3  →  High / Medium / Low service tier
+  K=4  →  Detailed service model  (this report)
+  K=5  →  Fine-grained: splits Digital-First from Quiet/Study
+
+HC vs K-MEANS
+================================================================================
+  K-Means:
+    Needs K upfront; random starts can give different results
+    Only returns final partition; no merge history
+    Fast for thousands of points
+
+  Hierarchical Clustering (this scenario):
+    No K needed; read it from the dendrogram
+    Fully deterministic — reproducible every audit year
+    Merge history = built-in resource-sharing priority list
+    Multiple K views from one run
+    Cophenetic score validates tree quality
+    Ideal for 10–500 labelled entities like branches
+
+POLICY RECOMMENDATIONS
+================================================================================
+  [Central / Flagship]
+    Budget: High per-branch allocation; justify with >800 daily visitors
+    Staff: Full specialist team: librarians + IT + children + community
+    Collection: Comprehensive — all genres, all formats, largest holdings
+    Programs: Anchor events: author talks, exhibitions, job fairs
+    Digital: Self-checkout kiosks, 24/7 digital catalogue access
+    Outreach: Host city-wide library card drives; serve as district hub
+  [Community Active]
+    Budget: Medium-high; justify with high program attendance + volunteers
+    Staff: Children's specialist + community outreach coordinator mandatory
+    Collection: Strong children's section; local history; multilingual
+    Programs: Weekly children's storytime, ESL classes, craft nights
+    Digital: Basic e-lending; focus budget on physical programs
+    Outreach: Mobile library visits to local schools + senior centres
+  [Low-Usage]
+    Budget: Lean; review branches with <60 visitors/day for hours cut
+    Staff: Minimum 1 librarian + volunteer rotation
+    Collection: Curated small collection; rely on inter-branch loan network
+    Programs: 1-2 high-impact community events per month
+    Digital: Ensure reliable Wi-Fi — often the only public internet nearby
+    Outreach: PRIORITY outreach target: mobile library + pop-up visits
+  [Digital-First]
+    Budget: Medium; redirect physical book budget → digital licences
+    Staff: Digital literacy coach; reduce floor staff, add tech support
+    Collection: Invest heavily in ebook/audiobook licences; trim physical
+    Programs: Coding workshops, 3D printing, research skills seminars
+    Digital: Expand computer stations; fibre internet priority; study pods
+    Outreach: Partner with university/college for student card integration
+
+VALIDATION vs GROUND TRUTH
+================================================================================
+ClusterName       Central / Flagship  Community Active  Digital-First  Low-Usage
+_TrueType                                                                       
+Central/Flagship                   6                 0              0          0
+Community Active                   0                 9              0          0
+Digital-First                      0                 0              8          0
+Low-Usage                          0                 0              0          8
+Quiet/Study                        0                 0              7          0
+
+FILES GENERATED
+================================================================================
+  library_branch_data.csv
+  lib_viz_1_dendrogram.png    Full Ward dendrogram with cut line
+  lib_viz_2_linkage.png       All 4 linkage methods compared
+  lib_viz_3_pca.png           PCA: HC clusters vs true types
+  lib_viz_4_heatmap.png       Cluster centroid heatmap
+  lib_viz_5_silhouette.png    Branch-level silhouette plot
+  lib_viz_6_scatter.png       Key feature pair scatter plots
+  lib_viz_7_distmatrix.png    Full pairwise distance matrix (HC order)
+
+================================================================================
+END OF REPORT
+================================================================================
