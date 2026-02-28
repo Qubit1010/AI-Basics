@@ -1,0 +1,26 @@
+Review,Original_Text,True_Sentiment,Predicted_Sentiment,Sentiment_Score,Correct,Token_Count_Clean,Top_TF-IDF_Word
+1,The pasta was absolutely delicious! The chef clearly knows Italian cuisine. Will definitely come back.,positive,positive,1,True,10,clearly
+2,Terrible experience. The waiter was rude and the food arrived cold. Never coming back to this place.,negative,negative,-4,True,11,arrived
+3,Amazing ambiance and great cocktails. The steak was perfectly cooked. Highly recommend this restaurant!,positive,positive,3,True,10,ambiance
+4,Food was okay but nothing special. The service was slow and the portion sizes were disappointing.,negative,negative,-2,True,9,nothing
+5,"Best burger I have ever eaten! Crispy fries, fresh ingredients, and friendly staff. Five stars easily.",positive,positive,4,True,13,crispy
+6,The pizza was burnt and the salad had wilted lettuce. The manager was unapologetic about our complaints.,negative,negative,-3,True,8,burnt
+7,"Cozy atmosphere, excellent wine selection, and the tiramisu was heavenly. Perfect date night spot.",positive,positive,4,True,11,atmosphere
+8,Long wait time for a table despite reservations. The soup was bland and the bread was stale.,negative,negative,-3,True,10,despite
+9,"Outstanding seafood platter! Fresh prawns, succulent lobster, and amazing garlic butter sauce. Loved it.",positive,positive,5,True,12,garlic
+10,Very noisy environment and the air conditioning was broken. The chicken was dry and overpriced.,negative,negative,-4,True,8,air
+11,Lovely outdoor seating area. The grilled salmon was cooked to perfection with lemon herb butter.,positive,positive,1,True,11,area
+12,Rude receptionist and mediocre food. The dessert was the only saving grace — the chocolate cake was rich.,negative,negative,-1,True,10,chocolate
+13,Fantastic sushi selection! The tuna rolls were incredibly fresh and the miso soup was warm and flavorful.,positive,positive,4,True,11,fantastic
+14,Dirty tables and slow service ruined what could have been a nice evening. The steak was overcooked.,negative,negative,-3,True,9,dirty
+15,Wonderful birthday dinner! The staff surprised us with complimentary cake. Excellent pasta carbonara.,positive,positive,3,True,10,birthday
+16,Average food at premium prices. The risotto lacked seasoning and the presentation was sloppy.,negative,negative,-1,True,9,average
+17,"Incredible brunch menu! Fluffy pancakes with maple syrup, perfectly poached eggs, and great coffee.",positive,positive,3,True,12,brunch
+18,Disappointing visit. Waited 45 minutes for our order and the lamb chops were undercooked and tasteless.,negative,negative,-3,True,9,chops
+19,The chef personally came to our table to explain the specials. Food and service were both impeccable.,positive,positive,1,True,8,explain
+20,Freezing cold restaurant and unfriendly staff. The veggie burger was dry and the fries were soggy.,negative,negative,-5,True,10,freezing
+21,Delicious lamb curry with perfectly balanced spices. The naan bread was warm and buttery. Superb!,positive,positive,5,True,11,balanced
+22,Unacceptable hygiene standards. Found a hair in my soup. The management did not respond to our complaint.,negative,negative,-3,True,9,found
+23,"Romantic candlelit setting, exceptional wine pairing, and the duck confit was cooked beautifully.",positive,positive,1,True,10,beautifully
+24,Poor value for money. Tiny portions and bland sauces. The restaurant was also very loud and cramped.,negative,negative,-4,True,10,cramped
+25,"Fresh ingredients, creative menu, and attentive service. The truffle pasta was an absolute revelation!",positive,positive,4,True,10,attentive

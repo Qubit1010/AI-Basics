@@ -1,0 +1,6 @@
+Category,Precision,Recall,F1,Support
+Billing & Payments,1.0,1.0,1.0,8.0
+Technical Bug,0.6,0.375,0.46153846153846156,8.0
+Account & Access,0.6666666666666666,0.75,0.7058823529411765,8.0
+Feature Request,0.75,0.75,0.75,8.0
+Performance Issue,0.6,0.75,0.6666666666666666,8.0

@@ -1,0 +1,173 @@
+
+================================================================================
+NLP WITH LIBRARIES — SKLEARN NLP PIPELINE
+SCENARIO: CUSTOMER SUPPORT TICKET AUTO-CLASSIFICATION
+================================================================================
+
+BUSINESS OBJECTIVE
+================================================================================
+A SaaS company receives hundreds of support tickets daily.
+Manual routing to the correct team is slow and error-prone.
+We build an NLP classifier that automatically routes tickets to:
+  • Billing & Payments  — refunds, invoice errors, charges
+  • Technical Bug       — crashes, errors, broken features
+  • Account & Access    — login, permissions, user management
+  • Feature Request     — suggestions, new functionality ideas
+  • Performance Issue   — slow loading, timeouts, lag
+
+LIBRARIES USED
+================================================================================
+  sklearn.feature_extraction.text.TfidfVectorizer  — TF-IDF feature extraction
+  sklearn.feature_extraction.text.CountVectorizer  — Count-based features
+  sklearn.naive_bayes.MultinomialNB                — Probabilistic classifier
+  sklearn.naive_bayes.ComplementNB                 — Complement NB variant
+  sklearn.linear_model.LogisticRegression          — Linear classifier
+  sklearn.svm.LinearSVC                            — Support Vector classifier
+  sklearn.pipeline.Pipeline                        — Chained model pipeline
+  sklearn.model_selection.GridSearchCV             — Hyperparameter tuning
+  sklearn.model_selection.cross_val_score          — Cross-validation
+  sklearn.model_selection.StratifiedKFold          — Stratified splits
+  sklearn.metrics.*                                — All evaluation metrics
+  re, string                                       — Text preprocessing
+
+DATASET SUMMARY
+================================================================================
+  Total tickets      : 200
+  Categories         : 5 (balanced — 40 per class)
+  Train / Test split : 80% / 20% (stratified)
+  Training tickets   : 160
+  Test tickets       : 40
+  Avg words/ticket   : 15.4 original | 15.5 after cleaning
+
+TFIDF VECTORIZER CONFIGURATION
+================================================================================
+  ngram_range    : (1, 2)  — unigrams + bigrams
+  sublinear_tf   : True    — log(1+tf) scaling
+  min_df         : 2       — must appear in ≥2 documents
+  max_df         : 0.85    — ignore if >85% doc frequency
+  max_features   : 3,000   — top 3,000 terms by TF-IDF score
+  stop_words     : English — sklearn built-in stopword list
+  norm           : L2      — unit-length normalization
+  smooth_idf     : True    — prevent zero-division
+
+  Final vocabulary size  : 339 features
+  Matrix shape           : 200 × 339
+  Sparsity               : 98.30%
+
+MODEL COMPARISON
+================================================================================
+Model                    Train Acc   Test Acc   F1 Macro    CV Mean   CV Std
+------------------------------------------------------------------------------
+  Multinomial NB              0.9875     0.5750     0.5595     0.6550   0.0430
+  Complement NB               0.9875     0.6500     0.6225     0.6800   0.0579
+  Logistic Reg                1.0000     0.7250     0.7168     0.6950   0.0430  ★ BEST
+  Linear SVM                  1.0000     0.6750     0.6560     0.6800   0.0430
+
+BEST MODEL: LOGISTIC REG
+================================================================================
+  Test Accuracy     : 0.7250
+  CV Accuracy       : 0.6950 ± 0.0430
+  F1 Score (macro)  : 0.7168
+  Train Accuracy    : 1.0000
+  Overfitting Gap   : 0.2750
+
+PER-CATEGORY METRICS (Best Model)
+================================================================================
+Category                     Precision    Recall        F1   Support
+--------------------------------------------------------------------
+  Billing & Payments              1.0000    1.0000    1.0000         8
+  Technical Bug                   0.6000    0.3750    0.4615         8
+  Account & Access                0.6667    0.7500    0.7059         8
+  Feature Request                 0.7500    0.7500    0.7500         8
+  Performance Issue               0.6000    0.7500    0.6667         8
+
+HYPERPARAMETER TUNING RESULTS
+================================================================================
+  Method: GridSearchCV (5-fold CV, 32 combinations)
+  Best parameters:
+    clf__C                             : 0.5
+    tfidf__max_features                : 1500
+    tfidf__ngram_range                 : (1, 1)
+    tfidf__sublinear_tf                : True
+  Best CV accuracy: 0.7300
+
+TOP KEYWORDS PER CATEGORY (Mean TF-IDF)
+================================================================================
+
+  Billing & Payments:
+  invoice, billing, payment, need, charged, account, subscription, card, email, discount
+
+  Technical Bug:
+  data, time, does, stopped, error, button, columns, triggers, api, working
+
+  Account & Access:
+  account, need, users, team, access, login, set, organization, role, company
+
+  Feature Request:
+  add, view, need, ability, feature, automatically, data, items, great, love
+
+  Performance Issue:
+  seconds, minutes, hours, takes, causes, slow, freezes, browser, used, database
+
+NEW TICKET PREDICTIONS
+================================================================================
+  ✓ True: Billing & Payments         Pred: Billing & Payments        
+    "I was charged $200 extra on my credit card this month without any..."
+  ✓ True: Technical Bug              Pred: Technical Bug             
+    "The application crashes with a NullPointerException whenever I tr..."
+  ✓ True: Account & Access           Pred: Account & Access          
+    "I cannot log into my account after resetting my password. The lin..."
+  ✓ True: Feature Request            Pred: Feature Request           
+    "It would be great if you could add a Gantt chart view for our pro..."
+  ✓ True: Performance Issue          Pred: Performance Issue         
+    "The entire system has become unresponsive. It takes 3 minutes jus..."
+  ✓ True: Billing & Payments         Pred: Billing & Payments        
+    "My team member was double billed for the annual subscription. Ple..."
+  ✓ True: Technical Bug              Pred: Technical Bug             
+    "The dark theme shows white text on white background in the notifi..."
+  ✓ True: Feature Request            Pred: Feature Request           
+    "Can you add voice-to-text support in the mobile app for hands-fre..."
+  ✓ True: Performance Issue          Pred: Performance Issue         
+    "Login page loads in 25 seconds. Everything else is fine but authe..."
+  ✓ True: Account & Access           Pred: Account & Access          
+    "I need to remove a user who left our company. They still have adm..."
+
+  Accuracy on unseen tickets: 10/10 = 100%
+
+BUSINESS IMPACT
+================================================================================
+Before NLP System:
+  • Manual routing: ~3 minutes per ticket × 200 daily = 600 min/day
+  • Human error rate: ~15% misrouted tickets
+  • Agent frustration from repetitive categorization
+
+After NLP System:
+  • Auto-routing: < 0.1 seconds per ticket
+  • Classification accuracy: 69.5%
+  • Human agents focus on resolution, not routing
+  • Estimated time saved: ~580 minutes per day
+
+sklearn NLP ADVANTAGES
+================================================================================
+  ✓ TfidfVectorizer: production-grade, handles all text preprocessing options
+  ✓ Pipeline: chains preprocessing + modeling cleanly
+  ✓ GridSearchCV: exhaustive hyperparameter optimization with CV
+  ✓ cross_val_score: reliable model evaluation preventing data leakage
+  ✓ classification_report: complete per-class metrics in one call
+  ✓ Sparse matrix handling: memory-efficient for high-dimensional text
+  ✓ Consistent API: fit/transform/predict pattern across all models
+  ✓ Well-tested: industry-standard, used in production at scale
+
+FILES GENERATED
+================================================================================
+  • nlp2_viz_1_dataset.png            — Dataset overview
+  • nlp2_viz_2_keywords.png           — Top TF-IDF keywords per category
+  • nlp2_viz_3_model_comparison.png   — Accuracy, CV, train vs test
+  • nlp2_viz_4_confusion_matrices.png — All 4 model confusion matrices
+  • nlp2_viz_5_feature_importance.png — LR coefficients per category
+  • nlp2_viz_6_cv_and_metrics.png     — CV box plots + per-category F1
+  • nlp2_viz_7_dashboard.png          — Full performance dashboard
+
+================================================================================
+END OF REPORT
+================================================================================
