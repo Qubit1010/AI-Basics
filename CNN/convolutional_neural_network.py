@@ -3,7 +3,9 @@
 # Importing the libraries
 import tensorflow as tf
 from keras.preprocessing.image import ImageDataGenerator
+import warnings
 
+warnings.filterwarnings('ignore')
 var = tf.__version__
 
 # Part 1 - Data Preprocessing
